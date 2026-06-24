@@ -668,9 +668,9 @@ trợ chăm sóc da và sức khỏe từ bên trong.')
                                     <img data-lazyloaded="1"
                                         src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2ODAiIGhlaWdodD0iNDkwIiB2aWV3Qm94PSIwIDAgNjgwIDQ5MCI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgc3R5bGU9ImZpbGw6I2NmZDRkYjtmaWxsLW9wYWNpdHk6IDAuMTsiLz48L3N2Zz4="
                                         loading="lazy" decoding="async" width="680" height="490"
-                                        data-src="https://gsccos.vn/wp-content/uploads/2025/11/1_11zon.webp"
+                                        data-src="{{ asset('images/banner/banner2.webp') }}"
                                         class="attachment-full size-full wp-image-6216" alt="Khoa Học Tiên Tiến"
-                                        data-srcset="https://gsccos.vn/wp-content/uploads/2025/11/1_11zon.webp 680w, https://gsccos.vn/wp-content/uploads/2025/11/1_11zon-300x216.webp 300w, https://gsccos.vn/wp-content/uploads/2025/11/1_11zon-600x432.webp 600w"
+                                        data-srcset="{{ asset('images/banner/banner2.webp') }} 680w, {{ asset('images/banner/banner2.webp') }} 300w, {{ asset('images/banner/banner2.webp') }} 600w"
                                         data-sizes="(max-width: 680px) 100vw, 680px" />
                                 </div>
                             </div>
@@ -687,9 +687,9 @@ trợ chăm sóc da và sức khỏe từ bên trong.')
                                     <img data-lazyloaded="1"
                                         src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI3NzgiIGhlaWdodD0iNTYwIiB2aWV3Qm94PSIwIDAgNzc4IDU2MCI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgc3R5bGU9ImZpbGw6I2NmZDRkYjtmaWxsLW9wYWNpdHk6IDAuMTsiLz48L3N2Zz4="
                                         loading="lazy" decoding="async" width="778" height="560"
-                                        data-src="https://gsccos.vn/wp-content/uploads/2025/08/9-web.webp"
+                                        data-src="{{ asset('images/banner/banner2.webp') }}"
                                         class="attachment-full size-full wp-image-5450" alt="Dich Vụ Tận Tâm"
-                                        data-srcset="https://gsccos.vn/wp-content/uploads/2025/08/9-web.webp 778w, https://gsccos.vn/wp-content/uploads/2025/08/9-web-300x216.webp 300w, https://gsccos.vn/wp-content/uploads/2025/08/9-web-768x553.webp 768w, https://gsccos.vn/wp-content/uploads/2025/08/9-web-600x432.webp 600w"
+                                        data-srcset="{{ asset('images/banner/banner2.webp') }} 778w, {{ asset('images/banner/banner2.webp') }} 300w, {{ asset('images/banner/banner2.webp') }} 768w, {{ asset('images/banner/banner2.webp') }} 600w"
                                         data-sizes="(max-width: 778px) 100vw, 778px" />
                                 </div>
                             </div>
