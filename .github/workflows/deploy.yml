@@ -22,6 +22,6 @@ jobs:
             git pull origin main
             cp -R public/* .
             cp public/.htaccess .
-            cp public/index.php .
+            
             php artisan optimize:clear
             php artisan config:cache
