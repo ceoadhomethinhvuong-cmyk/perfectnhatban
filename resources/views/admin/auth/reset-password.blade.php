@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <title>Đăng nhập - PERFECT Admin</title>
+    <title>Đặt lại mật khẩu - PERFECT Admin</title>
     <link rel="shortcut icon" href="{{ asset('theme/admin/images/favicon.png') }}">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css">
@@ -17,12 +17,8 @@
         <section class="admin-login-form">
             <img class="admin-login-logo" src="{{ asset('theme/admin/images/logo.png') }}" alt="PERFECT">
             <p class="admin-page-kicker">Khu vực quản trị</p>
-            <h1>Đăng nhập Admin</h1>
-            <p class="admin-login-copy">Quản lý danh mục bài viết, nội dung tin tức và các thông tin hiển thị trên website PERFECT.</p>
-
-            @if (session('status'))
-                <div class="alert alert-success">{{ session('status') }}</div>
-            @endif
+            <h1>Đặt lại mật khẩu</h1>
+            <p class="admin-login-copy">Nhập mật khẩu mới cho tài khoản của bạn.</p>
 
             @if ($errors->any())
                 <div class="alert alert-danger">
@@ -32,31 +28,39 @@
                 </div>
             @endif
 
-            <form action="{{ route('admin.login') }}" method="post">
+            <form action="{{ route('admin.password.update') }}" method="post">
                 @csrf
+                <input type="hidden" name="token" value="{{ $token }}">
                 <div class="form-group">
                     <label for="email">Email</label>
-                    <input id="email" type="email" name="email" class="form-control" value="{{ old('email') }}" placeholder="admin@example.com" required autofocus>
+                    <input id="email" type="email" name="email" class="form-control" value="{{ old('email', $email) }}" required>
                 </div>
                 <div class="form-group">
-                    <label for="password">Mật khẩu</label>
+                    <label for="password">Mật khẩu mới</label>
                     <div class="admin-password-field">
-                        <input id="password" type="password" name="password" class="form-control" placeholder="Nhập mật khẩu" required>
+                        <input id="password" type="password" name="password" class="form-control" placeholder="Tối thiểu 8 ký tự" required>
                         <button type="button" class="admin-password-toggle" data-password-toggle="#password" aria-label="Hien thi mat khau" aria-pressed="false">
                             <i class="fa fa-eye" aria-hidden="true"></i>
                         </button>
                     </div>
                 </div>
-                <div class="d-flex align-items-center justify-content-between mb-4">
-                    <div class="custom-control custom-checkbox">
-                        <input type="checkbox" name="remember" class="custom-control-input" id="remember">
-                        <label class="custom-control-label" for="remember">Ghi nhớ</label>
+                <div class="form-group">
+                    <label for="password_confirmation">Xác nhận mật khẩu</label>
+                    <div class="admin-password-field">
+                        <input id="password_confirmation" type="password" name="password_confirmation" class="form-control" placeholder="Nhập lại mật khẩu" required>
+                        <button type="button" class="admin-password-toggle" data-password-toggle="#password_confirmation" aria-label="Hien thi mat khau" aria-pressed="false">
+                            <i class="fa fa-eye" aria-hidden="true"></i>
+                        </button>
                     </div>
-                    <a href="{{ route('admin.password.request') }}" class="admin-muted-link">Quên mật khẩu?</a>
                 </div>
-                <button type="submit" class="btn btn-primary btn-block">
-                    <i class="fa fa-lock mr-1"></i> Đăng nhập
+                <button type="submit" class="btn btn-primary btn-block mb-3">
+                    <i class="fa fa-lock mr-1"></i> Đặt lại mật khẩu
                 </button>
+                <div class="text-center">
+                    <a href="{{ route('admin.login.form') }}" class="admin-muted-link">
+                        <i class="fa fa-arrow-left mr-1"></i> Quay lại đăng nhập
+                    </a>
+                </div>
             </form>
         </section>
 
@@ -72,21 +76,13 @@
     <script>
         document.addEventListener('click', function (event) {
             var toggle = event.target.closest('[data-password-toggle]');
-            if (!toggle) {
-                return;
-            }
-
+            if (!toggle) return;
             var input = document.querySelector(toggle.getAttribute('data-password-toggle'));
             var icon = toggle.querySelector('.fa');
-            if (!input) {
-                return;
-            }
-
+            if (!input) return;
             var shouldShow = input.type === 'password';
             input.type = shouldShow ? 'text' : 'password';
             toggle.setAttribute('aria-pressed', shouldShow ? 'true' : 'false');
-            toggle.setAttribute('aria-label', shouldShow ? 'An mat khau' : 'Hien thi mat khau');
-
             if (icon) {
                 icon.classList.toggle('fa-eye', !shouldShow);
                 icon.classList.toggle('fa-eye-slash', shouldShow);
