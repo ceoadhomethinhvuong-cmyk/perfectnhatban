@@ -1,0 +1,20 @@
+---
+deployment:
+  tasks:
+    - export HOMEDIR=$HOME
+    - /bin/mkdir -p $HOMEDIR/laravel
+    - /bin/mkdir -p $HOMEDIR/public_html
+    # --- Web root: copy contents of public/ into public_html/ ---
+    - /bin/cp -R public/. $HOMEDIR/public_html/
+    # --- Laravel core: everything except the public/ web folder ---
+    - /bin/cp -R app bootstrap config database resources routes vendor artisan composer.json composer.lock $HOMEDIR/laravel/
+    # --- Storage skeleton, WITHOUT clobbering existing uploads/logs ---
+    - /bin/cp -Rn storage $HOMEDIR/laravel/
+    # --- Recreate the storage symlink (fixes /storage 404) ---
+    - /bin/ln -sfn $HOMEDIR/laravel/storage/app/public $HOMEDIR/public_html/storage
+    # --- Make storage & cache writable ---
+    - /bin/chmod -R 755 $HOMEDIR/laravel/storage $HOMEDIR/laravel/bootstrap/cache
+    # --- Clear stale caches (ignore errors if php path differs) ---
+    - cd $HOMEDIR/laravel && /usr/local/bin/php artisan config:clear || true
+    - cd $HOMEDIR/laravel && /usr/local/bin/php artisan view:clear || true
+    - cd $HOMEDIR/laravel && /usr/local/bin/php artisan cache:clear || true
