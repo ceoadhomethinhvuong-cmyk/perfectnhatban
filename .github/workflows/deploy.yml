@@ -1,0 +1,27 @@
+name: Deploy to Namecheap
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: SSH Deploy
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.NAMECHEAP_HOST }}
+          username: ${{ secrets.NAMECHEAP_USER }}
+          key: ${{ secrets.NAMECHEAP_SSH_KEY }}
+          port: ${{ secrets.NAMECHEAP_PORT }}
+          script: |
+            cd ~/perfectnhatban.com
+            git pull origin main
+            cp -R public/* .
+            cp public/.htaccess .
+            cp public/index.php .
+            php artisan optimize:clear
+            php artisan config:cache
