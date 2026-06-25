@@ -37,8 +37,16 @@ jobs:
             rsync -a --exclude='index.php' --exclude='storage' public/ ~/public_html/
             cp public/.htaccess ~/public_html/.htaccess
 
-            # Create storage symlink: ~/public_html/storage -> ~/perfectnhatban.com/storage/app/public
-            ln -sfn ~/perfectnhatban.com/storage/app/public ~/public_html/storage
+            # Ensure STORAGE_PATH is set — files upload directly into web-accessible directory
+            grep -q "^STORAGE_PATH=" .env || echo "STORAGE_PATH=${HOME}/public_html/storage" >> .env
+
+            # Ensure the storage directory exists as a real folder (not symlink)
+            rm -f "${HOME}/public_html/storage" 2>/dev/null || true
+            mkdir -p "${HOME}/public_html/storage/posts"
+            mkdir -p "${HOME}/public_html/storage/editor"
+
+            # Migrate any existing files from old storage location
+            rsync -a "${HOME}/perfectnhatban.com/storage/app/public/" "${HOME}/public_html/storage/" 2>/dev/null || true
 
             php artisan optimize:clear
             php artisan config:cache
