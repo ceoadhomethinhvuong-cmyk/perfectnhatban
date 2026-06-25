@@ -40,7 +40,7 @@ class BlogController extends Controller
         ]);
 
         $folder = 'images/editor/' . now()->format('Y/m');
-        $fullPath = public_path($folder);
+        $fullPath = '/home/xuonhfke/public_html/' . $folder;
 
         if (! File::exists($fullPath)) {
             File::makeDirectory($fullPath, 0755, true);
@@ -129,7 +129,7 @@ class BlogController extends Controller
     private function saveThumbnail(Request $request): string
     {
         $folder = 'images/posts';
-        $fullPath = public_path($folder);
+        $fullPath = '/home/xuonhfke/public_html/' . $folder;
 
         if (! File::exists($fullPath)) {
             File::makeDirectory($fullPath, 0755, true);
