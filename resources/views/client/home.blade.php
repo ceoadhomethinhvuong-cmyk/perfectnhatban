@@ -1283,45 +1283,82 @@ trợ chăm sóc da và sức khỏe từ bên trong.')
                                         font-size: var(--e-global-typography-primary-font-size);
                                     }
                                 }
+
+                                /* DB-driven blog card */
+                                .cs-blog-card {
+                                    display: flex;
+                                    flex-direction: column;
+                                    border-radius: 10px;
+                                    overflow: hidden;
+                                    background: var(--e-global-color-secondary, #fff);
+                                    text-decoration: none;
+                                    height: 100%;
+                                    transition: box-shadow 0.2s ease;
+                                }
+                                .cs-blog-card:hover {
+                                    box-shadow: 0 6px 24px rgba(0,0,0,0.10);
+                                }
+                                .cs-blog-card__img {
+                                    aspect-ratio: 768/480;
+                                    overflow: hidden;
+                                    flex-shrink: 0;
+                                }
+                                .cs-blog-card__img img {
+                                    width: 100%;
+                                    height: 100%;
+                                    object-fit: cover;
+                                    display: block;
+                                    transition: transform 0.3s ease;
+                                }
+                                .cs-blog-card:hover .cs-blog-card__img img {
+                                    transform: scale(1.03);
+                                }
+                                .cs-blog-card__body {
+                                    padding: 16px 24px 20px;
+                                    display: flex;
+                                    flex-direction: column;
+                                    gap: 8px;
+                                }
+                                .cs-blog-card__title {
+                                    font-family: "Lexend Deca", sans-serif;
+                                    font-size: 18px;
+                                    font-weight: 600;
+                                    line-height: 1.35;
+                                    color: var(--e-global-color-accent, #1a1a2e);
+                                    margin: 0;
+                                    display: -webkit-box;
+                                    -webkit-line-clamp: 2;
+                                    -webkit-box-orient: vertical;
+                                    overflow: hidden;
+                                }
+                                .cs-blog-card__excerpt {
+                                    font-family: "Lexend Deca", sans-serif;
+                                    font-size: 15px;
+                                    font-weight: 400;
+                                    color: #888;
+                                    margin: 0;
+                                    display: -webkit-box;
+                                    -webkit-line-clamp: 2;
+                                    -webkit-box-orient: vertical;
+                                    overflow: hidden;
+                                    line-height: 1.5;
+                                }
                                 </style>
                                 @forelse($latestBlogs as $blog)
-                                <div class=”elementor elementor-7308 swiper-slide e-loop-item post type-post status-publish format-standard has-post-thumbnail hentry”
-                                    role=”group” aria-roledescription=”slide”>
-                                    <div class=”elementor-element elementor-element-1c42c36 cs-image-zoom e-flex e-con-boxed e-con e-parent”
-                                        data-element_type=”container”
-                                        data-settings=”{&quot;background_background&quot;:&quot;classic&quot;}”>
-                                        <div class=”e-con-inner”>
-                                            <div class=”elementor-element elementor-element-faaa8c9 cs-loop-post-image elementor-widget elementor-widget-image”
-                                                data-element_type=”widget”
-                                                data-widget_type=”image.default”>
-                                                <div class=”elementor-widget-container”>
-                                                    <a href=”{{ route('tin-tuc.show', $blog->slug) }}”>
-                                                        <img loading=”lazy” decoding=”async” width=”768” height=”480”
-                                                            src=”{{ $blog->thumbnail ? asset('storage/' . $blog->thumbnail) : asset('images/banner/banner2.webp') }}”
-                                                            alt=”{{ $blog->thumbnail_alt ?: $blog->title }}”
-                                                            style=”width:100%;height:100%;object-fit:cover;”>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                            <div class=”elementor-element elementor-element-5018347 e-con-full e-flex e-con e-child”
-                                                data-element_type=”container”>
-                                                <div class=”elementor-element elementor-element-daeda39 elementor-widget elementor-widget-heading”
-                                                    data-element_type=”widget”>
-                                                    <div class=”elementor-widget-container”>
-                                                        <h3 class=”elementor-heading-title elementor-size-default” style=”font-size:18px;font-weight:600;line-height:1.3em;”>
-                                                            <a href=”{{ route('tin-tuc.show', $blog->slug) }}”>{{ $blog->title }}</a>
-                                                        </h3>
-                                                    </div>
-                                                </div>
-                                                <div class=”elementor-element elementor-element-1f01a7b cs-loop-post-excerpt elementor-widget elementor-widget-theme-post-excerpt”
-                                                    data-element_type=”widget”>
-                                                    <div class=”elementor-widget-container”>
-                                                        {{ $blog->excerpt }}
-                                                    </div>
-                                                </div>
-                                            </div>
+                                <div class=”swiper-slide cs-blog-card-slide” role=”group” aria-roledescription=”slide”>
+                                    <a href=”{{ route('tin-tuc.show', $blog->slug) }}” class=”cs-blog-card”>
+                                        <div class=”cs-blog-card__img”>
+                                            <img loading=”lazy” width=”768” height=”480”
+                                                src=”{{ $blog->thumbnail ? asset('storage/' . $blog->thumbnail) : asset('images/banner/banner2.webp') }}”
+                                                alt=”{{ $blog->thumbnail_alt ?: $blog->title }}”>
                                         </div>
-                                    </div>
+                                        <div class=”cs-blog-card__body”>
+                                            <h3 class=”cs-blog-card__title”>{{ $blog->title }}</h3>
+                                            @if($blog->excerpt)
+                                                <p class=”cs-blog-card__excerpt”>{{ $blog->excerpt }}</p>
+                                            @endif
+                                        </div>
+                                    </a>
                                 </div>
                                 @empty
                                 @endforelse
