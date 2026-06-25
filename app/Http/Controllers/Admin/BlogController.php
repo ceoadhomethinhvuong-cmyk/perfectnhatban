@@ -42,7 +42,7 @@ class BlogController extends Controller
         $path = $request->file('file')->store('editor/' . now()->format('Y/m'), 'public');
 
         return response()->json([
-            'location' => Storage::url($path),
+            'location' => Storage::disk('public')->url($path),
         ]);
     }
 
@@ -352,7 +352,7 @@ class BlogController extends Controller
             'content' => $blog->content,
             'status' => $blog->status,
             'thumbnail' => $blog->thumbnail,
-            'thumbnail_url' => $blog->thumbnail ? Storage::url($blog->thumbnail) : null,
+            'thumbnail_url' => $blog->thumbnail ? Storage::disk('public')->url($blog->thumbnail) : null,
             'thumbnail_alt' => $blog->thumbnail_alt,
             'meta_title' => $blog->seo_title,
             'meta_description' => $blog->seo_description,

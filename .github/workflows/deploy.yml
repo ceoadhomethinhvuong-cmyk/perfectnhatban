@@ -19,12 +19,21 @@ jobs:
           port: ${{ secrets.NAMECHEAP_PORT }}
           script: |
             cd ~/perfectnhatban.com
+
+            # Backup .env server trước khi pull (tránh bị overwrite bởi .env local)
+            cp .env .env.server.bak 2>/dev/null || true
             git pull origin main
+            # Khôi phục .env server nếu bị overwrite
+            if [ -f .env.server.bak ]; then cp .env.server.bak .env; fi
+
+            composer install --no-dev --optimize-autoloader --no-interaction
+
             cp -R public/* .
             cp public/.htaccess .
-            
+
             php artisan optimize:clear
-            php artisan config:cache
             php artisan view:clear
+            php artisan config:cache
+            php artisan route:cache
 
             chmod -R 775 storage bootstrap/cache
