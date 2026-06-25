@@ -3,12 +3,17 @@
 namespace App\Http\Controllers\Client;
 
 use App\Http\Controllers\Controller;
-use Illuminate\Http\Request;
+use App\Models\Blog;
 
 class HomeController extends Controller
 {
     public function index()
     {
-        return view('client.home');
+        $latestBlogs = Blog::where('status', 'published')
+            ->latest('published_at')
+            ->limit(8)
+            ->get();
+
+        return view('client.home', compact('latestBlogs'));
     }
 }

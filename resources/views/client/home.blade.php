@@ -1187,8 +1187,8 @@ trợ chăm sóc da và sức khỏe từ bên trong.')
                     data-widget_type="loop-carousel.post">
                     <div class="elementor-widget-container">
                         <div class="swiper elementor-loop-container elementor-grid" role="list" dir="ltr">
-                            <div class="swiper-wrapper" aria-live="off">
-                                <style id="loop-7308">
+                            <div class=”swiper-wrapper” aria-live=”off”>
+                                <style id=”loop-7308”>
                                 .cs-loop-post-image {
                                     aspect-ratio: 768/480;
                                     overflow: hidden;
@@ -1242,7 +1242,7 @@ trợ chăm sóc da và sức khỏe từ bên trong.')
                                 }
 
                                 .elementor-7308 .elementor-element.elementor-element-daeda39 .elementor-heading-title {
-                                    font-family: "Manrope", Sans-serif;
+                                    font-family: “Lexend Deca”, Sans-serif;
                                     font-size: 18px;
                                     font-weight: 600;
                                     line-height: 1.3em;
@@ -1260,7 +1260,7 @@ trợ chăm sóc da và sức khỏe từ bên trong.')
                                 }
 
                                 .elementor-7308 .elementor-element.elementor-element-1f01a7b .elementor-widget-container {
-                                    font-family: "Manrope", Sans-serif;
+                                    font-family: “Lexend Deca”, Sans-serif;
                                     font-size: 16px;
                                     font-weight: 400;
                                     color: #888888;
@@ -1284,295 +1284,56 @@ trợ chăm sóc da và sức khỏe từ bên trong.')
                                     }
                                 }
                                 </style>
-                                <div data-elementor-type="loop-item" data-elementor-id="7308"
-                                    class="elementor elementor-7308 swiper-slide e-loop-item e-loop-item-7803 post-7803 post type-post status-publish format-standard has-post-thumbnail hentry category-su-kien"
-                                    data-elementor-post-type="elementor_library" role="group"
-                                    aria-roledescription="slide" data-custom-edit-handle="1">
-                                    <div class="elementor-element elementor-element-1c42c36 cs-image-zoom e-flex e-con-boxed e-con e-parent"
-                                        data-id="1c42c36" data-element_type="container"
-                                        data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                                        <div class="e-con-inner">
-                                            <div class="elementor-element elementor-element-faaa8c9 cs-loop-post-image elementor-widget elementor-widget-image"
-                                                data-id="faaa8c9" data-element_type="widget"
-                                                data-widget_type="image.default">
-                                                <div class="elementor-widget-container">
-                                                    <a href="su-kien/tong-ket-hoi-thao-gsc-melasma-biocode/index.html">
-                                                        <img data-lazyloaded="1"
-                                                            src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI3NjgiIGhlaWdodD0iNDgwIiB2aWV3Qm94PSIwIDAgNzY4IDQ4MCI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgc3R5bGU9ImZpbGw6I2NmZDRkYjtmaWxsLW9wYWNpdHk6IDAuMTsiLz48L3N2Zz4="
-                                                            loading="lazy" decoding="async" width="768" height="480"
-                                                            data-src="https://media.gsccos.vn/wp-content/uploads/2025/12/HINH-1--768x480.webp"
-                                                            class="attachment-medium_large size-medium_large wp-image-7804"
-                                                            alt="hội thảo Melasma Biocode tại ORCHIDS SAIGON HOTEL ngày 26/11/2025"
-                                                            data-srcset="https://media.gsccos.vn/wp-content/uploads/2025/12/HINH-1--768x480.webp 768w, https://media.gsccos.vn/wp-content/uploads/2025/12/HINH-1--300x300.webp 300w, https://media.gsccos.vn/wp-content/uploads/2025/12/HINH-1--1024x640.webp 1024w, https://media.gsccos.vn/wp-content/uploads/2025/12/HINH-1--600x375.webp 600w, https://media.gsccos.vn/wp-content/uploads/2025/12/HINH-1-.webp 1200w"
-                                                            data-sizes="(max-width: 768px) 100vw, 768px"> </a>
+                                @forelse($latestBlogs as $blog)
+                                <div class=”elementor elementor-7308 swiper-slide e-loop-item post type-post status-publish format-standard has-post-thumbnail hentry”
+                                    role=”group” aria-roledescription=”slide”>
+                                    <div class=”elementor-element elementor-element-1c42c36 cs-image-zoom e-flex e-con-boxed e-con e-parent”
+                                        data-element_type=”container”
+                                        data-settings=”{&quot;background_background&quot;:&quot;classic&quot;}”>
+                                        <div class=”e-con-inner”>
+                                            <div class=”elementor-element elementor-element-faaa8c9 cs-loop-post-image elementor-widget elementor-widget-image”
+                                                data-element_type=”widget”
+                                                data-widget_type=”image.default”>
+                                                <div class=”elementor-widget-container”>
+                                                    <a href=”{{ route('tin-tuc.show', $blog->slug) }}”>
+                                                        @if($blog->thumbnail)
+                                                            <img loading=”lazy” decoding=”async” width=”768” height=”480”
+                                                                src=”{{ Storage::disk('public')->url($blog->thumbnail) }}”
+                                                                alt=”{{ $blog->thumbnail_alt ?: $blog->title }}”
+                                                                style=”width:100%;height:100%;object-fit:cover;”>
+                                                        @else
+                                                            <img loading=”lazy” decoding=”async” width=”768” height=”480”
+                                                                src=”/images/banner/banner2.webp”
+                                                                alt=”{{ $blog->title }}”
+                                                                style=”width:100%;height:100%;object-fit:cover;”>
+                                                        @endif
+                                                    </a>
                                                 </div>
                                             </div>
                                             <div class="elementor-element elementor-element-5018347 e-con-full e-flex e-con e-child"
-                                                data-id="5018347" data-element_type="container">
+                                                data-element_type="container">
                                                 <div class="elementor-element elementor-element-daeda39 elementor-widget elementor-widget-theme-post-title elementor-page-title elementor-widget-heading"
-                                                    data-id="daeda39" data-element_type="widget"
+                                                    data-element_type="widget"
                                                     data-widget_type="theme-post-title.default">
                                                     <div class="elementor-widget-container">
-                                                        <h3 class="elementor-heading-title elementor-size-default"><a
-                                                                href="su-kien/tong-ket-hoi-thao-gsc-melasma-biocode/index.html">Tổng
-                                                                kết hội thảo Perfect về ngăn ngừa nám tái phát</a></h3>
-                                                    </div>
-                                                </div>
-                                                <div class="elementor-element elementor-element-1f01a7b cs-loop-post-excerpt elementor-widget elementor-widget-theme-post-excerpt"
-                                                    data-id="1f01a7b" data-element_type="widget"
-                                                    data-widget_type="theme-post-excerpt.default">
-                                                    <div class="elementor-widget-container">
-                                                        Trong thị trường làm đẹp hiện nay, việc điều trị nám ngày càng
-                                                        khó khăn do thị trường tràn ngập những sản phẩm “giả”, “lậu” và
-                                                        cơ sở thẩm mỹ kém chất lượng. Hàng loạt xử lý sai phạm diễn ra
-                                                        trong năm 2025 vừa qua, không chỉ vậy hệ lụy để lại còn là làn
-                                                        da bị tổn thương của hàng ngàn, hàng triệu khách hàng. Thấu hiểu
-                                                        và mong muốn chia sẻ điều này với khách hàng Perfect đã tổ chức
-                                                        hội
-                                                        thảo “Melasma Biocode – Ứng dụng phức hợp công nghệ Mela Bright
-                                                        Complex ngăn ngừa nám tái phát” tại TP. HCM. </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div data-elementor-type="loop-item" data-elementor-id="7308"
-                                    class="elementor elementor-7308 swiper-slide e-loop-item e-loop-item-244 post-244 post type-post status-publish format-standard has-post-thumbnail hentry category-xu-huong tag-new"
-                                    data-elementor-post-type="elementor_library" role="group"
-                                    aria-roledescription="slide" data-custom-edit-handle="1">
-                                    <div class="elementor-element elementor-element-1c42c36 cs-image-zoom e-flex e-con-boxed e-con e-parent"
-                                        data-id="1c42c36" data-element_type="container"
-                                        data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                                        <div class="e-con-inner">
-                                            <div class="elementor-element elementor-element-faaa8c9 cs-loop-post-image elementor-widget elementor-widget-image"
-                                                data-id="faaa8c9" data-element_type="widget"
-                                                data-widget_type="image.default">
-                                                <div class="elementor-widget-container">
-                                                    <a href="xu-huong/da-treatment-la-da-gi/index.html">
-                                                        <img data-lazyloaded="1"
-                                                            src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI3NjgiIGhlaWdodD0iNDgwIiB2aWV3Qm94PSIwIDAgNzY4IDQ4MCI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgc3R5bGU9ImZpbGw6I2NmZDRkYjtmaWxsLW9wYWNpdHk6IDAuMTsiLz48L3N2Zz4="
-                                                            loading="lazy" decoding="async" width="768" height="480"
-                                                            data-src="https://gsccos.vn/wp-content/uploads/2025/03/da-treatment-la-da-gi-1-768x480.webp"
-                                                            class="attachment-medium_large size-medium_large wp-image-2582"
-                                                            alt="Da treatment là da gì"
-                                                            data-srcset="https://gsccos.vn/wp-content/uploads/2025/03/da-treatment-la-da-gi-1-768x480.webp 768w, https://gsccos.vn/wp-content/uploads/2025/03/da-treatment-la-da-gi-1-300x188.webp 300w, https://gsccos.vn/wp-content/uploads/2025/03/da-treatment-la-da-gi-1-1024x640.webp 1024w, https://gsccos.vn/wp-content/uploads/2025/03/da-treatment-la-da-gi-1-600x375.webp 600w, https://gsccos.vn/wp-content/uploads/2025/03/da-treatment-la-da-gi-1.webp 1200w"
-                                                            data-sizes="(max-width: 768px) 100vw, 768px" /> </a>
-                                                </div>
-                                            </div>
-                                            <div class="elementor-element elementor-element-5018347 e-con-full e-flex e-con e-child"
-                                                data-id="5018347" data-element_type="container">
-                                                <div class="elementor-element elementor-element-daeda39 elementor-widget elementor-widget-theme-post-title elementor-page-title elementor-widget-heading"
-                                                    data-id="daeda39" data-element_type="widget"
-                                                    data-widget_type="theme-post-title.default">
-                                                    <div class="elementor-widget-container">
-                                                        <h3 class="elementor-heading-title elementor-size-default"><a
-                                                                href="xu-huong/da-treatment-la-da-gi/index.html">Da
-                                                                treatment là da gì? Hướng dẫn cách phục hồi hiệu quả</a>
+                                                        <h3 class="elementor-heading-title elementor-size-default">
+                                                            <a href="{{ route('tin-tuc.show', $blog->slug) }}">{{ $blog->title }}</a>
                                                         </h3>
                                                     </div>
                                                 </div>
                                                 <div class="elementor-element elementor-element-1f01a7b cs-loop-post-excerpt elementor-widget elementor-widget-theme-post-excerpt"
-                                                    data-id="1f01a7b" data-element_type="widget"
+                                                    data-element_type="widget"
                                                     data-widget_type="theme-post-excerpt.default">
                                                     <div class="elementor-widget-container">
-                                                        Perfect bật mí các hoạt chất "đỉnh" nhất năm 2025 và cách lựa
-                                                        chọn
-                                                        phù hợp cho từng tình trạng da! </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div data-elementor-type="loop-item" data-elementor-id="7308"
-                                    class="elementor elementor-7308 swiper-slide e-loop-item e-loop-item-242 post-242 post type-post status-publish format-standard has-post-thumbnail hentry category-thong-tin-nganh tag-cham-soc-da tag-lam-dep-da"
-                                    data-elementor-post-type="elementor_library" role="group"
-                                    aria-roledescription="slide" data-custom-edit-handle="1">
-                                    <div class="elementor-element elementor-element-1c42c36 cs-image-zoom e-flex e-con-boxed e-con e-parent"
-                                        data-id="1c42c36" data-element_type="container"
-                                        data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                                        <div class="e-con-inner">
-                                            <div class="elementor-element elementor-element-faaa8c9 cs-loop-post-image elementor-widget elementor-widget-image"
-                                                data-id="faaa8c9" data-element_type="widget"
-                                                data-widget_type="image.default">
-                                                <div class="elementor-widget-container">
-                                                    <a href="thong-tin-nganh/da-nhay-cam-la-da-gi/index.html">
-                                                        <img data-lazyloaded="1"
-                                                            src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI3NjgiIGhlaWdodD0iNDgwIiB2aWV3Qm94PSIwIDAgNzY4IDQ4MCI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgc3R5bGU9ImZpbGw6I2NmZDRkYjtmaWxsLW9wYWNpdHk6IDAuMTsiLz48L3N2Zz4="
-                                                            loading="lazy" decoding="async" width="768" height="480"
-                                                            data-src="https://gsccos.vn/wp-content/uploads/2025/03/da-nhay-cam-la-da-gi-768x480.webp"
-                                                            class="attachment-medium_large size-medium_large wp-image-2537"
-                                                            alt=""
-                                                            data-srcset="https://gsccos.vn/wp-content/uploads/2025/03/da-nhay-cam-la-da-gi-768x480.webp 768w, https://gsccos.vn/wp-content/uploads/2025/03/da-nhay-cam-la-da-gi-300x188.webp 300w, https://gsccos.vn/wp-content/uploads/2025/03/da-nhay-cam-la-da-gi-1024x640.webp 1024w, https://gsccos.vn/wp-content/uploads/2025/03/da-nhay-cam-la-da-gi-600x375.webp 600w, https://gsccos.vn/wp-content/uploads/2025/03/da-nhay-cam-la-da-gi.webp 1200w"
-                                                            data-sizes="(max-width: 768px) 100vw, 768px" /> </a>
-                                                </div>
-                                            </div>
-                                            <div class="elementor-element elementor-element-5018347 e-con-full e-flex e-con e-child"
-                                                data-id="5018347" data-element_type="container">
-                                                <div class="elementor-element elementor-element-daeda39 elementor-widget elementor-widget-theme-post-title elementor-page-title elementor-widget-heading"
-                                                    data-id="daeda39" data-element_type="widget"
-                                                    data-widget_type="theme-post-title.default">
-                                                    <div class="elementor-widget-container">
-                                                        <h3 class="elementor-heading-title elementor-size-default"><a
-                                                                href="thong-tin-nganh/da-nhay-cam-la-da-gi/index.html">Da
-                                                                nhạy cảm là da gì? 5 phương pháp phục hồi da nhạy
-                                                                cảm</a></h3>
-                                                    </div>
-                                                </div>
-                                                <div class="elementor-element elementor-element-1f01a7b cs-loop-post-excerpt elementor-widget elementor-widget-theme-post-excerpt"
-                                                    data-id="1f01a7b" data-element_type="widget"
-                                                    data-widget_type="theme-post-excerpt.default">
-                                                    <div class="elementor-widget-container">
-                                                        Perfect sẽ giúp bạn hiểu rõ quy trình phục hồi da đúng cách - từ
-                                                        nhận diện dấu hiệu tổn thương đến các bước củng cố hàng rào bảo
-                                                        vệ. Giúp bạn sớm lấy lại làn da khỏe đẹp, căng tràn sức sống.
+                                                        {{ $blog->excerpt }}
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div data-elementor-type="loop-item" data-elementor-id="7308"
-                                    class="elementor elementor-7308 swiper-slide e-loop-item e-loop-item-240 post-240 post type-post status-publish format-standard has-post-thumbnail hentry category-xu-huong tag-cham-soc-da tag-lam-dep-da"
-                                    data-elementor-post-type="elementor_library" role="group"
-                                    aria-roledescription="slide" data-custom-edit-handle="1">
-                                    <div class="elementor-element elementor-element-1c42c36 cs-image-zoom e-flex e-con-boxed e-con e-parent"
-                                        data-id="1c42c36" data-element_type="container"
-                                        data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                                        <div class="e-con-inner">
-                                            <div class="elementor-element elementor-element-faaa8c9 cs-loop-post-image elementor-widget elementor-widget-image"
-                                                data-id="faaa8c9" data-element_type="widget"
-                                                data-widget_type="image.default">
-                                                <div class="elementor-widget-container">
-                                                    <a href="xu-huong/hoat-chat-phuc-hoi-da/index.html">
-                                                        <img data-lazyloaded="1"
-                                                            src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI3NjgiIGhlaWdodD0iNDgwIiB2aWV3Qm94PSIwIDAgNzY4IDQ4MCI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgc3R5bGU9ImZpbGw6I2NmZDRkYjtmaWxsLW9wYWNpdHk6IDAuMTsiLz48L3N2Zz4="
-                                                            loading="lazy" decoding="async" width="768" height="480"
-                                                            data-src="https://gsccos.vn/wp-content/uploads/2025/03/10-hoat-chat-phuc-hoi-da-768x480.webp"
-                                                            class="attachment-medium_large size-medium_large wp-image-2521"
-                                                            alt="Top 10 hoạt chất phục hồi da đáng thử năm 2025"
-                                                            data-srcset="https://gsccos.vn/wp-content/uploads/2025/03/10-hoat-chat-phuc-hoi-da-768x480.webp 768w, https://gsccos.vn/wp-content/uploads/2025/03/10-hoat-chat-phuc-hoi-da-300x188.webp 300w, https://gsccos.vn/wp-content/uploads/2025/03/10-hoat-chat-phuc-hoi-da-1024x640.webp 1024w, https://gsccos.vn/wp-content/uploads/2025/03/10-hoat-chat-phuc-hoi-da-600x375.webp 600w, https://gsccos.vn/wp-content/uploads/2025/03/10-hoat-chat-phuc-hoi-da.webp 1200w"
-                                                            data-sizes="(max-width: 768px) 100vw, 768px" /> </a>
-                                                </div>
-                                            </div>
-                                            <div class="elementor-element elementor-element-5018347 e-con-full e-flex e-con e-child"
-                                                data-id="5018347" data-element_type="container">
-                                                <div class="elementor-element elementor-element-daeda39 elementor-widget elementor-widget-theme-post-title elementor-page-title elementor-widget-heading"
-                                                    data-id="daeda39" data-element_type="widget"
-                                                    data-widget_type="theme-post-title.default">
-                                                    <div class="elementor-widget-container">
-                                                        <h3 class="elementor-heading-title elementor-size-default"><a
-                                                                href="xu-huong/hoat-chat-phuc-hoi-da/index.html">10+ các
-                                                                hoạt chất phục hồi da hiệu quả nhất năm 2025</a></h3>
-                                                    </div>
-                                                </div>
-                                                <div class="elementor-element elementor-element-1f01a7b cs-loop-post-excerpt elementor-widget elementor-widget-theme-post-excerpt"
-                                                    data-id="1f01a7b" data-element_type="widget"
-                                                    data-widget_type="theme-post-excerpt.default">
-                                                    <div class="elementor-widget-container">
-                                                        Da bạn có thường bốc hỏa, ngứa rát hay khô căng mỗi khi thay đổi
-                                                        thời tiết hoặc dùng sản phẩm mới? Nếu đáp án là "có", bạn có thể
-                                                        đang sở hữu làn da nhạy cảm - loại da dễ kích ứng, mỏng manh và
-                                                        cần được chăm sóc đặc biệt. </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div data-elementor-type="loop-item" data-elementor-id="7308"
-                                    class="elementor elementor-7308 swiper-slide e-loop-item e-loop-item-238 post-238 post type-post status-publish format-standard has-post-thumbnail hentry category-xu-huong tag-cham-soc-da tag-lam-dep-da"
-                                    data-elementor-post-type="elementor_library" role="group"
-                                    aria-roledescription="slide" data-custom-edit-handle="1">
-                                    <div class="elementor-element elementor-element-1c42c36 cs-image-zoom e-flex e-con-boxed e-con e-parent"
-                                        data-id="1c42c36" data-element_type="container"
-                                        data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                                        <div class="e-con-inner">
-                                            <div class="elementor-element elementor-element-faaa8c9 cs-loop-post-image elementor-widget elementor-widget-image"
-                                                data-id="faaa8c9" data-element_type="widget"
-                                                data-widget_type="image.default">
-                                                <div class="elementor-widget-container">
-                                                    <a href="xu-huong/phuc-hoi-da-la-gi/index.html">
-                                                        <img data-lazyloaded="1"
-                                                            src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI3NjgiIGhlaWdodD0iNDgwIiB2aWV3Qm94PSIwIDAgNzY4IDQ4MCI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgc3R5bGU9ImZpbGw6I2NmZDRkYjtmaWxsLW9wYWNpdHk6IDAuMTsiLz48L3N2Zz4="
-                                                            loading="lazy" decoding="async" width="768" height="480"
-                                                            data-src="https://gsccos.vn/wp-content/uploads/2025/03/hoat-chat-phuc-hoi-da-768x480.webp"
-                                                            class="attachment-medium_large size-medium_large wp-image-2514"
-                                                            alt="Các hoạt chất phục hồi da"
-                                                            data-srcset="https://gsccos.vn/wp-content/uploads/2025/03/hoat-chat-phuc-hoi-da-768x480.webp 768w, https://gsccos.vn/wp-content/uploads/2025/03/hoat-chat-phuc-hoi-da-300x188.webp 300w, https://gsccos.vn/wp-content/uploads/2025/03/hoat-chat-phuc-hoi-da-1024x640.webp 1024w, https://gsccos.vn/wp-content/uploads/2025/03/hoat-chat-phuc-hoi-da-600x375.webp 600w, https://gsccos.vn/wp-content/uploads/2025/03/hoat-chat-phuc-hoi-da.webp 1200w"
-                                                            data-sizes="(max-width: 768px) 100vw, 768px" /> </a>
-                                                </div>
-                                            </div>
-                                            <div class="elementor-element elementor-element-5018347 e-con-full e-flex e-con e-child"
-                                                data-id="5018347" data-element_type="container">
-                                                <div class="elementor-element elementor-element-daeda39 elementor-widget elementor-widget-theme-post-title elementor-page-title elementor-widget-heading"
-                                                    data-id="daeda39" data-element_type="widget"
-                                                    data-widget_type="theme-post-title.default">
-                                                    <div class="elementor-widget-container">
-                                                        <h3 class="elementor-heading-title elementor-size-default"><a
-                                                                href="xu-huong/phuc-hoi-da-la-gi/index.html">Phục hồi da
-                                                                là gì? Hiểu đúng để chăm da yếu hiệu quả 2025</a></h3>
-                                                    </div>
-                                                </div>
-                                                <div class="elementor-element elementor-element-1f01a7b cs-loop-post-excerpt elementor-widget elementor-widget-theme-post-excerpt"
-                                                    data-id="1f01a7b" data-element_type="widget"
-                                                    data-widget_type="theme-post-excerpt.default">
-                                                    <div class="elementor-widget-container">
-                                                        Bạn đang tìm serum phục hồi da tốt để giúp làn da nhạy cảm, mỏng
-                                                        yếu lấy lại sức sống? Dù da bạn bị kích ứng, bong tróc hay tổn
-                                                        thương sau các liệu trình làm đẹp, một loại serum phù hợp sẽ
-                                                        giúp phục hồi nhanh chóng, củng cố hàng rào bảo vệ da. </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div data-elementor-type="loop-item" data-elementor-id="7308"
-                                    class="elementor elementor-7308 swiper-slide e-loop-item e-loop-item-234 post-234 post type-post status-publish format-standard has-post-thumbnail hentry category-xu-huong tag-cham-soc-da tag-lam-dep-da"
-                                    data-elementor-post-type="elementor_library" role="group"
-                                    aria-roledescription="slide" data-custom-edit-handle="1">
-                                    <div class="elementor-element elementor-element-1c42c36 cs-image-zoom e-flex e-con-boxed e-con e-parent"
-                                        data-id="1c42c36" data-element_type="container"
-                                        data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                                        <div class="e-con-inner">
-                                            <div class="elementor-element elementor-element-faaa8c9 cs-loop-post-image elementor-widget elementor-widget-image"
-                                                data-id="faaa8c9" data-element_type="widget"
-                                                data-widget_type="image.default">
-                                                <div class="elementor-widget-container">
-                                                    <a href="xu-huong/phuc-hoi-da-kich-ung-tai-nha/index.html">
-                                                        <img data-lazyloaded="1"
-                                                            src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI3NjgiIGhlaWdodD0iNDgwIiB2aWV3Qm94PSIwIDAgNzY4IDQ4MCI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgc3R5bGU9ImZpbGw6I2NmZDRkYjtmaWxsLW9wYWNpdHk6IDAuMTsiLz48L3N2Zz4="
-                                                            loading="lazy" decoding="async" width="768" height="480"
-                                                            data-src="https://gsccos.vn/wp-content/uploads/2025/03/phuc-hoi-da-kich-ung-tai-nha-don-gian-768x480.webp"
-                                                            class="attachment-medium_large size-medium_large wp-image-2499"
-                                                            alt="Phục hồi da kích ứng tại nhà"
-                                                            data-srcset="https://gsccos.vn/wp-content/uploads/2025/03/phuc-hoi-da-kich-ung-tai-nha-don-gian-768x480.webp 768w, https://gsccos.vn/wp-content/uploads/2025/03/phuc-hoi-da-kich-ung-tai-nha-don-gian-300x188.webp 300w, https://gsccos.vn/wp-content/uploads/2025/03/phuc-hoi-da-kich-ung-tai-nha-don-gian-1024x640.webp 1024w, https://gsccos.vn/wp-content/uploads/2025/03/phuc-hoi-da-kich-ung-tai-nha-don-gian-600x375.webp 600w, https://gsccos.vn/wp-content/uploads/2025/03/phuc-hoi-da-kich-ung-tai-nha-don-gian.webp 1200w"
-                                                            data-sizes="(max-width: 768px) 100vw, 768px" /> </a>
-                                                </div>
-                                            </div>
-                                            <div class="elementor-element elementor-element-5018347 e-con-full e-flex e-con e-child"
-                                                data-id="5018347" data-element_type="container">
-                                                <div class="elementor-element elementor-element-daeda39 elementor-widget elementor-widget-theme-post-title elementor-page-title elementor-widget-heading"
-                                                    data-id="daeda39" data-element_type="widget"
-                                                    data-widget_type="theme-post-title.default">
-                                                    <div class="elementor-widget-container">
-                                                        <h3 class="elementor-heading-title elementor-size-default"><a
-                                                                href="xu-huong/phuc-hoi-da-kich-ung-tai-nha/index.html">Phục
-                                                                hồi da kích ứng tại nhà: 3 mẹo đơn giản, hiệu quả
-                                                                nhanh</a></h3>
-                                                    </div>
-                                                </div>
-                                                <div class="elementor-element elementor-element-1f01a7b cs-loop-post-excerpt elementor-widget elementor-widget-theme-post-excerpt"
-                                                    data-id="1f01a7b" data-element_type="widget"
-                                                    data-widget_type="theme-post-excerpt.default">
-                                                    <div class="elementor-widget-container">
-                                                        Khám phá hành trình chăm sóc da với Perfect. Tại đây, bạn sẽ tìm
-                                                        thấy những bài viết từ chuyên gia, mẹo làm đẹp hàng ngày, cập
-                                                        nhật xu hướng mỹ phẩm, và câu chuyện truyền cảm hứng từ khách
-                                                        hàng thực tế. </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                                @empty
+                                @endforelse
                             </div>
                         </div>
                         <div class="swiper-pagination"></div>
