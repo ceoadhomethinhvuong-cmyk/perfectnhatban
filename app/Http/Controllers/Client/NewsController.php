@@ -139,7 +139,7 @@ class NewsController extends Controller
     private function mapBlog(Blog $blog): array
     {
         $category = $blog->category;
-        $thumbnail = $blog->thumbnail ? Storage::url($blog->thumbnail) : '/images/banner/banner2.webp';
+        $thumbnail = $blog->thumbnail ? Storage::disk('public')->url($blog->thumbnail) : '/images/banner/banner2.webp';
         $date = $blog->published_at ?: $blog->created_at;
 
         return [
