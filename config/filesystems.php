@@ -56,10 +56,11 @@ return [
             'throw' => false,
         ],
      'public_html' => [
-    'driver' => 'local',
-    'root' => public_path('images'),
+       'driver' => 'local',
+    'root' => env('PUBLIC_HTML_PATH', public_path('images')),
     'url' => env('APP_URL').'/images',
     'visibility' => 'public',
+    'throw' => false,
 ],
 
     ],
