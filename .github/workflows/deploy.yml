@@ -31,7 +31,7 @@ jobs:
             # Restore server .env (git reset --hard won't touch it since it's gitignored)
             if [ -f .env.server.bak ]; then cp .env.server.bak .env; fi
 
-            composer install --no-dev --optimize-autoloader --no-interaction
+         
 
             # Copy public/ assets to domain root (Namecheap serves from project root)
             cp -R public/* .
