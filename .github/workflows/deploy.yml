@@ -34,8 +34,8 @@ jobs:
          
 
             # Copy public/ assets to domain root (Namecheap serves from project root)
-            cp -R public/* .
-            cp public/.htaccess .
+            rsync -a --exclude='index.php' --exclude='storage' public/ ~/public_html/
+            cp public/.htaccess ~/public_html/.htaccess
 
             php artisan optimize:clear
             php artisan config:cache
