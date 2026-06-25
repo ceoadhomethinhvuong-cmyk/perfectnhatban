@@ -1349,7 +1349,7 @@ trợ chăm sóc da và sức khỏe từ bên trong.')
                                     <a href=”{{ route('tin-tuc.show', $blog->slug) }}” class=”cs-blog-card”>
                                         <div class=”cs-blog-card__img”>
                                             <img loading=”lazy” width=”768” height=”480”
-                                                src=”{{ $blog->thumbnail ? \Storage::disk('public')->url($blog->thumbnail) : asset('images/banner/banner2.webp') }}”
+                                                src=”{{ $blog->thumbnail ? asset('storage/' . $blog->thumbnail) : asset('images/banner/banner2.webp') }}”
                                                 alt=”{{ $blog->thumbnail_alt ?: $blog->title }}”>
                                         </div>
                                         <div class=”cs-blog-card__body”>

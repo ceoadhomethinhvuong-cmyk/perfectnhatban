@@ -33,13 +33,15 @@ jobs:
 
          
 
-            # Copy public/ assets to domain root (Namecheap serves from project root)
+            # Copy public/ assets to domain root (Namecheap serves from ~/public_html/)
             rsync -a --exclude='index.php' --exclude='storage' public/ ~/public_html/
             cp public/.htaccess ~/public_html/.htaccess
 
+            # Create storage symlink: ~/public_html/storage -> ~/perfectnhatban.com/storage/app/public
+            ln -sfn ~/perfectnhatban.com/storage/app/public ~/public_html/storage
+
             php artisan optimize:clear
             php artisan config:cache
-            # route:cache fails on closure-based routes — skip it gracefully
             php artisan route:cache 2>/dev/null || true
             php artisan view:cache
 
