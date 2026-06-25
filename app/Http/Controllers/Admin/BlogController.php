@@ -9,7 +9,7 @@ use DOMDocument;
 use DOMElement;
 use DOMXPath;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Storage;
+use Illuminate\Support\Facades\File;
 use Illuminate\Support\Str;
 use Illuminate\Validation\Rule;
 
@@ -39,14 +39,21 @@ class BlogController extends Controller
             'file' => ['required', 'image', 'mimes:jpg,jpeg,png,webp,gif', 'max:8192'],
         ]);
 
-        $path = $request->file('file')->store(
-    'editor/' . now()->format('Y/m'),
-    'public_html'
-);
+        $folder = 'images/editor/' . now()->format('Y/m');
+        $fullPath = public_path($folder);
 
-return response()->json([
-    'location' => asset('images/'.$path),
-]);
+        if (! File::exists($fullPath)) {
+            File::makeDirectory($fullPath, 0755, true);
+        }
+
+        $file = $request->file('file');
+        $filename = Str::random(40) . '.' . $file->getClientOriginalExtension();
+
+        $file->move($fullPath, $filename);
+
+        return response()->json([
+            'location' => asset($folder . '/' . $filename),
+        ]);
     }
 
     public function store(Request $request)
@@ -61,7 +68,7 @@ return response()->json([
         }
 
         if ($request->hasFile('thumbnail')) {
-            $data['thumbnail'] = $request->file('thumbnail')->store('posts', 'public');
+            $data['thumbnail'] = $this->saveThumbnail($request);
         }
 
         Blog::create($data);
@@ -97,11 +104,8 @@ return response()->json([
         }
 
         if ($request->hasFile('thumbnail')) {
-            if ($blog->thumbnail) {
-                Storage::disk('public')->delete($blog->thumbnail);
-            }
-
-            $data['thumbnail'] = $request->file('thumbnail')->store('posts', 'public');
+            $this->deletePublicImage($blog->thumbnail);
+            $data['thumbnail'] = $this->saveThumbnail($request);
         }
 
         $blog->update($data);
@@ -113,15 +117,68 @@ return response()->json([
 
     public function destroy(Blog $blog)
     {
-        if ($blog->thumbnail) {
-            Storage::disk('public')->delete($blog->thumbnail);
-        }
+        $this->deletePublicImage($blog->thumbnail);
 
         $blog->delete();
 
         return redirect()
             ->route('admin.blogs.index')
             ->with('success', 'Đã xóa bài viết.');
+    }
+
+    private function saveThumbnail(Request $request): string
+    {
+        $folder = 'images/posts';
+        $fullPath = public_path($folder);
+
+        if (! File::exists($fullPath)) {
+            File::makeDirectory($fullPath, 0755, true);
+        }
+
+        $file = $request->file('thumbnail');
+        $filename = Str::random(40) . '.' . $file->getClientOriginalExtension();
+
+        $file->move($fullPath, $filename);
+
+        return $folder . '/' . $filename;
+    }
+
+    private function deletePublicImage(?string $path): void
+    {
+        if (! $path) {
+            return;
+        }
+
+        if (Str::startsWith($path, ['http://', 'https://'])) {
+            return;
+        }
+
+        $fullPath = public_path($path);
+
+        if (File::exists($fullPath)) {
+            File::delete($fullPath);
+        }
+    }
+
+    private function publicImageUrl(?string $path): ?string
+    {
+        if (! $path) {
+            return null;
+        }
+
+        if (Str::startsWith($path, ['http://', 'https://'])) {
+            return $path;
+        }
+
+        if (Str::startsWith($path, 'images/')) {
+            return asset($path);
+        }
+
+        if (Str::startsWith($path, 'posts/')) {
+            return asset('storage/' . $path);
+        }
+
+        return asset($path);
     }
 
     private function validated(Request $request, ?int $ignoreId = null): array
@@ -164,6 +221,7 @@ return response()->json([
             $request->boolean('toc_auto', true),
             $data['toc_items'] ?? []
         );
+
         $content = $contentAndToc['content'];
         $plainText = trim(strip_tags($content));
         $wordCount = str_word_count($plainText);
@@ -355,7 +413,7 @@ return response()->json([
             'content' => $blog->content,
             'status' => $blog->status,
             'thumbnail' => $blog->thumbnail,
-            'thumbnail_url' => $blog->thumbnail ? Storage::disk('public')->url($blog->thumbnail) : null,
+            'thumbnail_url' => $this->publicImageUrl($blog->thumbnail),
             'thumbnail_alt' => $blog->thumbnail_alt,
             'meta_title' => $blog->seo_title,
             'meta_description' => $blog->seo_description,
