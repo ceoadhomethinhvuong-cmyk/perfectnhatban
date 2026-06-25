@@ -39,11 +39,14 @@ class BlogController extends Controller
             'file' => ['required', 'image', 'mimes:jpg,jpeg,png,webp,gif', 'max:8192'],
         ]);
 
-        $path = $request->file('file')->store('editor/' . now()->format('Y/m'), 'public');
+        $path = $request->file('file')->store(
+    'editor/' . now()->format('Y/m'),
+    'public_html'
+);
 
-        return response()->json([
-            'location' => Storage::disk('public')->url($path),
-        ]);
+return response()->json([
+    'location' => asset('images/'.$path),
+]);
     }
 
     public function store(Request $request)
