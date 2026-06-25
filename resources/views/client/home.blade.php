@@ -1364,12 +1364,38 @@ trợ chăm sóc da và sức khỏe từ bên trong.')
                                 @endforelse
                             </div>
                         </div>
-                        <div class="swiper-pagination"></div>
+                        <div class="swiper-pagination" id="blogSwiperPagination"></div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <script>
+    (function () {
+        function initBlogSwiper() {
+            var el = document.querySelector('#blogSlider .swiper');
+            if (!el || el._blogSwiperInit) return;
+            el._blogSwiperInit = true;
+            new Swiper(el, {
+                slidesPerView: 1,
+                spaceBetween: 20,
+                loop: true,
+                autoplay: { delay: 5000, disableOnInteraction: false, pauseOnMouseEnter: true },
+                speed: 500,
+                pagination: { el: '#blogSwiperPagination', type: 'progressbar' },
+                breakpoints: {
+                    768:  { slidesPerView: 1 },
+                    1024: { slidesPerView: 1 },
+                }
+            });
+        }
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', initBlogSwiper);
+        } else {
+            initBlogSwiper();
+        }
+    })();
+    </script>
     <div class="elementor-element elementor-element-16b5ad6 e-flex e-con-boxed e-con e-child" data-id="16b5ad6"
         data-element_type="container" id="s9Slider">
         <div class="e-con-inner">
