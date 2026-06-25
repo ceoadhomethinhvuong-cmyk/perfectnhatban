@@ -25,3 +25,9 @@ jobs:
             
             php artisan optimize:clear
             php artisan config:cache
+
+            # Tạo storage symlink trong public/ và root domain
+            php artisan storage:link --force
+            ln -sfn ~/perfectnhatban.com/storage/app/public ~/perfectnhatban.com/storage
+
+            chmod -R 775 storage bootstrap/cache
