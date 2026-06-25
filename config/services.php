@@ -32,7 +32,7 @@ return [
     ],
 
     'tinymce' => [
-        'api_key' => env('TINYMCE_API_KEY', 'no-api-key'),
+        'api_key' => env('TINYMCE_API_KEY', 'wti3h5ohry2cn7yorptm8qg7ss23c24qr41ap2uml2blhktp'),
     ],
 
 ];
