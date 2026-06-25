@@ -492,15 +492,27 @@
                                             text-align: start;
                                         }
 
-                                        .elementor-45 .elementor-element.elementor-element-b1b3095 img {
-                                            width: 480px;
-                                            filter: brightness(100%) contrast(100%) saturate(85%) blur(0px) hue-rotate(0deg);
-                                            transition-duration: 0.3s;
+                                        .elementor-45 .elementor-element.elementor-element-b1b3095 .elementor-widget-container {
+                                            aspect-ratio: 16 / 10;
+                                            overflow: hidden;
                                             border-radius: 4px 4px 4px 4px;
+                                            flex-shrink: 0;
+                                            width: 340px;
+                                        }
+
+                                        .elementor-45 .elementor-element.elementor-element-b1b3095 img {
+                                            width: 100% !important;
+                                            height: 100% !important;
+                                            object-fit: cover;
+                                            display: block;
+                                            filter: brightness(100%) contrast(100%) saturate(85%) blur(0px) hue-rotate(0deg);
+                                            transition: filter 0.3s, transform 0.3s;
+                                            border-radius: 0;
                                         }
 
                                         .elementor-45 .elementor-element.elementor-element-b1b3095:hover img {
                                             filter: brightness(100%) contrast(100%) saturate(100%) blur(0px) hue-rotate(0deg);
+                                            transform: scale(1.03);
                                         }
 
                                         .elementor-45 .elementor-element.elementor-element-016be2c {
