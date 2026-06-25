@@ -17,9 +17,9 @@ define('LARAVEL_START', microtime(true));
 |
 */
 
-$basePath = is_dir(__DIR__.'/../laravel')
-    ? __DIR__.'/../laravel'
-    : __DIR__.'/..';
+// vendor/ in same dir → index.php was copied to project root (Namecheap deploy)
+// vendor/ one up      → index.php is inside public/ (standard or local)
+$basePath = is_dir(__DIR__.'/vendor') ? __DIR__ : __DIR__.'/..';
 
 /*
 |--------------------------------------------------------------------------

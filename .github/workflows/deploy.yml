@@ -18,22 +18,29 @@ jobs:
           key: ${{ secrets.NAMECHEAP_SSH_KEY }}
           port: ${{ secrets.NAMECHEAP_PORT }}
           script: |
+            set -e
             cd ~/perfectnhatban.com
 
-            # Backup .env server trước khi pull (tránh bị overwrite bởi .env local)
+            # Preserve server .env (gitignored but must stay intact across pulls)
             cp .env .env.server.bak 2>/dev/null || true
-            git pull origin main
-            # Khôi phục .env server nếu bị overwrite
+
+            # Force-clean pull — prevents merge conflicts breaking the deploy
+            git fetch origin main
+            git reset --hard origin/main
+
+            # Restore server .env (git reset --hard won't touch it since it's gitignored)
             if [ -f .env.server.bak ]; then cp .env.server.bak .env; fi
 
             composer install --no-dev --optimize-autoloader --no-interaction
 
+            # Copy public/ assets to domain root (Namecheap serves from project root)
             cp -R public/* .
             cp public/.htaccess .
 
             php artisan optimize:clear
-            php artisan view:clear
             php artisan config:cache
-            php artisan route:cache
+            # route:cache fails on closure-based routes — skip it gracefully
+            php artisan route:cache 2>/dev/null || true
+            php artisan view:cache
 
-            chmod -R 775 storage bootstrap/cache
+            chmod -R 755 storage bootstrap/cache
