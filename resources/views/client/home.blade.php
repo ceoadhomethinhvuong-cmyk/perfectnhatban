@@ -1296,35 +1296,26 @@ trợ chăm sóc da và sức khỏe từ bên trong.')
                                                 data-widget_type=”image.default”>
                                                 <div class=”elementor-widget-container”>
                                                     <a href=”{{ route('tin-tuc.show', $blog->slug) }}”>
-                                                        @if($blog->thumbnail)
-                                                            <img loading=”lazy” decoding=”async” width=”768” height=”480”
-                                                                src=”{{ Storage::disk('public')->url($blog->thumbnail) }}”
-                                                                alt=”{{ $blog->thumbnail_alt ?: $blog->title }}”
-                                                                style=”width:100%;height:100%;object-fit:cover;”>
-                                                        @else
-                                                            <img loading=”lazy” decoding=”async” width=”768” height=”480”
-                                                                src=”/images/banner/banner2.webp”
-                                                                alt=”{{ $blog->title }}”
-                                                                style=”width:100%;height:100%;object-fit:cover;”>
-                                                        @endif
+                                                        <img loading=”lazy” decoding=”async” width=”768” height=”480”
+                                                            src=”{{ $blog->thumbnail ? asset('storage/' . $blog->thumbnail) : asset('images/banner/banner2.webp') }}”
+                                                            alt=”{{ $blog->thumbnail_alt ?: $blog->title }}”
+                                                            style=”width:100%;height:100%;object-fit:cover;”>
                                                     </a>
                                                 </div>
                                             </div>
-                                            <div class="elementor-element elementor-element-5018347 e-con-full e-flex e-con e-child"
-                                                data-element_type="container">
-                                                <div class="elementor-element elementor-element-daeda39 elementor-widget elementor-widget-theme-post-title elementor-page-title elementor-widget-heading"
-                                                    data-element_type="widget"
-                                                    data-widget_type="theme-post-title.default">
-                                                    <div class="elementor-widget-container">
-                                                        <h3 class="elementor-heading-title elementor-size-default">
-                                                            <a href="{{ route('tin-tuc.show', $blog->slug) }}">{{ $blog->title }}</a>
+                                            <div class=”elementor-element elementor-element-5018347 e-con-full e-flex e-con e-child”
+                                                data-element_type=”container”>
+                                                <div class=”elementor-element elementor-element-daeda39 elementor-widget elementor-widget-heading”
+                                                    data-element_type=”widget”>
+                                                    <div class=”elementor-widget-container”>
+                                                        <h3 class=”elementor-heading-title elementor-size-default” style=”font-size:18px;font-weight:600;line-height:1.3em;”>
+                                                            <a href=”{{ route('tin-tuc.show', $blog->slug) }}”>{{ $blog->title }}</a>
                                                         </h3>
                                                     </div>
                                                 </div>
-                                                <div class="elementor-element elementor-element-1f01a7b cs-loop-post-excerpt elementor-widget elementor-widget-theme-post-excerpt"
-                                                    data-element_type="widget"
-                                                    data-widget_type="theme-post-excerpt.default">
-                                                    <div class="elementor-widget-container">
+                                                <div class=”elementor-element elementor-element-1f01a7b cs-loop-post-excerpt elementor-widget elementor-widget-theme-post-excerpt”
+                                                    data-element_type=”widget”>
+                                                    <div class=”elementor-widget-container”>
                                                         {{ $blog->excerpt }}
                                                     </div>
                                                 </div>
