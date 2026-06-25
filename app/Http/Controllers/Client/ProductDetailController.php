@@ -63,12 +63,12 @@ class ProductDetailController extends Controller
                 'image' => 'images/sanpham/v14.webp',
             ],
             'p5' => [
-                'title' => 'P5 - Perfect Skin Nano 205%',
+                'title' => 'P5 - Perfect Skin Nano 205',
                 'description' => 'Serum chăm sóc da chuyên sâu thuộc dòng Perfect Skin Nano.',
                 'image' => 'images/sanpham/p5.webp',
             ],
             'p6' => [
-                'title' => 'P6 - Perfect Skin Nano 230%',
+                'title' => 'P6 - Perfect Skin Nano 230',
                 'description' => 'Serum chăm sóc da chuyên sâu thuộc dòng Perfect Skin Nano.',
                 'image' => 'images/sanpham/p6.webp',
             ],

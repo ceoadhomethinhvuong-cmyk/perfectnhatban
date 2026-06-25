@@ -807,8 +807,8 @@
         href='{{ asset("wp-content/uploads/elementor/css/post-893204cc.css?ver=1776353806") }}' media='all' />
     <link rel='stylesheet' id='elementor-post-5213-css'
         href='{{ asset("wp-content/uploads/elementor/css/post-521304cc.css?ver=1776353806") }}' media='all' />
-    <link rel='stylesheet' id='elementor-gf-lora-css'
-        href='https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&amp;display=swap'
+    <link rel='stylesheet' id='elementor-gf-lexend-deca-css'
+        href='https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300;400;500;600;700&display=swap'
         media='all' />
     <script src="{{ asset("wp-includes/js/jquery/jquery.minf43b.js?ver=3.7.1") }}" id="jquery-core-js"></script>
     <script src="{{ asset("wp-includes/js/jquery/jquery-migrate.min5589.js?ver=3.4.1") }}" id="jquery-migrate-js">
@@ -1416,7 +1416,7 @@
 
     .floating-contact-buttons .floating-contact-item .elementor-heading-title {
         color: #fff !important;
-        font-family: "Manrope", Sans-serif !important;
+        font-family: "Lexend Deca", sans-serif !important;
         font-size: 10px !important;
         font-weight: 600 !important;
         line-height: 13px !important;
@@ -1493,7 +1493,7 @@
     <meta name="msapplication-TileImage" content="{{asset('images/logo/flaicon.png')}}" />
     <style id="wp-custom-css">
     :root {
-        --perfect-serif-font: "Lora", Georgia, "Times New Roman", serif;
+        --perfect-serif-font: "Lexend Deca", sans-serif;
         --e-global-typography-primary-font-family: var(--perfect-serif-font);
         --e-global-typography-secondary-font-family: var(--perfect-serif-font);
         --e-global-typography-text-font-family: var(--perfect-serif-font);
@@ -2677,7 +2677,8 @@
                                                                                         width: 100%;
                                                                                         object-fit: cover;
                                                                                         height: auto;
-                                                                                        aspect-ratio: 4/5 !important;
+                                                                                        aspect-ratio: 4 / 3.5;
+                                                                                        display: block;
                                                                                     }
 
                                                                                     .cs-product-loop .elementor-button-wrapper {
@@ -2749,7 +2750,7 @@
                                                                                     }
 
                                                                                     .elementor-7008 .elementor-element.elementor-element-7efd07a .elementor-heading-title {
-                                                                                        font-family: "Manrope", Sans-serif;
+                                                                                        font-family: "Lexend Deca", sans-serif;
                                                                                         font-size: 16px;
                                                                                         font-weight: 600;
                                                                                         line-height: 1.3em;
@@ -2771,7 +2772,7 @@
                                                                                     }
 
                                                                                     .elementor-7008 .elementor-element.elementor-element-2a2760f .elementor-heading-title {
-                                                                                        font-family: "Manrope", Sans-serif;
+                                                                                        font-family: "Lexend Deca", sans-serif;
                                                                                         font-size: 14px;
                                                                                         font-weight: 500;
                                                                                         color: #949494;
@@ -2784,7 +2785,7 @@
 
                                                                                     .elementor-7008 .elementor-element.elementor-element-8aa38ce .elementor-button {
                                                                                         background-color: #FFFFFF00;
-                                                                                        font-family: "Manrope", Sans-serif;
+                                                                                        font-family: "Lexend Deca", sans-serif;
                                                                                         text-decoration: underline !important;
                                                                                         text-underline-offset: 2px;
                                                                                         fill: #3ea8e2;
@@ -3400,7 +3401,7 @@
     .perfect-footer,
     .perfect-footer * {
         box-sizing: border-box;
-        font-family: Manrope, Arial, sans-serif !important;
+        font-family: "Lexend Deca", sans-serif !important;
         letter-spacing: 0 !important;
     }
 
@@ -5196,8 +5197,6 @@
 
     body .elementor-button[type="submit"],
     body #cs-shop-button,
-    body .product-discover-now:hover,
-    body .product-category-link:hover,
     body .tda-page-category-discover-btn,
     body .tda-page-category-cat-link,
     body .swiper-pagination-bullet-active,
@@ -5361,7 +5360,14 @@
     body #cs-mega-menu .e-n-menu-title,
     body #cs-mega-menu .e-n-menu-title *,
     body #cs-mega-menu .e-n-menu-title-container,
-    body #cs-mega-menu .e-n-menu-title-container *,
+    body #cs-mega-menu .e-n-menu-title-container * {
+        color: #2d3748 !important;
+        fill: #2d3748 !important;
+        stroke: none !important;
+        border-color: transparent !important;
+        transition: color 0.22s ease, fill 0.22s ease !important;
+    }
+
     body #cs-mega-menu .e-current,
     body #cs-mega-menu .e-current *,
     body #cs-mega-menu .e-n-menu-title:hover,
@@ -5541,6 +5547,361 @@
         fill: #ffffff !important;
         stroke: #ffffff !important;
         text-decoration: none !important;
+    }
+    </style>
+
+    <style id="perfect-nihon-aesthetic">
+    /* ── Japanese aesthetic layer ─────────────────────────────────────
+       Triết lý: Ma (khoảng trống), Wabi (đơn giản), Seijaku (tĩnh lặng)
+       Palette: bầu trời Nhật (hanada blue) + trắng ngà + mực sumi
+    ── */
+    :root {
+        --nihon-ink:        #1e2532;   /* sumi-ink: chữ chính */
+        --nihon-muted:      #5a6475;   /* keshizumi: chữ phụ */
+        --nihon-subtle:     #8c95a3;   /* nhạt hơn */
+        --nihon-sky:        #3ea8e2;   /* hanada: xanh trời Nhật */
+        --nihon-sky-soft:   rgba(62, 168, 226, 0.10);
+        --nihon-washi:      #fafaf8;   /* giấy washi: nền trang */
+        --nihon-warm:       #f5f3ef;   /* kem ấm nhẹ */
+        --nihon-border:     rgba(62, 168, 226, 0.13);
+        --nihon-shadow-sm:  0 2px 12px rgba(30, 37, 50, 0.06);
+        --nihon-shadow-md:  0 8px 28px rgba(30, 37, 50, 0.09);
+        --nihon-radius:     6px;
+        --nihon-transition: 0.26s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    /* ── Body / nền trang ────────────────────────────────── */
+    body {
+        background-color: var(--nihon-washi) !important;
+        color: var(--nihon-ink) !important;
+        font-feature-settings: "kern" 1, "liga" 1;
+        -webkit-font-smoothing: antialiased;
+    }
+
+    /* ── Header ─ mỏng, trong suốt như màn sương ──────────── */
+    #hdMain {
+        background-color: rgba(250, 250, 248, 0.94) !important;
+        border-bottom: 1px solid var(--nihon-border) !important;
+        box-shadow: 0 2px 18px rgba(30, 37, 50, 0.05) !important;
+        backdrop-filter: saturate(140%) blur(16px) !important;
+        -webkit-backdrop-filter: saturate(140%) blur(16px) !important;
+    }
+
+    /* ── Nav items: trạng thái mặc định ─ mực sumi ────────── */
+    #cs-mega-menu .e-n-menu-title-text {
+        font-size: 14.5px !important;
+        font-weight: 500 !important;
+        letter-spacing: 0.03em !important;
+        color: var(--nihon-ink) !important;
+        transition: color var(--nihon-transition) !important;
+    }
+
+    /* Underline trượt nhẹ khi hover nav item */
+    #cs-mega-menu .e-n-menu-title {
+        position: relative;
+    }
+    #cs-mega-menu .e-n-menu-title::after {
+        content: "";
+        position: absolute;
+        bottom: -2px;
+        left: 50%;
+        right: 50%;
+        height: 1.5px;
+        background: var(--nihon-sky);
+        border-radius: 2px;
+        transition: left var(--nihon-transition), right var(--nihon-transition);
+    }
+    #cs-mega-menu .e-n-menu-title:hover::after,
+    #cs-mega-menu .e-n-menu-title:focus-within::after,
+    #cs-mega-menu .e-n-menu-title.e-current::after {
+        left: 0;
+        right: 0;
+    }
+
+    /* ── Nút chính (CTA): bo góc nhẹ, tinh tế ───────────── */
+    body .elementor-button[type="submit"],
+    body #cs-shop-button,
+    body .tda-page-category-discover-btn,
+    body .tda-page-category-cat-link {
+        border-radius: 4px !important;
+        letter-spacing: 0.04em !important;
+        font-weight: 500 !important;
+        transition: background var(--nihon-transition),
+                    box-shadow var(--nihon-transition),
+                    transform var(--nihon-transition) !important;
+    }
+
+    body .elementor-button[type="submit"]:hover,
+    body #cs-shop-button:hover,
+    body .tda-page-category-discover-btn:hover,
+    body .tda-page-category-cat-link:hover {
+        background: #2d9fd8 !important;
+        background-color: #2d9fd8 !important;
+        transform: translateY(-2px) !important;
+        box-shadow: 0 8px 22px rgba(62, 168, 226, 0.28) !important;
+    }
+
+    /* ── "Xem tất cả →" và "Khám phá ngay" — text links ─── */
+    body .product-discover-now,
+    body .product-category-link {
+        position: relative;
+        display: inline-flex !important;
+        align-items: center !important;
+        gap: 4px !important;
+        font-weight: 500 !important;
+        font-size: 13.5px !important;
+        letter-spacing: 0.02em !important;
+        color: #3ea8e2 !important;
+        background: transparent !important;
+        background-color: transparent !important;
+        text-decoration: none !important;
+        border-bottom: 1.5px solid rgba(62, 168, 226, 0.35) !important;
+        padding-bottom: 1px !important;
+        transition: color 0.22s ease,
+                    border-color 0.22s ease,
+                    transform 0.22s ease !important;
+    }
+
+    body .product-discover-now:hover,
+    body .product-category-link:hover,
+    body .product-discover-now:focus,
+    body .product-category-link:focus {
+        color: #1d91cf !important;
+        border-color: #1d91cf !important;
+        background: transparent !important;
+        background-color: transparent !important;
+        transform: translateX(3px) !important;
+        text-decoration: none !important;
+    }
+
+    /* "Khám phá ngay" bên trong elementor button loop */
+    body .cs-product-loop .elementor-button,
+    body .elementor-7008 .elementor-element-8aa38ce .elementor-button {
+        background: transparent !important;
+        background-color: transparent !important;
+        border: none !important;
+        box-shadow: none !important;
+        padding: 0 !important;
+        color: #3ea8e2 !important;
+        font-size: 13px !important;
+        font-weight: 500 !important;
+        text-decoration: none !important;
+        border-bottom: 1.5px solid rgba(62, 168, 226, 0.35) !important;
+        display: inline-flex !important;
+        transition: color 0.22s ease,
+                    border-color 0.22s ease,
+                    transform 0.22s ease !important;
+    }
+
+    body .cs-product-loop .elementor-button:hover,
+    body .elementor-7008 .elementor-element-8aa38ce .elementor-button:hover {
+        color: #1d91cf !important;
+        border-bottom-color: #1d91cf !important;
+        background: transparent !important;
+        background-color: transparent !important;
+        transform: translateX(3px) !important;
+        box-shadow: none !important;
+    }
+
+    /* ── Cards sản phẩm: shadow mềm kiểu washi ───────────── */
+    .product-container,
+    .service-container,
+    .inner-product-item {
+        border-radius: 12px !important;
+        box-shadow: var(--nihon-shadow-sm) !important;
+        transition: transform var(--nihon-transition),
+                    box-shadow var(--nihon-transition) !important;
+        border: none !important;
+    }
+
+    .product-container:hover,
+    .service-container:hover,
+    .inner-product-item:hover {
+        transform: translateY(-4px) !important;
+        box-shadow: var(--nihon-shadow-md) !important;
+    }
+
+    /* ── Image container: nền trung tính nhạt ─────────────── */
+    .product-image-container,
+    .service-image-box,
+    .inner-product-img-box {
+        background: #f4f6f9 !important;
+        border-radius: 6px 6px 0 0 !important;
+    }
+
+    /* ── Footer ─ nền washi ấm ────────────────────────────── */
+    .perfect-footer {
+        background-color: var(--nihon-warm) !important;
+        border-top: 1px solid var(--nihon-border) !important;
+    }
+
+    /* ── Swiper dots: nhỏ hơn, tinh tế ───────────────────── */
+    .swiper-pagination-bullet {
+        width: 6px !important;
+        height: 6px !important;
+        opacity: 0.35 !important;
+        transition: opacity var(--nihon-transition),
+                    transform var(--nihon-transition) !important;
+    }
+    .swiper-pagination-bullet-active {
+        opacity: 1 !important;
+        transform: scale(1.25) !important;
+    }
+
+    /* ── Scrollbar: mỏng kiểu Nhật ───────────────────────── */
+    ::-webkit-scrollbar { width: 4px; height: 4px; }
+    ::-webkit-scrollbar-track { background: transparent; }
+    ::-webkit-scrollbar-thumb {
+        background: rgba(62, 168, 226, 0.3);
+        border-radius: 4px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+        background: rgba(62, 168, 226, 0.55);
+    }
+
+    /* ── Selection highlight ──────────────────────────────── */
+    ::selection {
+        background: rgba(62, 168, 226, 0.18);
+        color: var(--nihon-ink);
+    }
+    </style>
+
+    <style id="perfect-product-card-fix">
+    /* ══ Product Loop Cards — cân đối lại toàn diện ═══════════════════
+       Vấn đề: nền xanh Elementor + object-fit:cover cắt ảnh + tỉ lệ lệch
+    ════════════════════════════════════════════════════════════════════ */
+
+    /* 1. Card ngoài: bo góc mềm, không border, shadow cực nhẹ */
+    .elementor-7008 .cs-product-loop,
+    .elementor-7008.e-loop-item .elementor-element-06cc180 {
+        background: #ffffff !important;
+        background-color: #ffffff !important;
+        background-image: none !important;
+        border-radius: 16px !important;
+        overflow: hidden !important;
+        box-shadow: 0 4px 20px rgba(30, 50, 80, 0.08) !important;
+        border: none !important;
+        outline: none !important;
+        transition: transform 0.28s cubic-bezier(0.4,0,0.2,1),
+                    box-shadow 0.28s cubic-bezier(0.4,0,0.2,1) !important;
+    }
+
+    .elementor-7008 .cs-product-loop:hover,
+    .elementor-7008.e-loop-item .elementor-element-06cc180:hover {
+        transform: translateY(-5px) !important;
+        box-shadow: 0 16px 36px rgba(30, 50, 80, 0.13) !important;
+        border: none !important;
+    }
+
+    /* 2. Image widget container: full-bleed, không nền xám */
+    .elementor-7008 .elementor-element-dd2c523 .elementor-widget-container {
+        background: transparent !important;
+        background-image: none !important;
+        border-radius: 0 !important;
+        overflow: hidden !important;
+        padding: 0 !important;
+        display: block !important;
+        line-height: 0 !important;
+    }
+
+    /* 3. Ảnh sản phẩm: cover full-bleed, tỉ lệ 4:3.5 */
+    .elementor-7008 .elementor-element-dd2c523 img,
+    .cs-product-loop img {
+        width: 100% !important;
+        height: auto !important;
+        aspect-ratio: 4 / 3.5 !important;
+        object-fit: cover !important;
+        object-position: center !important;
+        padding: 0 !important;
+        display: block !important;
+        transition: transform 0.32s cubic-bezier(0.4,0,0.2,1) !important;
+    }
+
+    .elementor-7008 .cs-product-loop:hover .elementor-element-dd2c523 img,
+    .elementor-7008 .elementor-element-dd2c523:hover img {
+        transform: scale(1.05) !important;
+    }
+
+    /* 4. Phần text + nút bên dưới: padding nhất quán 16px hai bên */
+    .elementor-7008 .e-con-inner {
+        padding: 0 !important;
+        gap: 0 !important;
+    }
+
+    /* Wrapper bọc toàn bộ text section (từ element title trở xuống) */
+    .elementor-7008 .elementor-element-7efd07a,
+    .elementor-7008 .elementor-element-2a2760f,
+    .elementor-7008 .elementor-element-8aa38ce {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    .elementor-7008 .elementor-element-7efd07a > .elementor-widget-container {
+        padding: 14px 16px 5px 16px !important;
+    }
+
+    .elementor-7008 .elementor-element-7efd07a .elementor-heading-title {
+        font-size: 14px !important;
+        font-weight: 600 !important;
+        line-height: 1.42 !important;
+        color: #1e2532 !important;
+        display: -webkit-box !important;
+        -webkit-line-clamp: 2 !important;
+        -webkit-box-orient: vertical !important;
+        overflow: hidden !important;
+        text-overflow: ellipsis !important;
+        margin: 0 !important;
+    }
+
+    .elementor-7008 .elementor-element-7efd07a .elementor-heading-title a {
+        color: #1e2532 !important;
+    }
+
+    .elementor-7008 .elementor-element-7efd07a .elementor-heading-title a:hover {
+        color: #3ea8e2 !important;
+    }
+
+    .elementor-7008 .elementor-element-2a2760f > .elementor-widget-container {
+        padding: 4px 16px 8px 16px !important;
+    }
+
+    .elementor-7008 .elementor-element-2a2760f .elementor-heading-title {
+        font-size: 12px !important;
+        color: #8c95a3 !important;
+        font-weight: 400 !important;
+        white-space: nowrap !important;
+        overflow: hidden !important;
+        text-overflow: ellipsis !important;
+        margin: 0 !important;
+    }
+
+    .elementor-7008 .elementor-element-8aa38ce > .elementor-widget-container {
+        padding: 0 16px 16px 16px !important;
+    }
+
+    /* 5. Tags (Chuyên Gia / Tại Nhà / Tại Spa): nhỏ gọn, tinh tế */
+    .elementor-7008 .product-tag-container {
+        background: rgba(62, 168, 226, 0.90) !important;
+        backdrop-filter: blur(6px) !important;
+        border-radius: 5px !important;
+        padding: 3px 9px !important;
+        box-shadow: 0 2px 8px rgba(30, 74, 104, 0.18) !important;
+        margin-bottom: 4px !important;
+    }
+
+    .elementor-7008 .product-tag {
+        font-size: 11px !important;
+        font-weight: 600 !important;
+        letter-spacing: 0.02em !important;
+        color: #ffffff !important;
+        line-height: 1.4 !important;
+    }
+
+    /* 6. Đảm bảo các background xanh Elementor bị ghi đè */
+    .elementor-7008 .cs-product-loop > .e-con-inner,
+    .elementor-7008 .elementor-element-06cc180.e-con {
+        background: #ffffff !important;
+        background-image: none !important;
     }
     </style>
 

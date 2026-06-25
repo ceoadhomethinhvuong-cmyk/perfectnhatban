@@ -526,11 +526,11 @@
 
                                                     <hgroup>
                                                         <h3 class="product-title" style="margin-top: 10px;">
-                                                            P9 - Perfect Skin Nano 250% </h3>
+                                                            P9 - Perfect Skin Nano 250 </h3>
                                                     </hgroup>
 
                                                     <p class="product-description">
-                                                        Serum - Perfect Skin Nano 250% (8ML)</p>
+                                                        Serum - Perfect Skin Nano 250 (8ML)</p>
 
                                                     <a href="{{ route('chi-tiet-san-pham.show', 'p9') }}"
                                                         class="product-discover-now">Khám phá ngay</a>
@@ -560,11 +560,11 @@
 
                                                     <hgroup>
                                                         <h3 class="product-title" style="margin-top: 10px;">
-                                                            P6 - Perfect Skin Nano 230% </h3>
+                                                            P6 - Perfect Skin Nano 230 </h3>
                                                     </hgroup>
 
                                                     <p class="product-description">
-                                                        Serum - Perfect Skin Nano 230% (8ML)</p>
+                                                        Serum - Perfect Skin Nano 230 (8ML)</p>
 
                                                     <a href="{{ route('chi-tiet-san-pham.show', 'p6') }}"
                                                         class="product-discover-now">Khám phá ngay</a>
@@ -594,11 +594,11 @@
 
                                                     <hgroup>
                                                         <h3 class="product-title" style="margin-top: 10px;">
-                                                            P5 - Perfect Skin Nano 205% </h3>
+                                                            P5 - Perfect Skin Nano 205 </h3>
                                                     </hgroup>
 
                                                     <p class="product-description">
-                                                        Serum - Perfect Skin Nano 205% (8ML)</p>
+                                                        Serum - Perfect Skin Nano 205 (8ML)</p>
 
                                                     <a href="{{ route('chi-tiet-san-pham.show', 'p5') }}"
                                                         class="product-discover-now">Khám phá ngay</a>

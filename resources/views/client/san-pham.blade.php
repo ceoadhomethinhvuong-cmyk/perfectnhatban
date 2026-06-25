@@ -74,24 +74,37 @@ dưỡng tóc, minh bạch nguồn gốc và thông tin sử dụng.')
                             }
                         }
 
+                        .product-container {
+                            background: #ffffff;
+                            border-radius: 14px;
+                            overflow: hidden;
+                        }
+
+                        .product-container hgroup {
+                            margin-top: 12px;
+                        }
+
                         .product-subtitle {
-                            margin: 0px;
-                            margin-top: 16px;
+                            margin: 0;
+                            margin-top: 14px;
+                            padding: 0 14px;
                             font-weight: 400 !important;
                             font-size: 12px !important;
                             color: rgba(37, 37, 37, .4) !important;
                         }
 
                         .product-title {
-                            margin: 0px;
+                            margin: 0;
+                            padding: 0 14px;
                             color: #252525 !important;
-                            font-size: 16px !important;
-                            letter-spacing: 0px !important;
-                            opacity: 80%;
-                            padding: 0;
-                            margin-bottom: 0px;
-                            line-height: 1.5 !important;
-                            transition: color 0.25s ease;
+                            font-size: 15px !important;
+                            letter-spacing: 0 !important;
+                            line-height: 1.45 !important;
+                            display: -webkit-box;
+                            -webkit-line-clamp: 2;
+                            -webkit-box-orient: vertical;
+                            overflow: hidden;
+                            transition: color 0.22s ease;
                         }
 
                         .product-container:hover .product-title,
@@ -100,13 +113,17 @@ dưỡng tóc, minh bạch nguồn gốc và thông tin sử dụng.')
                         }
 
                         .product-description {
-                            margin: 0px;
+                            margin: 0;
                             margin-top: 2px;
-                            font-size: 14px !important;
+                            padding: 0 14px;
+                            font-size: 13px !important;
                             color: #252525;
                             flex-grow: 1;
                             opacity: 60%;
                             font-weight: 400;
+                            white-space: nowrap;
+                            overflow: hidden;
+                            text-overflow: ellipsis;
                             display: none;
 
                             @media (1024px <=width) {
@@ -115,22 +132,22 @@ dưỡng tóc, minh bạch nguồn gốc và thông tin sử dụng.')
                         }
 
                         .product-discover-now {
-                            margin: 0px;
-                            margin-top: 8px;
-                            display: block;
+                            margin: 8px 14px 14px;
+                            display: inline-block;
                             width: fit-content;
                             color: #3ea8e2 !important;
-                            font-weight: 600;
+                            font-weight: 500;
                             text-decoration: none;
-                            border-bottom: 1px solid #3ea8e2;
-                            transition: all 0.3s ease;
-                            font-size: 15px;
-                            margin-top: 8px;
+                            border-bottom: 1.5px solid rgba(62, 168, 226, 0.4);
+                            transition: color 0.22s ease, border-color 0.22s ease, transform 0.22s ease;
+                            font-size: 13.5px;
                         }
 
                         .product-discover-now:hover {
-                            color: #3ea8e2 !important;
-                            border-bottom-color: #3ea8e2;
+                            color: #1d91cf !important;
+                            border-bottom-color: #1d91cf !important;
+                            transform: translateX(3px);
+                            background: transparent !important;
                         }
                         </style>
                         <style>
@@ -806,7 +823,7 @@ dưỡng tóc, minh bạch nguồn gốc và thông tin sử dụng.')
                                         </hgroup>
 
                                         <p class="product-description">
-                                            Serum - Perfect Skin Nano 250% (8ML)</p>
+                                            Serum - Perfect Skin Nano 250 (8ML)</p>
 
                                         <a href="{{ route('chi-tiet-san-pham.show', 'p9') }}" class="product-discover-now">Khám
                                             phá ngay</a>
@@ -841,7 +858,7 @@ dưỡng tóc, minh bạch nguồn gốc và thông tin sử dụng.')
                                         </hgroup>
 
                                         <p class="product-description">
-                                            Serum - Perfect Skin Nano 230% (8ML)</p>
+                                            Serum - Perfect Skin Nano 230 (8ML)</p>
 
                                         <a href="{{ route('chi-tiet-san-pham.show', 'p6') }}"
                                             class="product-discover-now">Khám phá ngay</a>
@@ -876,7 +893,7 @@ dưỡng tóc, minh bạch nguồn gốc và thông tin sử dụng.')
                                         </hgroup>
 
                                         <p class="product-description">
-                                            Serum - Perfect Skin Nano 205% (8ML)</p>
+                                            Serum - Perfect Skin Nano 205 (8ML)</p>
 
                                         <a href="{{ route('chi-tiet-san-pham.show', 'p5') }}"
                                             class="product-discover-now">Khám phá ngay</a>
@@ -945,7 +962,7 @@ dưỡng tóc, minh bạch nguồn gốc và thông tin sử dụng.')
 
                         <hgroup>
                             <h3 class="product-title" style="margin-top: 10px;">
-                                [Mã VC30] PERFECT VC30 Nhật Bản tinh chất Vitamin C 30% hỗ trợ sáng da, mờ thâm nám,
+                                [Mã VC30] PERFECT VC30 Nhật Bản tinh chất Vitamin C 30 hỗ trợ sáng da, mờ thâm nám,
                                 chống lão hóa </h3>
                         </hgroup>
 

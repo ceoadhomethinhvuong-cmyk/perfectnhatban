@@ -718,7 +718,7 @@
             promotion: false,
             convert_urls: false,
             content_css: [perfectEditorFontsUrl],
-            plugins: 'advlist anchor autolink autosave charmap code codesample directionality emoticons fullscreen help hr image insertdatetime link lists media nonbreaking pagebreak preview quickbars save searchreplace table visualblocks visualchars wordcount',
+            plugins: 'advlist anchor autolink autosave charmap code codesample directionality emoticons fullscreen help image insertdatetime link lists media nonbreaking pagebreak preview quickbars save searchreplace table visualblocks visualchars wordcount',
             toolbar_mode: 'wrap',
             toolbar: [
                 'undo redo restoredraft | blocks fontfamily fontsize | bold italic underline strikethrough subscript superscript | forecolor perfecttablecellbg removeformat',
@@ -767,7 +767,9 @@
             image_caption: true,
             image_title: true,
             image_advtab: true,
-            object_resizing: true,
+            image_dimensions: true,
+            object_resizing: 'img',
+            resize_img_proportional: true,
             link_title: true,
             link_target_list: [
                 { title: 'Cung tab', value: '' },
