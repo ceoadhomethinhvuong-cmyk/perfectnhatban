@@ -340,12 +340,12 @@
                                 <div class="tda-image-compare__inner"><img data-lazyloaded="1"
                                         src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
                                         class="tda-image-compare__image tda-image-compare__after"
-                                        data-src="https://media.gsccos.vn/wp-content/uploads/2026/01/Serum-ngay-Mela-2.webp"
+                                        data-src="{{ asset('images/banner/banner2.webp') }}"
                                         alt="">
                                     <div class="tda-image-compare__before-wrap"><img data-lazyloaded="1"
                                             src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
                                             class="tda-image-compare__image tda-image-compare__before"
-                                            data-src="https://media.gsccos.vn/wp-content/uploads/2026/01/Serum-ngay-Mela-1.webp"
+                                            data-src="{{ asset('images/banner/banner2.webp') }}"
                                             alt=""></div>
                                     <div class="tda-image-compare__handle"></div><input type="range"
                                         class="tda-image-compare__slider" min="0" max="100" value="50"
@@ -620,7 +620,7 @@
                                                             <div class="tda-news-card-image">
                                                                 <img data-lazyloaded="1"
                                                                     src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
-                                                                    data-src="https://gsccos.vn/wp-content/uploads/2025/05/29-vi-kim-tre-hoa-da-1-300x200.webp"
+                                                                    data-src="{{ asset('images/banner/banner2.webp') }}"
                                                                     alt="Căng bóng trẻ hóa" />
                                                             </div>
                                                             <div class="tda-news-card-content">
@@ -641,7 +641,7 @@
                                                             <div class="tda-news-card-image">
                                                                 <img data-lazyloaded="1"
                                                                     src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
-                                                                    data-src="https://gsccos.vn/wp-content/uploads/2025/05/36-LIEU-TRINH-DUONG-TRANG-CANG-BONG-DA-1-300x200.webp"
+                                                                    data-src="{{ asset('images/banner/banner2.webp') }}"
                                                                     alt="Dưỡng trắng, căng bóng" />
                                                             </div>
                                                             <div class="tda-news-card-content">
@@ -662,7 +662,7 @@
                                                             <div class="tda-news-card-image">
                                                                 <img data-lazyloaded="1"
                                                                     src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
-                                                                    data-src="https://gsccos.vn/wp-content/uploads/2025/05/32-Nam-thuong-bi-hon-hop-1-300x200.webp"
+                                                                    data-src="{{ asset('images/banner/banner2.webp') }}"
                                                                     alt="Nám thượng bì &#038; nám hỗn hợp" />
                                                             </div>
                                                             <div class="tda-news-card-content">
@@ -732,21 +732,21 @@
                                                 <div class="swiper-slide tda-product-popup-slide">
                                                     <img data-lazyloaded="1"
                                                         src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
-                                                        data-src="https://gsccos.vn/wp-content/uploads/2025/05/29-vi-kim-tre-hoa-da-1-300x200.webp"
+                                                        data-src="{{ asset('images/banner/banner2.webp') }}"
                                                         alt="Căng bóng trẻ hóa" />
                                                     <p>Căng bóng trẻ hóa</p>
                                                 </div>
                                                 <div class="swiper-slide tda-product-popup-slide">
                                                     <img data-lazyloaded="1"
                                                         src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
-                                                        data-src="https://gsccos.vn/wp-content/uploads/2025/05/36-LIEU-TRINH-DUONG-TRANG-CANG-BONG-DA-1-300x200.webp"
+                                                        data-src="{{ asset('images/banner/banner2.webp') }}"
                                                         alt="Dưỡng trắng, căng bóng" />
                                                     <p>Dưỡng trắng, căng bóng</p>
                                                 </div>
                                                 <div class="swiper-slide tda-product-popup-slide">
                                                     <img data-lazyloaded="1"
                                                         src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
-                                                        data-src="https://gsccos.vn/wp-content/uploads/2025/05/32-Nam-thuong-bi-hon-hop-1-300x200.webp"
+                                                        data-src="{{ asset('images/banner/banner2.webp') }}"
                                                         alt="Nám thượng bì &#038; nám hỗn hợp" />
                                                     <p>Nám thượng bì &#038; nám hỗn hợp</p>
                                                 </div>

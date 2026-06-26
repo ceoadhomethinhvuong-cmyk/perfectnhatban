@@ -617,7 +617,7 @@ trợ chăm sóc da và sức khỏe từ bên trong.')
                                         data-src="{{ asset('images/banner/banner2.webp') }}"
                                         class="attachment-full size-full wp-image-6217" alt="Chăm Từ Gốc"
                                         data-srcset="{{ asset('images/banner/banner2.webp') }} 680w,{{ asset('images/banner/banner2.webp') }} 300w, {{ asset('images/banner/banner2.webp') }} 600w"
-                                        data-sizes="(max-width: 680px) 100vw, 680px" />
+                                        data-sizes="auto" />
                                 </div>
                             </div>
                         </div>
@@ -671,7 +671,7 @@ trợ chăm sóc da và sức khỏe từ bên trong.')
                                         data-src="{{ asset('images/banner/banner2.webp') }}"
                                         class="attachment-full size-full wp-image-6216" alt="Khoa Học Tiên Tiến"
                                         data-srcset="{{ asset('images/banner/banner2.webp') }} 680w, {{ asset('images/banner/banner2.webp') }} 300w, {{ asset('images/banner/banner2.webp') }} 600w"
-                                        data-sizes="(max-width: 680px) 100vw, 680px" />
+                                        data-sizes="auto" />
                                 </div>
                             </div>
                         </div>
@@ -690,7 +690,7 @@ trợ chăm sóc da và sức khỏe từ bên trong.')
                                         data-src="{{ asset('images/banner/banner2.webp') }}"
                                         class="attachment-full size-full wp-image-5450" alt="Dich Vụ Tận Tâm"
                                         data-srcset="{{ asset('images/banner/banner2.webp') }} 778w, {{ asset('images/banner/banner2.webp') }} 300w, {{ asset('images/banner/banner2.webp') }} 768w, {{ asset('images/banner/banner2.webp') }} 600w"
-                                        data-sizes="(max-width: 778px) 100vw, 778px" />
+                                        data-sizes="auto" />
                                 </div>
                             </div>
                         </div>
@@ -728,10 +728,10 @@ trợ chăm sóc da và sức khỏe từ bên trong.')
                             <img data-lazyloaded="1"
                                 src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4ODAiIGhlaWdodD0iNzA0IiB2aWV3Qm94PSIwIDAgODgwIDcwNCI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgc3R5bGU9ImZpbGw6I2NmZDRkYjtmaWxsLW9wYWNpdHk6IDAuMTsiLz48L3N2Zz4="
                                 loading="lazy" decoding="async" width="880" height="704"
-                                data-src="https://gsccos.vn/wp-content/uploads/2025/08/4-web.webp"
+                                data-src="{{ asset('images/banner/banner2.webp') }}"
                                 class="attachment-full size-full wp-image-5443" alt="Bổ sản phẩm chuyên sâu Perfect"
-                                data-srcset="https://gsccos.vn/wp-content/uploads/2025/08/4-web.webp 880w, https://gsccos.vn/wp-content/uploads/2025/08/4-web-300x240.webp 300w, https://gsccos.vn/wp-content/uploads/2025/08/4-web-768x614.webp 768w, https://gsccos.vn/wp-content/uploads/2025/08/4-web-600x480.webp 600w"
-                                data-sizes="(max-width: 880px) 100vw, 880px" /> </a>
+                                data-srcset="{{ asset('images/banner/banner2.webp') }}"
+                                data-sizes="auto" /> </a>
                     </div>
                 </div>
                 <div class="elementor-element elementor-element-69acce38 e-con-full e-flex e-con e-child"
@@ -776,10 +776,10 @@ trợ chăm sóc da và sức khỏe từ bên trong.')
                             <img data-lazyloaded="1"
                                 src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNjAwIiBoZWlnaHQ9IjEyODAiIHZpZXdCb3g9IjAgMCAxNjAwIDEyODAiPjxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHN0eWxlPSJmaWxsOiNjZmQ0ZGI7ZmlsbC1vcGFjaXR5OiAwLjE7Ii8+PC9zdmc+"
                                 loading="lazy" decoding="async" width="1600" height="1280"
-                                data-src="https://gsccos.vn/wp-content/uploads/2025/08/Homepage-ss3-D.webp"
+                                data-src="{{ asset('images/banner/banner2.webp') }}"
                                 class="attachment-full size-full wp-image-5445" alt="Mela Bright Perfect set Campaing"
-                                data-srcset="https://gsccos.vn/wp-content/uploads/2025/08/Homepage-ss3-D.webp 1600w, https://gsccos.vn/wp-content/uploads/2025/08/Homepage-ss3-D-300x240.webp 300w, https://gsccos.vn/wp-content/uploads/2025/08/Homepage-ss3-D-1024x819.webp 1024w, https://gsccos.vn/wp-content/uploads/2025/08/Homepage-ss3-D-768x614.webp 768w, https://gsccos.vn/wp-content/uploads/2025/08/Homepage-ss3-D-1536x1229.webp 1536w, https://gsccos.vn/wp-content/uploads/2025/08/Homepage-ss3-D-600x480.webp 600w"
-                                data-sizes="(max-width: 1600px) 100vw, 1600px" /> </a>
+                                data-srcset="{{ asset('images/banner/banner2.webp') }}"
+                                data-sizes="auto" /> </a>
                     </div>
                 </div>
                 <div class="elementor-element elementor-element-5d2cb000 e-con-full cs-image-zoom e-flex e-con e-child"
@@ -824,13 +824,13 @@ trợ chăm sóc da và sức khỏe từ bên trong.')
                 data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;video&quot;}">
                 <div class="elementor-element elementor-element-4f065534 elementor-widget elementor-widget-video"
                     data-id="4f065534" data-element_type="widget"
-                    data-settings="{&quot;youtube_url&quot;:&quot;https:\/\/youtube.com\/shorts\/47SzEvKYSoc?feature=share&quot;,&quot;lazy_load&quot;:&quot;yes&quot;,&quot;show_image_overlay&quot;:&quot;yes&quot;,&quot;image_overlay&quot;:{&quot;url&quot;:&quot;https:\/\/media.gsccos.vn\/wp-content\/uploads\/2025\/12\/Artboard-4.webp&quot;,&quot;id&quot;:&quot;7907&quot;,&quot;size&quot;:&quot;&quot;,&quot;alt&quot;:&quot;&quot;,&quot;source&quot;:&quot;library&quot;},&quot;video_type&quot;:&quot;youtube&quot;}"
+                    data-settings="{&quot;youtube_url&quot;:&quot;https:\/\/youtube.com\/shorts\/47SzEvKYSoc?feature=share&quot;,&quot;lazy_load&quot;:&quot;yes&quot;,&quot;show_image_overlay&quot;:&quot;yes&quot;,&quot;image_overlay&quot;:{&quot;url&quot;:&quot;/images/banner/banner2.webp\/12\/Artboard-4.webp&quot;,&quot;id&quot;:&quot;7907&quot;,&quot;size&quot;:&quot;&quot;,&quot;alt&quot;:&quot;&quot;,&quot;source&quot;:&quot;library&quot;},&quot;video_type&quot;:&quot;youtube&quot;}"
                     data-widget_type="video.default">
                     <div class="elementor-widget-container">
                         <div class="elementor-wrapper elementor-open-inline">
                             <div class="elementor-video"></div>
                             <div class="elementor-custom-embed-image-overlay"
-                                style="background-image: url(https://media.gsccos.vn/wp-content/uploads/2025/12/Artboard-4.webp);">
+                                style="background-image: url(/images/banner/banner2.webp);">
                                 <div class="elementor-custom-embed-play" role="button" aria-label="Phát video"
                                     tabindex="0">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80"
@@ -891,10 +891,10 @@ trợ chăm sóc da và sức khỏe từ bên trong.')
                         <img data-lazyloaded="1"
                             src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOTIwIiBoZWlnaHQ9IjEwODAiIHZpZXdCb3g9IjAgMCAxOTIwIDEwODAiPjxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHN0eWxlPSJmaWxsOiNjZmQ0ZGI7ZmlsbC1vcGFjaXR5OiAwLjE7Ii8+PC9zdmc+"
                             loading="lazy" decoding="async" width="1920" height="1080"
-                            data-src="https://media.gsccos.vn/wp-content/uploads/2025/12/Artboard-2.webp"
+                            data-src="{{ asset('images/banner/banner2.webp') }}"
                             class="attachment-full size-full wp-image-7906" alt=""
-                            data-srcset="https://media.gsccos.vn/wp-content/uploads/2025/12/Artboard-2.webp 1920w, https://media.gsccos.vn/wp-content/uploads/2025/12/Artboard-2-300x300.webp 300w, https://media.gsccos.vn/wp-content/uploads/2025/12/Artboard-2-1024x576.webp 1024w, https://media.gsccos.vn/wp-content/uploads/2025/12/Artboard-2-768x432.webp 768w, https://media.gsccos.vn/wp-content/uploads/2025/12/Artboard-2-1536x864.webp 1536w, https://media.gsccos.vn/wp-content/uploads/2025/12/Artboard-2-600x338.webp 600w"
-                            data-sizes="(max-width: 1920px) 100vw, 1920px">
+                            data-srcset="{{ asset('images/banner/banner2.webp') }}"
+                            data-sizes="auto">
                     </div>
                 </div>
                 <div class="elementor-element elementor-element-6e51c298 elementor-widget elementor-widget-button"
@@ -981,10 +981,10 @@ trợ chăm sóc da và sức khỏe từ bên trong.')
                                                         <img data-lazyloaded="1"
                                                             src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAwIiBoZWlnaHQ9IjgwMCIgdmlld0JveD0iMCAwIDEyMDAgODAwIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBzdHlsZT0iZmlsbDojY2ZkNGRiO2ZpbGwtb3BhY2l0eTogMC4xOyIvPjwvc3ZnPg=="
                                                             loading="lazy" decoding="async" width="1200" height="800"
-                                                            data-src="https://gsccos.vn/wp-content/uploads/2025/07/28-CANG-BONG-TRE-HOa-vi-nano-1.webp"
+                                                            data-src="{{ asset('images/banner/banner2.webp') }}"
                                                             class="attachment-full size-full wp-image-4732" alt=""
-                                                            data-srcset="https://gsccos.vn/wp-content/uploads/2025/07/28-CANG-BONG-TRE-HOa-vi-nano-1.webp 1200w, https://gsccos.vn/wp-content/uploads/2025/07/28-CANG-BONG-TRE-HOa-vi-nano-1-300x200.webp 300w, https://gsccos.vn/wp-content/uploads/2025/07/28-CANG-BONG-TRE-HOa-vi-nano-1-1024x683.webp 1024w, https://gsccos.vn/wp-content/uploads/2025/07/28-CANG-BONG-TRE-HOa-vi-nano-1-768x512.webp 768w, https://gsccos.vn/wp-content/uploads/2025/07/28-CANG-BONG-TRE-HOa-vi-nano-1-600x400.webp 600w"
-                                                            data-sizes="(max-width: 1200px) 100vw, 1200px" />
+                                                            data-srcset="{{ asset('images/banner/banner2.webp') }}"
+                                                            data-sizes="auto" />
                                                     </div>
                                                 </div>
                                                 <div class="elementor-element elementor-element-6dd792dc elementor-absolute elementor-widget elementor-widget-heading"
@@ -1037,10 +1037,10 @@ trợ chăm sóc da và sức khỏe từ bên trong.')
                                                         <img data-lazyloaded="1"
                                                             src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAwIiBoZWlnaHQ9IjgwMCIgdmlld0JveD0iMCAwIDEyMDAgODAwIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBzdHlsZT0iZmlsbDojY2ZkNGRiO2ZpbGwtb3BhY2l0eTogMC4xOyIvPjwvc3ZnPg=="
                                                             loading="lazy" decoding="async" width="1200" height="800"
-                                                            data-src="https://gsccos.vn/wp-content/uploads/2025/07/5-Vi-kim-nam-3.webp"
+                                                            data-src="{{ asset('images/banner/banner2.webp') }}"
                                                             class="attachment-full size-full wp-image-4730" alt=""
-                                                            data-srcset="https://gsccos.vn/wp-content/uploads/2025/07/5-Vi-kim-nam-3.webp 1200w, https://gsccos.vn/wp-content/uploads/2025/07/5-Vi-kim-nam-3-300x200.webp 300w, https://gsccos.vn/wp-content/uploads/2025/07/5-Vi-kim-nam-3-1024x683.webp 1024w, https://gsccos.vn/wp-content/uploads/2025/07/5-Vi-kim-nam-3-768x512.webp 768w, https://gsccos.vn/wp-content/uploads/2025/07/5-Vi-kim-nam-3-600x400.webp 600w"
-                                                            data-sizes="(max-width: 1200px) 100vw, 1200px" />
+                                                            data-srcset="{{ asset('images/banner/banner2.webp') }}"
+                                                            data-sizes="auto" />
                                                     </div>
                                                 </div>
                                                 <div class="elementor-element elementor-element-5a12a62d elementor-absolute elementor-widget elementor-widget-heading"
@@ -1093,11 +1093,11 @@ trợ chăm sóc da và sức khỏe từ bên trong.')
                                                         <img data-lazyloaded="1"
                                                             src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAwIiBoZWlnaHQ9IjgwMCIgdmlld0JveD0iMCAwIDEyMDAgODAwIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBzdHlsZT0iZmlsbDojY2ZkNGRiO2ZpbGwtb3BhY2l0eTogMC4xOyIvPjwvc3ZnPg=="
                                                             loading="lazy" decoding="async" width="1200" height="800"
-                                                            data-src="https://gsccos.vn/wp-content/uploads/2025/08/37-VI-KIM-TRE-HOA-CANG-BONG-DA-1.webp"
+                                                            data-src="{{ asset('images/banner/banner2.webp') }}"
                                                             class="attachment-full size-full wp-image-5452"
                                                             alt="Perfect"
-                                                            data-srcset="https://gsccos.vn/wp-content/uploads/2025/08/37-VI-KIM-TRE-HOA-CANG-BONG-DA-1.webp 1200w, https://gsccos.vn/wp-content/uploads/2025/08/37-VI-KIM-TRE-HOA-CANG-BONG-DA-1-300x200.webp 300w, https://gsccos.vn/wp-content/uploads/2025/08/37-VI-KIM-TRE-HOA-CANG-BONG-DA-1-1024x683.webp 1024w, https://gsccos.vn/wp-content/uploads/2025/08/37-VI-KIM-TRE-HOA-CANG-BONG-DA-1-768x512.webp 768w, https://gsccos.vn/wp-content/uploads/2025/08/37-VI-KIM-TRE-HOA-CANG-BONG-DA-1-600x400.webp 600w"
-                                                            data-sizes="(max-width: 1200px) 100vw, 1200px" />
+                                                            data-srcset="{{ asset('images/banner/banner2.webp') }}"
+                                                            data-sizes="auto" />
                                                     </div>
                                                 </div>
                                                 <div class="elementor-element elementor-element-580b6a9f elementor-absolute elementor-widget elementor-widget-heading"
@@ -1421,11 +1421,11 @@ trợ chăm sóc da và sức khỏe từ bên trong.')
                                                     <img data-lazyloaded="1"
                                                         src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAwIiBoZWlnaHQ9Ijg1NiIgdmlld0JveD0iMCAwIDEyMDAgODU2Ij48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBzdHlsZT0iZmlsbDojY2ZkNGRiO2ZpbGwtb3BhY2l0eTogMC4xOyIvPjwvc3ZnPg=="
                                                         loading="lazy" decoding="async" width="1200" height="856"
-                                                        data-src="https://gsccos.vn/wp-content/uploads/2025/08/Homepage-ss8.1-D-M.webp"
+                                                        data-src="{{ asset('images/banner/banner2.webp') }}"
                                                         class="attachment-full size-full wp-image-5458"
                                                         alt="Mela bright review 01"
-                                                        data-srcset="https://gsccos.vn/wp-content/uploads/2025/08/Homepage-ss8.1-D-M.webp 1200w, https://gsccos.vn/wp-content/uploads/2025/08/Homepage-ss8.1-D-M-300x214.webp 300w, https://gsccos.vn/wp-content/uploads/2025/08/Homepage-ss8.1-D-M-1024x730.webp 1024w, https://gsccos.vn/wp-content/uploads/2025/08/Homepage-ss8.1-D-M-768x548.webp 768w, https://gsccos.vn/wp-content/uploads/2025/08/Homepage-ss8.1-D-M-600x428.webp 600w"
-                                                        data-sizes="(max-width: 1200px) 100vw, 1200px" />
+                                                        data-srcset="{{ asset('images/banner/banner2.webp') }}"
+                                                        data-sizes="auto" />
                                                 </div>
                                             </div>
                                         </div>
@@ -1561,11 +1561,11 @@ trợ chăm sóc da và sức khỏe từ bên trong.')
                                                     <img data-lazyloaded="1"
                                                         src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAwIiBoZWlnaHQ9Ijg1NiIgdmlld0JveD0iMCAwIDEyMDAgODU2Ij48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBzdHlsZT0iZmlsbDojY2ZkNGRiO2ZpbGwtb3BhY2l0eTogMC4xOyIvPjwvc3ZnPg=="
                                                         loading="lazy" decoding="async" width="1200" height="856"
-                                                        data-src="https://gsccos.vn/wp-content/uploads/2025/08/Homepage-ss8.2-D-M.webp"
+                                                        data-src="{{ asset('images/banner/banner2.webp') }}"
                                                         class="attachment-full size-full wp-image-5461"
                                                         alt="Mela bright review 02"
-                                                        data-srcset="https://gsccos.vn/wp-content/uploads/2025/08/Homepage-ss8.2-D-M.webp 1200w, https://gsccos.vn/wp-content/uploads/2025/08/Homepage-ss8.2-D-M-300x214.webp 300w, https://gsccos.vn/wp-content/uploads/2025/08/Homepage-ss8.2-D-M-1024x730.webp 1024w, https://gsccos.vn/wp-content/uploads/2025/08/Homepage-ss8.2-D-M-768x548.webp 768w, https://gsccos.vn/wp-content/uploads/2025/08/Homepage-ss8.2-D-M-600x428.webp 600w"
-                                                        data-sizes="(max-width: 1200px) 100vw, 1200px" />
+                                                        data-srcset="{{ asset('images/banner/banner2.webp') }}"
+                                                        data-sizes="auto" />
                                                 </div>
                                             </div>
                                         </div>
@@ -1704,7 +1704,7 @@ trợ chăm sóc da và sức khỏe từ bên trong.')
                                                         data-src="{{ asset('../images/banner/perfect-viet-thao.webp') }}"
                                                         class="attachment-full size-full wp-image-5462" alt="Perfect"
                                                         data-srcset="{{ asset('../images/banner/perfect-viet-thao.webp') }} 878w,{{ asset('../images/banner/perfect-viet-thao.webp') }} 300w,{{ asset('../images/banner/perfect-viet-thao.webp') }} 768w, {{ asset('../images/banner/perfect-viet-thao.webp') }}1 600w"
-                                                        data-sizes="(max-width: 878px) 100vw, 878px" />
+                                                        data-sizes="auto" />
                                                 </div>
                                             </div>
                                         </div>
@@ -1823,10 +1823,10 @@ trợ chăm sóc da và sức khỏe từ bên trong.')
                                                     <img data-lazyloaded="1"
                                                         src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4NzgiIGhlaWdodD0iNjI2IiB2aWV3Qm94PSIwIDAgODc4IDYyNiI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgc3R5bGU9ImZpbGw6I2NmZDRkYjtmaWxsLW9wYWNpdHk6IDAuMTsiLz48L3N2Zz4="
                                                         loading="lazy" decoding="async" width="878" height="626"
-                                                        data-src="https://gsccos.vn/wp-content/uploads/2025/08/image8-wp.webp"
+                                                        data-src="{{ asset('images/banner/banner2.webp') }}"
                                                         class="attachment-full size-full wp-image-5463" alt="Perfect"
-                                                        data-srcset="https://gsccos.vn/wp-content/uploads/2025/08/image8-wp.webp 878w, https://gsccos.vn/wp-content/uploads/2025/08/image8-wp-300x214.webp 300w, https://gsccos.vn/wp-content/uploads/2025/08/image8-wp-768x548.webp 768w, https://gsccos.vn/wp-content/uploads/2025/08/image8-wp-600x428.webp 600w"
-                                                        data-sizes="(max-width: 878px) 100vw, 878px" />
+                                                        data-srcset="{{ asset('images/banner/banner2.webp') }}"
+                                                        data-sizes="auto" />
                                                 </div>
                                             </div>
                                         </div>

@@ -353,11 +353,11 @@ pháp phù hợp cho đại lý, spa và đối tác.')
                                                                     src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMzgwIiBoZWlnaHQ9Ijc4MCIgdmlld0JveD0iMCAwIDEzODAgNzgwIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBzdHlsZT0iZmlsbDojY2ZkNGRiO2ZpbGwtb3BhY2l0eTogMC4xOyIvPjwvc3ZnPg=="
                                                                     loading="lazy" decoding="async" width="1380"
                                                                     height="780"
-                                                                    data-src="https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-1.webp"
+                                                                    data-src="{{ asset('images/banner/banner2.webp') }}"
                                                                     class="attachment-full size-full wp-image-8909"
                                                                     alt="Chính Sách Kinh Doanh 2026"
-                                                                    data-srcset="https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-1.webp 1380w, https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-1-300x300.webp 300w, https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-1-1024x579.webp 1024w, https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-1-768x434.webp 768w, https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-1-600x339.webp 600w"
-                                                                    data-sizes="(max-width: 1380px) 100vw, 1380px">
+                                                                    data-srcset="{{ asset('images/banner/banner2.webp') }}"
+                                                                    data-sizes="auto">
                                                             </div>
                                                         </div>
                                                     </div>
@@ -465,11 +465,11 @@ pháp phù hợp cho đại lý, spa và đối tác.')
                                                                         src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMzgwIiBoZWlnaHQ9Ijc4MCIgdmlld0JveD0iMCAwIDEzODAgNzgwIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBzdHlsZT0iZmlsbDojY2ZkNGRiO2ZpbGwtb3BhY2l0eTogMC4xOyIvPjwvc3ZnPg=="
                                                                         loading="lazy" decoding="async" width="1380"
                                                                         height="780"
-                                                                        data-src="https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-2.webp"
+                                                                        data-src="{{ asset('images/banner/banner2.webp') }}"
                                                                         class="attachment-full size-full wp-image-8910"
                                                                         alt="Nền Tảng Khoa Học"
-                                                                        data-srcset="https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-2.webp 1380w, https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-2-300x300.webp 300w, https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-2-1024x579.webp 1024w, https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-2-768x434.webp 768w, https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-2-600x339.webp 600w"
-                                                                        data-sizes="(max-width: 1380px) 100vw, 1380px">
+                                                                        data-srcset="{{ asset('images/banner/banner2.webp') }}"
+                                                                        data-sizes="auto">
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -580,11 +580,11 @@ pháp phù hợp cho đại lý, spa và đối tác.')
                                                                         src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMzgwIiBoZWlnaHQ9Ijc4MCIgdmlld0JveD0iMCAwIDEzODAgNzgwIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBzdHlsZT0iZmlsbDojY2ZkNGRiO2ZpbGwtb3BhY2l0eTogMC4xOyIvPjwvc3ZnPg=="
                                                                         loading="lazy" decoding="async" width="1380"
                                                                         height="780"
-                                                                        data-src="https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-3.webp"
+                                                                        data-src="{{ asset('images/banner/banner2.webp') }}"
                                                                         class="attachment-full size-full wp-image-8911"
                                                                         alt="Đồng Hành Bền Vững 2026"
-                                                                        data-srcset="https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-3.webp 1380w, https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-3-300x300.webp 300w, https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-3-1024x579.webp 1024w, https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-3-768x434.webp 768w, https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-3-600x339.webp 600w"
-                                                                        data-sizes="(max-width: 1380px) 100vw, 1380px">
+                                                                        data-srcset="{{ asset('images/banner/banner2.webp') }}"
+                                                                        data-sizes="auto">
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -695,11 +695,11 @@ pháp phù hợp cho đại lý, spa và đối tác.')
                                                                         src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMzgwIiBoZWlnaHQ9Ijc4MCIgdmlld0JveD0iMCAwIDEzODAgNzgwIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBzdHlsZT0iZmlsbDojY2ZkNGRiO2ZpbGwtb3BhY2l0eTogMC4xOyIvPjwvc3ZnPg=="
                                                                         loading="lazy" decoding="async" width="1380"
                                                                         height="780"
-                                                                        data-src="https://media.gsccos.vn/wp-content/uploads/2026/02/Untitled-design.png"
+                                                                        data-src="{{ asset('images/banner/banner2.webp') }}"
                                                                         class="attachment-full size-full wp-image-9098"
                                                                         alt="Hỗ trợ Marketing"
-                                                                        data-srcset="https://media.gsccos.vn/wp-content/uploads/2026/02/Untitled-design.png 1380w, https://media.gsccos.vn/wp-content/uploads/2026/02/Untitled-design-300x300.png 300w, https://media.gsccos.vn/wp-content/uploads/2026/02/Untitled-design-1024x579.png 1024w, https://media.gsccos.vn/wp-content/uploads/2026/02/Untitled-design-768x434.png 768w, https://media.gsccos.vn/wp-content/uploads/2026/02/Untitled-design-600x339.png 600w"
-                                                                        data-sizes="(max-width: 1380px) 100vw, 1380px">
+                                                                        data-srcset="{{ asset('images/banner/banner2.webp') }}"
+                                                                        data-sizes="auto">
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -809,11 +809,11 @@ pháp phù hợp cho đại lý, spa và đối tác.')
                                                                         src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMzgwIiBoZWlnaHQ9Ijc4MCIgdmlld0JveD0iMCAwIDEzODAgNzgwIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBzdHlsZT0iZmlsbDojY2ZkNGRiO2ZpbGwtb3BhY2l0eTogMC4xOyIvPjwvc3ZnPg=="
                                                                         loading="lazy" decoding="async" width="1380"
                                                                         height="780"
-                                                                        data-src="https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-4.webp"
+                                                                        data-src="{{ asset('images/banner/banner2.webp') }}"
                                                                         class="attachment-full size-full wp-image-8912"
                                                                         alt="Quyền lợi khách hàng"
-                                                                        data-srcset="https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-4.webp 1380w, https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-4-300x300.webp 300w, https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-4-1024x579.webp 1024w, https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-4-768x434.webp 768w, https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-4-600x339.webp 600w"
-                                                                        data-sizes="(max-width: 1380px) 100vw, 1380px">
+                                                                        data-srcset="{{ asset('images/banner/banner2.webp') }}"
+                                                                        data-sizes="auto">
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -928,11 +928,11 @@ pháp phù hợp cho đại lý, spa và đối tác.')
                                                                 src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMzgwIiBoZWlnaHQ9Ijc4MCIgdmlld0JveD0iMCAwIDEzODAgNzgwIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBzdHlsZT0iZmlsbDojY2ZkNGRiO2ZpbGwtb3BhY2l0eTogMC4xOyIvPjwvc3ZnPg=="
                                                                 loading="lazy" decoding="async" width="1380"
                                                                 height="780"
-                                                                data-src="https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-5.webp"
+                                                                data-src="{{ asset('images/banner/banner2.webp') }}"
                                                                 class="attachment-full size-full wp-image-8913"
                                                                 alt="Đồng Hành Toàn Diện"
-                                                                data-srcset="https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-5.webp 1380w, https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-5-300x300.webp 300w, https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-5-1024x579.webp 1024w, https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-5-768x434.webp 768w, https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-5-600x339.webp 600w"
-                                                                data-sizes="(max-width: 1380px) 100vw, 1380px">
+                                                                data-srcset="{{ asset('images/banner/banner2.webp') }}"
+                                                                data-sizes="auto">
                                                         </div>
                                                     </div>
                                                     <div class="elementor-element elementor-element-0b489f0 e-con-full e-flex e-con e-child"
@@ -974,11 +974,11 @@ pháp phù hợp cho đại lý, spa và đối tác.')
                                                                 src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMzgwIiBoZWlnaHQ9Ijc4MCIgdmlld0JveD0iMCAwIDEzODAgNzgwIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBzdHlsZT0iZmlsbDojY2ZkNGRiO2ZpbGwtb3BhY2l0eTogMC4xOyIvPjwvc3ZnPg=="
                                                                 loading="lazy" decoding="async" width="1380"
                                                                 height="780"
-                                                                data-src="https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-7.webp"
+                                                                data-src="{{ asset('images/banner/banner2.webp') }}"
                                                                 class="attachment-full size-full wp-image-9082"
                                                                 alt="Hỗ trợ 24/7"
-                                                                data-srcset="https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-7.webp 1380w, https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-7-300x300.webp 300w, https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-7-1024x579.webp 1024w, https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-7-768x434.webp 768w, https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-7-600x339.webp 600w"
-                                                                data-sizes="(max-width: 1380px) 100vw, 1380px">
+                                                                data-srcset="{{ asset('images/banner/banner2.webp') }}"
+                                                                data-sizes="auto">
                                                         </div>
                                                     </div>
                                                     <div class="elementor-element elementor-element-0cd2da4 e-con-full e-flex e-con e-child"
@@ -1021,11 +1021,11 @@ pháp phù hợp cho đại lý, spa và đối tác.')
                                                                 src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMzgwIiBoZWlnaHQ9Ijc4MCIgdmlld0JveD0iMCAwIDEzODAgNzgwIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBzdHlsZT0iZmlsbDojY2ZkNGRiO2ZpbGwtb3BhY2l0eTogMC4xOyIvPjwvc3ZnPg=="
                                                                 loading="lazy" decoding="async" width="1380"
                                                                 height="780"
-                                                                data-src="https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-27.webp"
+                                                                data-src="{{ asset('images/banner/banner2.webp') }}"
                                                                 class="attachment-full size-full wp-image-9083"
                                                                 alt="Phụng Sự Tận Tâm"
-                                                                data-srcset="https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-27.webp 1380w, https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-27-300x300.webp 300w, https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-27-1024x579.webp 1024w, https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-27-768x434.webp 768w, https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-27-600x339.webp 600w"
-                                                                data-sizes="(max-width: 1380px) 100vw, 1380px">
+                                                                data-srcset="{{ asset('images/banner/banner2.webp') }}"
+                                                                data-sizes="auto">
                                                         </div>
                                                     </div>
                                                     <div class="elementor-element elementor-element-9f98dd3 e-con-full e-flex e-con e-child"
@@ -1115,11 +1115,11 @@ pháp phù hợp cho đại lý, spa và đối tác.')
                                                                     src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDgwIiBoZWlnaHQ9IjEwODAiIHZpZXdCb3g9IjAgMCAxMDgwIDEwODAiPjxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHN0eWxlPSJmaWxsOiNjZmQ0ZGI7ZmlsbC1vcGFjaXR5OiAwLjE7Ii8+PC9zdmc+"
                                                                     loading="lazy" decoding="async" width="1080"
                                                                     height="1080"
-                                                                    data-src="https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-10.webp"
+                                                                    data-src="{{ asset('images/banner/banner2.webp') }}"
                                                                     class="attachment-full size-full wp-image-9029"
                                                                     alt="Phương Anh Spa"
-                                                                    data-srcset="https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-10.webp 1080w, https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-10-300x300.webp 300w, https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-10-1024x1024.webp 1024w, https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-10-150x150.webp 150w, https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-10-768x768.webp 768w, https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-10-600x600.webp 600w, https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-10-100x100.webp 100w"
-                                                                    data-sizes="(max-width: 1080px) 100vw, 1080px">
+                                                                    data-srcset="{{ asset('images/banner/banner2.webp') }}"
+                                                                    data-sizes="auto">
                                                             </div>
                                                         </div>
                                                         <div class="elementor-element elementor-element-21406a0 elementor-widget elementor-widget-heading"
@@ -1147,11 +1147,11 @@ pháp phù hợp cho đại lý, spa và đối tác.')
                                                                     src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDgwIiBoZWlnaHQ9IjEwODAiIHZpZXdCb3g9IjAgMCAxMDgwIDEwODAiPjxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHN0eWxlPSJmaWxsOiNjZmQ0ZGI7ZmlsbC1vcGFjaXR5OiAwLjE7Ii8+PC9zdmc+"
                                                                     loading="lazy" decoding="async" width="1080"
                                                                     height="1080"
-                                                                    data-src="https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-14.webp"
+                                                                    data-src="{{ asset('images/banner/banner2.webp') }}"
                                                                     class="attachment-full size-full wp-image-9033"
                                                                     alt="Tâm Spa"
-                                                                    data-srcset="https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-14.webp 1080w, https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-14-300x300.webp 300w, https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-14-1024x1024.webp 1024w, https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-14-150x150.webp 150w, https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-14-768x768.webp 768w, https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-14-600x600.webp 600w, https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-14-100x100.webp 100w"
-                                                                    data-sizes="(max-width: 1080px) 100vw, 1080px">
+                                                                    data-srcset="{{ asset('images/banner/banner2.webp') }}"
+                                                                    data-sizes="auto">
                                                             </div>
                                                         </div>
                                                         <div class="elementor-element elementor-element-27b84d7 elementor-widget elementor-widget-heading"
@@ -1179,11 +1179,11 @@ pháp phù hợp cho đại lý, spa và đối tác.')
                                                                     src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDgwIiBoZWlnaHQ9IjEwODAiIHZpZXdCb3g9IjAgMCAxMDgwIDEwODAiPjxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHN0eWxlPSJmaWxsOiNjZmQ0ZGI7ZmlsbC1vcGFjaXR5OiAwLjE7Ii8+PC9zdmc+"
                                                                     loading="lazy" decoding="async" width="1080"
                                                                     height="1080"
-                                                                    data-src="https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-8.webp"
+                                                                    data-src="{{ asset('images/banner/banner2.webp') }}"
                                                                     class="attachment-full size-full wp-image-9027"
                                                                     alt="Leemyl Spa"
-                                                                    data-srcset="https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-8.webp 1080w, https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-8-300x300.webp 300w, https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-8-1024x1024.webp 1024w, https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-8-150x150.webp 150w, https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-8-768x768.webp 768w, https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-8-600x600.webp 600w, https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-8-100x100.webp 100w"
-                                                                    data-sizes="(max-width: 1080px) 100vw, 1080px">
+                                                                    data-srcset="{{ asset('images/banner/banner2.webp') }}"
+                                                                    data-sizes="auto">
                                                             </div>
                                                         </div>
                                                         <div class="elementor-element elementor-element-406d4c0 elementor-widget elementor-widget-heading"
@@ -1211,11 +1211,11 @@ pháp phù hợp cho đại lý, spa và đối tác.')
                                                                     src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDgwIiBoZWlnaHQ9IjEwODAiIHZpZXdCb3g9IjAgMCAxMDgwIDEwODAiPjxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHN0eWxlPSJmaWxsOiNjZmQ0ZGI7ZmlsbC1vcGFjaXR5OiAwLjE7Ii8+PC9zdmc+"
                                                                     loading="lazy" decoding="async" width="1080"
                                                                     height="1080"
-                                                                    data-src="https://media.gsccos.vn/wp-content/uploads/2026/02/Linh-Beauty.webp"
+                                                                    data-src="{{ asset('images/banner/banner2.webp') }}"
                                                                     class="attachment-full size-full wp-image-9087"
                                                                     alt="Linh Beauty Spa"
-                                                                    data-srcset="https://media.gsccos.vn/wp-content/uploads/2026/02/Linh-Beauty.webp 1080w, https://media.gsccos.vn/wp-content/uploads/2026/02/Linh-Beauty-300x300.webp 300w, https://media.gsccos.vn/wp-content/uploads/2026/02/Linh-Beauty-1024x1024.webp 1024w, https://media.gsccos.vn/wp-content/uploads/2026/02/Linh-Beauty-150x150.webp 150w, https://media.gsccos.vn/wp-content/uploads/2026/02/Linh-Beauty-768x768.webp 768w, https://media.gsccos.vn/wp-content/uploads/2026/02/Linh-Beauty-600x600.webp 600w, https://media.gsccos.vn/wp-content/uploads/2026/02/Linh-Beauty-100x100.webp 100w"
-                                                                    data-sizes="(max-width: 1080px) 100vw, 1080px">
+                                                                    data-srcset="{{ asset('images/banner/banner2.webp') }}"
+                                                                    data-sizes="auto">
                                                             </div>
                                                         </div>
                                                         <div class="elementor-element elementor-element-603edaa elementor-widget elementor-widget-heading"
@@ -1243,11 +1243,11 @@ pháp phù hợp cho đại lý, spa và đối tác.')
                                                                     src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDgwIiBoZWlnaHQ9IjEwODAiIHZpZXdCb3g9IjAgMCAxMDgwIDEwODAiPjxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHN0eWxlPSJmaWxsOiNjZmQ0ZGI7ZmlsbC1vcGFjaXR5OiAwLjE7Ii8+PC9zdmc+"
                                                                     loading="lazy" decoding="async" width="1080"
                                                                     height="1080"
-                                                                    data-src="https://media.gsccos.vn/wp-content/uploads/2026/02/Nhu-Chu-Spa.webp"
+                                                                    data-src="{{ asset('images/banner/banner2.webp') }}"
                                                                     class="attachment-full size-full wp-image-9088"
                                                                     alt="Như Chu Spa"
-                                                                    data-srcset="https://media.gsccos.vn/wp-content/uploads/2026/02/Nhu-Chu-Spa.webp 1080w, https://media.gsccos.vn/wp-content/uploads/2026/02/Nhu-Chu-Spa-300x300.webp 300w, https://media.gsccos.vn/wp-content/uploads/2026/02/Nhu-Chu-Spa-1024x1024.webp 1024w, https://media.gsccos.vn/wp-content/uploads/2026/02/Nhu-Chu-Spa-150x150.webp 150w, https://media.gsccos.vn/wp-content/uploads/2026/02/Nhu-Chu-Spa-768x768.webp 768w, https://media.gsccos.vn/wp-content/uploads/2026/02/Nhu-Chu-Spa-600x600.webp 600w, https://media.gsccos.vn/wp-content/uploads/2026/02/Nhu-Chu-Spa-100x100.webp 100w"
-                                                                    data-sizes="(max-width: 1080px) 100vw, 1080px">
+                                                                    data-srcset="{{ asset('images/banner/banner2.webp') }}"
+                                                                    data-sizes="auto">
                                                             </div>
                                                         </div>
                                                         <div class="elementor-element elementor-element-34bd143 elementor-widget elementor-widget-heading"
@@ -1275,11 +1275,11 @@ pháp phù hợp cho đại lý, spa và đối tác.')
                                                                     src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDgwIiBoZWlnaHQ9IjEwODAiIHZpZXdCb3g9IjAgMCAxMDgwIDEwODAiPjxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHN0eWxlPSJmaWxsOiNjZmQ0ZGI7ZmlsbC1vcGFjaXR5OiAwLjE7Ii8+PC9zdmc+"
                                                                     loading="lazy" decoding="async" width="1080"
                                                                     height="1080"
-                                                                    data-src="https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-25.webp"
+                                                                    data-src="{{ asset('images/banner/banner2.webp') }}"
                                                                     class="attachment-full size-full wp-image-9084"
                                                                     alt="Hạnh Chu Beauty Spa"
-                                                                    data-srcset="https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-25.webp 1080w, https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-25-300x300.webp 300w, https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-25-1024x1024.webp 1024w, https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-25-150x150.webp 150w, https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-25-768x768.webp 768w, https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-25-600x600.webp 600w, https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-25-100x100.webp 100w"
-                                                                    data-sizes="(max-width: 1080px) 100vw, 1080px">
+                                                                    data-srcset="{{ asset('images/banner/banner2.webp') }}"
+                                                                    data-sizes="auto">
                                                             </div>
                                                         </div>
                                                         <div class="elementor-element elementor-element-1c87c9e elementor-widget elementor-widget-heading"
@@ -1307,11 +1307,11 @@ pháp phù hợp cho đại lý, spa và đối tác.')
                                                                     src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDgwIiBoZWlnaHQ9IjEwODAiIHZpZXdCb3g9IjAgMCAxMDgwIDEwODAiPjxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHN0eWxlPSJmaWxsOiNjZmQ0ZGI7ZmlsbC1vcGFjaXR5OiAwLjE7Ii8+PC9zdmc+"
                                                                     loading="lazy" decoding="async" width="1080"
                                                                     height="1080"
-                                                                    data-src="https://media.gsccos.vn/wp-content/uploads/2026/02/Kim-SPa.webp"
+                                                                    data-src="{{ asset('images/banner/banner2.webp') }}"
                                                                     class="attachment-full size-full wp-image-9086"
                                                                     alt="Kim Beauty Spa"
-                                                                    data-srcset="https://media.gsccos.vn/wp-content/uploads/2026/02/Kim-SPa.webp 1080w, https://media.gsccos.vn/wp-content/uploads/2026/02/Kim-SPa-300x300.webp 300w, https://media.gsccos.vn/wp-content/uploads/2026/02/Kim-SPa-1024x1024.webp 1024w, https://media.gsccos.vn/wp-content/uploads/2026/02/Kim-SPa-150x150.webp 150w, https://media.gsccos.vn/wp-content/uploads/2026/02/Kim-SPa-768x768.webp 768w, https://media.gsccos.vn/wp-content/uploads/2026/02/Kim-SPa-600x600.webp 600w, https://media.gsccos.vn/wp-content/uploads/2026/02/Kim-SPa-100x100.webp 100w"
-                                                                    data-sizes="(max-width: 1080px) 100vw, 1080px">
+                                                                    data-srcset="{{ asset('images/banner/banner2.webp') }}"
+                                                                    data-sizes="auto">
                                                             </div>
                                                         </div>
                                                         <div class="elementor-element elementor-element-d65b95e elementor-widget elementor-widget-heading"
@@ -1339,11 +1339,11 @@ pháp phù hợp cho đại lý, spa và đối tác.')
                                                                     src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDgwIiBoZWlnaHQ9IjEwODAiIHZpZXdCb3g9IjAgMCAxMDgwIDEwODAiPjxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHN0eWxlPSJmaWxsOiNjZmQ0ZGI7ZmlsbC1vcGFjaXR5OiAwLjE7Ii8+PC9zdmc+"
                                                                     loading="lazy" decoding="async" width="1080"
                                                                     height="1080"
-                                                                    data-src="https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-26.webp"
+                                                                    data-src="{{ asset('images/banner/banner2.webp') }}"
                                                                     class="attachment-full size-full wp-image-9085"
                                                                     alt="Sandy Beauty Spa"
-                                                                    data-srcset="https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-26.webp 1080w, https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-26-300x300.webp 300w, https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-26-1024x1024.webp 1024w, https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-26-150x150.webp 150w, https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-26-768x768.webp 768w, https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-26-600x600.webp 600w, https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-26-100x100.webp 100w"
-                                                                    data-sizes="(max-width: 1080px) 100vw, 1080px">
+                                                                    data-srcset="{{ asset('images/banner/banner2.webp') }}"
+                                                                    data-sizes="auto">
                                                             </div>
                                                         </div>
                                                         <div class="elementor-element elementor-element-82842ee elementor-widget elementor-widget-heading"
@@ -1464,11 +1464,11 @@ pháp phù hợp cho đại lý, spa và đối tác.')
                                                                                             loading="lazy"
                                                                                             decoding="async"
                                                                                             width="1380" height="780"
-                                                                                            data-src="https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-16.webp"
+                                                                                            data-src="{{ asset('images/banner/banner2.webp') }}"
                                                                                             class="attachment-full size-full wp-image-9090"
                                                                                             alt="PERFECT x Phương Anh"
-                                                                                            data-srcset="https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-16.webp 1380w, https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-16-300x300.webp 300w, https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-16-1024x579.webp 1024w, https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-16-768x434.webp 768w, https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-16-600x339.webp 600w"
-                                                                                            data-sizes="(max-width: 1380px) 100vw, 1380px">
+                                                                                            data-srcset="{{ asset('images/banner/banner2.webp') }}"
+                                                                                            data-sizes="auto">
                                                                                     </div>
                                                                                 </div>
                                                                             </div>
@@ -1555,11 +1555,11 @@ pháp phù hợp cho đại lý, spa và đối tác.')
                                                                                             loading="lazy"
                                                                                             decoding="async"
                                                                                             width="1380" height="780"
-                                                                                            data-src="https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-22.webp"
+                                                                                            data-src="{{ asset('images/banner/banner2.webp') }}"
                                                                                             class="attachment-full size-full wp-image-9096"
                                                                                             alt="PERFECT x Tâm Spa"
-                                                                                            data-srcset="https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-22.webp 1380w, https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-22-300x300.webp 300w, https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-22-1024x579.webp 1024w, https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-22-768x434.webp 768w, https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-22-600x339.webp 600w"
-                                                                                            data-sizes="(max-width: 1380px) 100vw, 1380px">
+                                                                                            data-srcset="{{ asset('images/banner/banner2.webp') }}"
+                                                                                            data-sizes="auto">
                                                                                     </div>
                                                                                 </div>
                                                                             </div>
@@ -1643,11 +1643,11 @@ pháp phù hợp cho đại lý, spa và đối tác.')
                                                                                             loading="lazy"
                                                                                             decoding="async"
                                                                                             width="1380" height="780"
-                                                                                            data-src="https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-6.webp"
+                                                                                            data-src="{{ asset('images/banner/banner2.webp') }}"
                                                                                             class="attachment-full size-full wp-image-8915"
                                                                                             alt="Câu chuyện Leemyl Spa"
-                                                                                            data-srcset="https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-6.webp 1380w, https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-6-300x300.webp 300w, https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-6-1024x579.webp 1024w, https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-6-768x434.webp 768w, https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-6-600x339.webp 600w"
-                                                                                            data-sizes="(max-width: 1380px) 100vw, 1380px">
+                                                                                            data-srcset="{{ asset('images/banner/banner2.webp') }}"
+                                                                                            data-sizes="auto">
                                                                                     </div>
                                                                                 </div>
                                                                             </div>
@@ -1732,11 +1732,11 @@ pháp phù hợp cho đại lý, spa và đối tác.')
                                                                                             loading="lazy"
                                                                                             decoding="async"
                                                                                             width="1380" height="780"
-                                                                                            data-src="https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-19.webp"
+                                                                                            data-src="{{ asset('images/banner/banner2.webp') }}"
                                                                                             class="attachment-full size-full wp-image-9093"
                                                                                             alt="PERFECT x Linh Beauty Spa"
-                                                                                            data-srcset="https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-19.webp 1380w, https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-19-300x300.webp 300w, https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-19-1024x579.webp 1024w, https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-19-768x434.webp 768w, https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-19-600x339.webp 600w"
-                                                                                            data-sizes="(max-width: 1380px) 100vw, 1380px">
+                                                                                            data-srcset="{{ asset('images/banner/banner2.webp') }}"
+                                                                                            data-sizes="auto">
                                                                                     </div>
                                                                                 </div>
                                                                             </div>
@@ -1823,11 +1823,11 @@ pháp phù hợp cho đại lý, spa và đối tác.')
                                                                                             loading="lazy"
                                                                                             decoding="async"
                                                                                             width="1380" height="780"
-                                                                                            data-src="https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-15.webp"
+                                                                                            data-src="{{ asset('images/banner/banner2.webp') }}"
                                                                                             class="attachment-full size-full wp-image-9089"
                                                                                             alt="PERFECT x Như Chu Spa"
-                                                                                            data-srcset="https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-15.webp 1380w, https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-15-300x300.webp 300w, https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-15-1024x579.webp 1024w, https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-15-768x434.webp 768w, https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-15-600x339.webp 600w"
-                                                                                            data-sizes="(max-width: 1380px) 100vw, 1380px">
+                                                                                            data-srcset="{{ asset('images/banner/banner2.webp') }}"
+                                                                                            data-sizes="auto">
                                                                                     </div>
                                                                                 </div>
                                                                             </div>
@@ -1918,11 +1918,11 @@ pháp phù hợp cho đại lý, spa và đối tác.')
                                                                                             loading="lazy"
                                                                                             decoding="async"
                                                                                             width="1380" height="780"
-                                                                                            data-src="https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-18.webp"
+                                                                                            data-src="{{ asset('images/banner/banner2.webp') }}"
                                                                                             class="attachment-full size-full wp-image-9092"
                                                                                             alt="PERFECT x Hạnh Nhu Spa"
-                                                                                            data-srcset="https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-18.webp 1380w, https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-18-300x300.webp 300w, https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-18-1024x579.webp 1024w, https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-18-768x434.webp 768w, https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-18-600x339.webp 600w"
-                                                                                            data-sizes="(max-width: 1380px) 100vw, 1380px">
+                                                                                            data-srcset="{{ asset('images/banner/banner2.webp') }}"
+                                                                                            data-sizes="auto">
                                                                                     </div>
                                                                                 </div>
                                                                             </div>
@@ -2011,11 +2011,11 @@ pháp phù hợp cho đại lý, spa và đối tác.')
                                                                                             loading="lazy"
                                                                                             decoding="async"
                                                                                             width="1380" height="780"
-                                                                                            data-src="https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-24.webp"
+                                                                                            data-src="{{ asset('images/banner/banner2.webp') }}"
                                                                                             class="attachment-full size-full wp-image-9097"
                                                                                             alt="PERFECT x KIM beauty spa"
-                                                                                            data-srcset="https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-24.webp 1380w, https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-24-300x300.webp 300w, https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-24-1024x579.webp 1024w, https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-24-768x434.webp 768w, https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-24-600x339.webp 600w"
-                                                                                            data-sizes="(max-width: 1380px) 100vw, 1380px">
+                                                                                            data-srcset="{{ asset('images/banner/banner2.webp') }}"
+                                                                                            data-sizes="auto">
                                                                                     </div>
                                                                                 </div>
                                                                             </div>
@@ -2101,11 +2101,11 @@ pháp phù hợp cho đại lý, spa và đối tác.')
                                                                                             loading="lazy"
                                                                                             decoding="async"
                                                                                             width="1380" height="780"
-                                                                                            data-src="https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-20.webp"
+                                                                                            data-src="{{ asset('images/banner/banner2.webp') }}"
                                                                                             class="attachment-full size-full wp-image-9094"
                                                                                             alt="PERFECT x Sandy Spa"
-                                                                                            data-srcset="https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-20.webp 1380w, https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-20-300x300.webp 300w, https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-20-1024x579.webp 1024w, https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-20-768x434.webp 768w, https://media.gsccos.vn/wp-content/uploads/2026/02/Artboard-20-600x339.webp 600w"
-                                                                                            data-sizes="(max-width: 1380px) 100vw, 1380px">
+                                                                                            data-srcset="{{ asset('images/banner/banner2.webp') }}"
+                                                                                            data-sizes="auto">
                                                                                     </div>
                                                                                 </div>
                                                                             </div>

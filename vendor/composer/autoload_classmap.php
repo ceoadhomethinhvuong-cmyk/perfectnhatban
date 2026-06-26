@@ -12,6 +12,8 @@ return array(
     'App\\Http\\Controllers\\Admin\\BlogController' => $baseDir . '/app/Http/Controllers/Admin/BlogController.php',
     'App\\Http\\Controllers\\Admin\\CategoryBlogController' => $baseDir . '/app/Http/Controllers/Admin/CategoryBlogController.php',
     'App\\Http\\Controllers\\Admin\\DashboardController' => $baseDir . '/app/Http/Controllers/Admin/DashboardController.php',
+    'App\\Http\\Controllers\\Admin\\ForgotPasswordController' => $baseDir . '/app/Http/Controllers/Admin/ForgotPasswordController.php',
+    'App\\Http\\Controllers\\Admin\\ResetPasswordController' => $baseDir . '/app/Http/Controllers/Admin/ResetPasswordController.php',
     'App\\Http\\Controllers\\Client\\ContactController' => $baseDir . '/app/Http/Controllers/Client/ContactController.php',
     'App\\Http\\Controllers\\Client\\HomeController' => $baseDir . '/app/Http/Controllers/Client/HomeController.php',
     'App\\Http\\Controllers\\Client\\HopTacController' => $baseDir . '/app/Http/Controllers/Client/HopTacController.php',

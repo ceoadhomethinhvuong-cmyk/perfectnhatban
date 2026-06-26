@@ -327,6 +327,9 @@
                             .products-grid {
                                 grid-template-columns: repeat(3, 1fr);
                             }
+                            .products-grid li:last-child:nth-child(3n - 1) {
+                                grid-column-end: -1;
+                            }
                         }
 
                         /* =========================================
@@ -499,12 +502,11 @@
                                     
                                 </div>
 
-                                <div class="products-grid-container">
-                                    <ul class="products-grid">
+                                <div class="products-swiper-container">
+                                    <div class="swiper products-swiper products-swiper-1">
+                                        <ul class="swiper-wrapper">
 
-                                             <li>
-
-
+                                            <li class="swiper-slide">
                                                 <div class="product-container">
                                                     <a href="{{ route('chi-tiet-san-pham.show', 'p9') }}"
                                                         class="product-image-container">
@@ -512,33 +514,25 @@
                                                             src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
                                                             data-src="{{asset('images/sanpham/perfect-skin-nano-250/p9.webp')}}" alt="P9"
                                                             class="product-image">
-
-
                                                         <div class="product-tags-container-wrapper">
                                                             <ul class="product-tag-container-wrapper">
                                                                 <li class="product-tag-container">
-                                                                    <p class="product-tag">
-                                                                        Tại Spa/Clinic </p>
+                                                                    <p class="product-tag">Tại Spa/Clinic</p>
                                                                 </li>
                                                             </ul>
                                                         </div>
                                                     </a>
-
                                                     <hgroup>
                                                         <h3 class="product-title" style="margin-top: 10px;">
-                                                            P9 - Perfect Skin Nano 250 </h3>
+                                                            [Mã P9] SERUM PEPTIDE PERFECT SKIN NANO Nhật Bản hỗ trợ phục hồi da, mờ sẹo rỗ, tăng sinh collagen</h3>
                                                     </hgroup>
-
-                                                    <p class="product-description">
-                                                        Serum - Perfect Skin Nano 250 (8ML)</p>
-
+                                                    <p class="product-description">Serum - Perfect Skin Nano 250 (8ML)</p>
                                                     <a href="{{ route('chi-tiet-san-pham.show', 'p9') }}"
                                                         class="product-discover-now">Khám phá ngay</a>
                                                 </div>
                                             </li>
-                                             <li>
 
-
+                                            <li class="swiper-slide">
                                                 <div class="product-container">
                                                     <a href="{{ route('chi-tiet-san-pham.show', 'p6') }}"
                                                         class="product-image-container">
@@ -546,33 +540,25 @@
                                                             src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
                                                             data-src="{{asset('images/sanpham/p6.webp')}}" alt="P6"
                                                             class="product-image">
-
-
                                                         <div class="product-tags-container-wrapper">
                                                             <ul class="product-tag-container-wrapper">
                                                                 <li class="product-tag-container">
-                                                                    <p class="product-tag">
-                                                                        Tại Spa/Clinic </p>
+                                                                    <p class="product-tag">Tại Spa/Clinic</p>
                                                                 </li>
                                                             </ul>
                                                         </div>
                                                     </a>
-
                                                     <hgroup>
                                                         <h3 class="product-title" style="margin-top: 10px;">
-                                                            P6 - Perfect Skin Nano 230 </h3>
+                                                            [Mã P6] SERUM PEPTIDE PERFECT SKIN NANO Nhật Bản hỗ trợ phục hồi da, mờ sẹo rỗ, tăng sinh collagen</h3>
                                                     </hgroup>
-
-                                                    <p class="product-description">
-                                                        Serum - Perfect Skin Nano 230 (8ML)</p>
-
+                                                    <p class="product-description">Serum - Perfect Skin Nano 230 (8ML)</p>
                                                     <a href="{{ route('chi-tiet-san-pham.show', 'p6') }}"
                                                         class="product-discover-now">Khám phá ngay</a>
                                                 </div>
                                             </li>
-                                             <li>
 
-
+                                            <li class="swiper-slide">
                                                 <div class="product-container">
                                                     <a href="{{ route('chi-tiet-san-pham.show', 'p5') }}"
                                                         class="product-image-container">
@@ -580,33 +566,25 @@
                                                             src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
                                                             data-src="{{asset('images/sanpham/p5.webp')}}" alt="P5"
                                                             class="product-image">
-
-
                                                         <div class="product-tags-container-wrapper">
                                                             <ul class="product-tag-container-wrapper">
                                                                 <li class="product-tag-container">
-                                                                    <p class="product-tag">
-                                                                        Tại Spa/Clinic </p>
+                                                                    <p class="product-tag">Tại Spa/Clinic</p>
                                                                 </li>
                                                             </ul>
                                                         </div>
                                                     </a>
-
                                                     <hgroup>
                                                         <h3 class="product-title" style="margin-top: 10px;">
-                                                            P5 - Perfect Skin Nano 205 </h3>
+                                                            [Mã P5] SERUM PEPTIDE PERFECT SKIN NANO Nhật Bản hỗ trợ phục hồi da, mờ sẹo rỗ, tăng sinh collagen</h3>
                                                     </hgroup>
-
-                                                    <p class="product-description">
-                                                        Serum - Perfect Skin Nano 205 (8ML)</p>
-
+                                                    <p class="product-description">Serum - Perfect Skin Nano 205 (8ML)</p>
                                                     <a href="{{ route('chi-tiet-san-pham.show', 'p5') }}"
                                                         class="product-discover-now">Khám phá ngay</a>
                                                 </div>
                                             </li>
-                                               <li>
 
-
+                                            <li class="swiper-slide">
                                                 <div class="product-container">
                                                     <a href="{{ route('chi-tiet-san-pham.show', 'p7') }}"
                                                         class="product-image-container">
@@ -614,34 +592,25 @@
                                                             src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
                                                             data-src="{{asset('images/sanpham/p7.webp')}}" alt="P7"
                                                             class="product-image">
-
-
                                                         <div class="product-tags-container-wrapper">
                                                             <ul class="product-tag-container-wrapper">
                                                                 <li class="product-tag-container">
-                                                                    <p class="product-tag">
-                                                                        Tại Spa/Clinic </p>
+                                                                    <p class="product-tag">Tại Spa/Clinic</p>
                                                                 </li>
                                                             </ul>
                                                         </div>
                                                     </a>
-
                                                     <hgroup>
                                                         <h3 class="product-title" style="margin-top: 10px;">
-                                                            P7 - Perfect Peptide Nano (500ML) </h3>
+                                                            [Mã P7] SERUM dưỡng da PERFECT PEPTIDE NANO Nhật Bản hỗ trợ cấp ẩm, làm sáng da, thu nhỏ lỗ chân lông</h3>
                                                     </hgroup>
-
-                                                    <p class="product-description">
-                                                        Serum - Perfect Peptide Nano (500ML)</p>
-
+                                                    <p class="product-description">Serum - Perfect Peptide Nano (500ML)</p>
                                                     <a href="{{ route('chi-tiet-san-pham.show', 'p7') }}"
                                                         class="product-discover-now">Khám phá ngay</a>
                                                 </div>
                                             </li>
-                                            </li>
-                                               <li>
 
-
+                                            <li class="swiper-slide">
                                                 <div class="product-container">
                                                     <a href="{{ route('chi-tiet-san-pham.show', 'vc30-serum-vitamin-c') }}"
                                                         class="product-image-container">
@@ -649,41 +618,71 @@
                                                             src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
                                                             data-src="{{asset('images/sanpham/vc30.webp')}}" alt="VC30"
                                                             class="product-image">
-
-
                                                         <div class="product-tags-container-wrapper">
                                                             <ul class="product-tag-container-wrapper">
                                                                 <li class="product-tag-container">
-                                                                    <p class="product-tag">
-                                                                        Tại Spa/Clinic </p>
+                                                                    <p class="product-tag">Tại Spa/Clinic</p>
                                                                 </li>
-                                                                 <li class="product-tag-container">
-                                                                    <p class="product-tag">
-                                                                        Tại Nhà </p>
+                                                                <li class="product-tag-container">
+                                                                    <p class="product-tag">Tại Nhà</p>
                                                                 </li>
                                                             </ul>
                                                         </div>
                                                     </a>
-
                                                     <hgroup>
                                                         <h3 class="product-title" style="margin-top: 10px;">
-                                                            VC30 - Serum Vitamin C </h3>
+                                                            [Mã VC30] PERFECT VC30 Nhật Bản tinh chất Vitamin C 30 hỗ trợ sáng da, mờ thâm nám, chống lão hóa</h3>
                                                     </hgroup>
-
-                                                    <p class="product-description">
-                                                        Serum - Perfect VC30 Nhật Bản</p>
-
+                                                    <p class="product-description">Serum - Perfect VC30 Nhật Bản</p>
                                                     <a href="{{ route('chi-tiet-san-pham.show', 'vc30-serum-vitamin-c') }}"
                                                         class="product-discover-now">Khám phá ngay</a>
                                                 </div>
                                             </li>
 
+                                        </ul>
+                                    </div>
 
-                                    </ul>
+                                    <div class="products-swiper-prev products-swiper-prev-1">
+                                        <svg style="transform:rotate(180deg)" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round">
+                                            <path d="M18 8L22 12L18 16" />
+                                            <path d="M2 12H22" />
+                                        </svg>
+                                    </div>
+                                    <div class="products-swiper-next products-swiper-next-1">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="M18 8L22 12L18 16" />
+                                            <path d="M2 12H22" />
+                                        </svg>
+                                    </div>
                                 </div>
                             </li>
 
-                            <!-- Serum section now uses grid, no swiper needed -->
+                            <script>
+                            swipers.push({
+                                selector: ".products-swiper-1",
+                                options: {
+                                    slidesPerView: 2,
+                                    spaceBetween: 12,
+                                    loop: true,
+                                    loopedSlides: 5,
+                                    centeredSlides: false,
+                                    watchOverflow: true,
+                                    navigation: {
+                                        prevEl: ".products-swiper-prev-1",
+                                        nextEl: ".products-swiper-next-1",
+                                    },
+                                    breakpoints: {
+                                        1024: {
+                                            slidesPerView: 3,
+                                            spaceBetween: 20,
+                                        },
+                                    },
+                                }
+                            });
+                            </script>
 
                             <!-- <li class="product-category-container">
                                 <div class="product-category-information">
@@ -710,7 +709,7 @@
                                                         class="product-image-container">
                                                         <img data-lazyloaded="1"
                                                             src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
-                                                            data-src="https://media.gsccos.vn/wp-content/uploads/2026/02/TBG-TRANG-SANG-1.webp"
+                                                            data-src="{{ asset('images/banner/banner2.webp') }}"
                                                             alt="Tinh chất ampoule Trắng Sáng Cao Cấp Perfect (8ml)"
                                                             class="product-image">
 
@@ -749,7 +748,7 @@
                                                         class="product-image-container">
                                                         <img data-lazyloaded="1"
                                                             src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
-                                                            data-src="https://media.gsccos.vn/wp-content/uploads/2026/02/TBG-MUN-1.webp"
+                                                            data-src="{{ asset('images/banner/banner2.webp') }}"
                                                             alt="Tinh chất ampoule mụn cao cấp Perfect (8ml)"
                                                             class="product-image">
 
@@ -788,7 +787,7 @@
                                                         class="product-image-container">
                                                         <img data-lazyloaded="1"
                                                             src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
-                                                            data-src="https://media.gsccos.vn/wp-content/uploads/2026/02/TBG-SEO-1.webp"
+                                                            data-src="{{ asset('images/banner/banner2.webp') }}"
                                                             alt="Tinh chất ampoule chống lão hóa Perfect (8ml)"
                                                             class="product-image">
 
@@ -827,7 +826,7 @@
                                                         class="product-image-container">
                                                         <img data-lazyloaded="1"
                                                             src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
-                                                            data-src="https://media.gsccos.vn/wp-content/uploads/2026/02/TBG-DR-LEEMEE.webp"
+                                                            data-src="{{ asset('images/banner/banner2.webp') }}"
                                                             alt="Tinh chất Ampoule chống lão hóa Dr. Leemee (10ml)"
                                                             class="product-image">
 
@@ -927,7 +926,7 @@
                                                         class="product-image-container">
                                                         <img data-lazyloaded="1"
                                                             src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
-                                                            data-src="https://media.gsccos.vn/wp-content/uploads/2026/02/KEM-MELA-1.webp"
+                                                            data-src="{{ asset('images/banner/banner2.webp') }}"
                                                             alt="Kem dưỡng sáng Mela Perfect" class="product-image">
 
 
@@ -961,7 +960,7 @@
                                                         class="product-image-container">
                                                         <img data-lazyloaded="1"
                                                             src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
-                                                            data-src="https://media.gsccos.vn/wp-content/uploads/2026/02/KEM-K-1.webp"
+                                                            data-src="{{ asset('images/banner/banner2.webp') }}"
                                                             alt="Kem Phục Hồi Thải Độc Da Perfect"
                                                             class="product-image">
 
@@ -1000,7 +999,7 @@
                                                         class="product-image-container">
                                                         <img data-lazyloaded="1"
                                                             src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
-                                                            data-src="https://media.gsccos.vn/wp-content/uploads/2026/02/KEM-NAM-ARBUTIN-1.webp"
+                                                            data-src="{{ asset('images/banner/banner2.webp') }}"
                                                             alt="Kem Ức Chế Nám Perfect" class="product-image">
 
 
@@ -1038,7 +1037,7 @@
                                                         class="product-image-container">
                                                         <img data-lazyloaded="1"
                                                             src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
-                                                            data-src="https://media.gsccos.vn/wp-content/uploads/2026/02/KEM-MUN.webp"
+                                                            data-src="{{ asset('images/banner/banner2.webp') }}"
                                                             alt="Kem Chấm Mụn Perfect" class="product-image">
 
 
@@ -1072,7 +1071,7 @@
                                                         class="product-image-container">
                                                         <img data-lazyloaded="1"
                                                             src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
-                                                            data-src="https://media.gsccos.vn/wp-content/uploads/2026/02/KEM-MASSAGE-MAT.webp"
+                                                            data-src="{{ asset('images/banner/banner2.webp') }}"
                                                             alt="Kem Massage Đa Tầng Perfect (500ml)"
                                                             class="product-image">
 
@@ -1204,7 +1203,7 @@
                                                         class="product-image-container">
                                                         <img data-lazyloaded="1"
                                                             src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
-                                                            data-src="https://media.gsccos.vn/wp-content/uploads/2026/02/MAT-NA-CANG-BONG-1.webp"
+                                                            data-src="{{ asset('images/banner/banner2.webp') }}"
                                                             alt="Mặt nạ nâng cơ căng bóng Perfect (10pcs)"
                                                             class="product-image">
 
@@ -1243,7 +1242,7 @@
                                                         class="product-image-container">
                                                         <img data-lazyloaded="1"
                                                             src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
-                                                            data-src="https://media.gsccos.vn/wp-content/uploads/2026/02/MAT-NA-KIEM-SOAT-BA-NHON-1.webp"
+                                                            data-src="{{ asset('images/banner/banner2.webp') }}"
                                                             alt="Mặt nạ kiểm soát bã nhờn Perfect (10pcs)"
                                                             class="product-image">
 
@@ -1282,7 +1281,7 @@
                                                         class="product-image-container">
                                                         <img data-lazyloaded="1"
                                                             src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
-                                                            data-src="https://media.gsccos.vn/wp-content/uploads/2026/02/MAT-NA-REBIRTH-1.webp"
+                                                            data-src="{{ asset('images/banner/banner2.webp') }}"
                                                             alt="Mặt Nạ Phục Hồi Tái Tạo Perfect (10pcs)"
                                                             class="product-image">
 
@@ -1321,7 +1320,7 @@
                                                         class="product-image-container">
                                                         <img data-lazyloaded="1"
                                                             src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
-                                                            data-src="https://media.gsccos.vn/wp-content/uploads/2026/02/MAT-NA-BOT-1.webp"
+                                                            data-src="{{ asset('images/banner/banner2.webp') }}"
                                                             alt="Mặt Nạ Bột Cá Tầm Perfect (1kg)"
                                                             class="product-image">
 
@@ -1425,7 +1424,7 @@
                                                         class="product-image-container">
                                                         <img data-lazyloaded="1"
                                                             src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
-                                                            data-src="https://media.gsccos.vn/wp-content/uploads/2026/02/KCN-MELA-1.webp"
+                                                            data-src="{{ asset('images/banner/banner2.webp') }}"
                                                             alt="Kem chống nắng phổ rộng Mela Perfect"
                                                             class="product-image">
 
@@ -1460,7 +1459,7 @@
                                                         class="product-image-container">
                                                         <img data-lazyloaded="1"
                                                             src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
-                                                            data-src="https://media.gsccos.vn/wp-content/uploads/2026/02/KCN-VAT-LY-1.webp"
+                                                            data-src="{{ asset('images/banner/banner2.webp') }}"
                                                             alt="Kem Chống Nắng Vật Lý Perfect"
                                                             class="product-image">
 
@@ -1564,7 +1563,7 @@
                                                         class="product-image-container">
                                                         <img data-lazyloaded="1"
                                                             src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
-                                                            data-src="https://media.gsccos.vn/wp-content/uploads/2026/02/TAY-DA-CHET-1.webp"
+                                                            data-src="{{ asset('images/banner/banner2.webp') }}"
                                                             alt="Kem Tẩy Da Chết Perfect (500ml)" class="product-image">
 
 
@@ -1666,7 +1665,7 @@
                                                         class="product-image-container">
                                                         <img data-lazyloaded="1"
                                                             src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
-                                                            data-src="https://media.gsccos.vn/wp-content/uploads/2026/02/dau-tay-trang.webp"
+                                                            data-src="{{ asset('images/banner/banner2.webp') }}"
                                                             alt="Dầu Tẩy Trang Perfect (250ml)" class="product-image">
 
 
@@ -1768,7 +1767,7 @@
                                                         class="product-image-container">
                                                         <img data-lazyloaded="1"
                                                             src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
-                                                            data-src="https://media.gsccos.vn/wp-content/uploads/2026/02/XIT-KHOANG.webp"
+                                                            data-src="{{ asset('images/banner/banner2.webp') }}"
                                                             alt="Toner Cân Bằng Da Perfect" class="product-image">
 
 

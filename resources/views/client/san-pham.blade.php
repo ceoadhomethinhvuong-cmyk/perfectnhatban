@@ -1107,7 +1107,7 @@ dưỡng tóc, minh bạch nguồn gốc và thông tin sử dụng.')
                                                         class="product-image-container">
                                                         <img data-lazyloaded="1"
                                                             src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
-                                                            data-src="https://media.gsccos.vn/wp-content/uploads/2026/02/TBG-TRANG-SANG-1.webp"
+                                                            data-src="{{ asset('images/banner/banner2.webp') }}"
                                                             alt="Tinh chất ampoule Trắng Sáng Cao Cấp Perfect (8ml)"
                                                             class="product-image">
 
@@ -1146,7 +1146,7 @@ dưỡng tóc, minh bạch nguồn gốc và thông tin sử dụng.')
                                                         class="product-image-container">
                                                         <img data-lazyloaded="1"
                                                             src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
-                                                            data-src="https://media.gsccos.vn/wp-content/uploads/2026/02/TBG-MUN-1.webp"
+                                                            data-src="{{ asset('images/banner/banner2.webp') }}"
                                                             alt="Tinh chất ampoule mụn cao cấp Perfect (8ml)"
                                                             class="product-image">
 
@@ -1185,7 +1185,7 @@ dưỡng tóc, minh bạch nguồn gốc và thông tin sử dụng.')
                                                         class="product-image-container">
                                                         <img data-lazyloaded="1"
                                                             src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
-                                                            data-src="https://media.gsccos.vn/wp-content/uploads/2026/02/TBG-SEO-1.webp"
+                                                            data-src="{{ asset('images/banner/banner2.webp') }}"
                                                             alt="Tinh chất ampoule chống lão hóa Perfect (8ml)"
                                                             class="product-image">
 
@@ -1224,7 +1224,7 @@ dưỡng tóc, minh bạch nguồn gốc và thông tin sử dụng.')
                                                         class="product-image-container">
                                                         <img data-lazyloaded="1"
                                                             src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
-                                                            data-src="https://media.gsccos.vn/wp-content/uploads/2026/02/TBG-DR-LEEMEE.webp"
+                                                            data-src="{{ asset('images/banner/banner2.webp') }}"
                                                             alt="Tinh chất Ampoule chống lão hóa Dr. Leemee (10ml)"
                                                             class="product-image">
 
@@ -1324,7 +1324,7 @@ dưỡng tóc, minh bạch nguồn gốc và thông tin sử dụng.')
                                                         class="product-image-container">
                                                         <img data-lazyloaded="1"
                                                             src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
-                                                            data-src="https://media.gsccos.vn/wp-content/uploads/2026/02/KEM-MELA-1.webp"
+                                                            data-src="{{ asset('images/banner/banner2.webp') }}"
                                                             alt="Kem dưỡng sáng Mela Perfect" class="product-image">
 
 
@@ -1358,7 +1358,7 @@ dưỡng tóc, minh bạch nguồn gốc và thông tin sử dụng.')
                                                         class="product-image-container">
                                                         <img data-lazyloaded="1"
                                                             src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
-                                                            data-src="https://media.gsccos.vn/wp-content/uploads/2026/02/KEM-K-1.webp"
+                                                            data-src="{{ asset('images/banner/banner2.webp') }}"
                                                             alt="Kem Phục Hồi Thải Độc Da Perfect"
                                                             class="product-image">
 
@@ -1397,7 +1397,7 @@ dưỡng tóc, minh bạch nguồn gốc và thông tin sử dụng.')
                                                         class="product-image-container">
                                                         <img data-lazyloaded="1"
                                                             src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
-                                                            data-src="https://media.gsccos.vn/wp-content/uploads/2026/02/KEM-NAM-ARBUTIN-1.webp"
+                                                            data-src="{{ asset('images/banner/banner2.webp') }}"
                                                             alt="Kem Ức Chế Nám Perfect" class="product-image">
 
 
@@ -1435,7 +1435,7 @@ dưỡng tóc, minh bạch nguồn gốc và thông tin sử dụng.')
                                                         class="product-image-container">
                                                         <img data-lazyloaded="1"
                                                             src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
-                                                            data-src="https://media.gsccos.vn/wp-content/uploads/2026/02/KEM-MUN.webp"
+                                                            data-src="{{ asset('images/banner/banner2.webp') }}"
                                                             alt="Kem Chấm Mụn Perfect" class="product-image">
 
 
@@ -1469,7 +1469,7 @@ dưỡng tóc, minh bạch nguồn gốc và thông tin sử dụng.')
                                                         class="product-image-container">
                                                         <img data-lazyloaded="1"
                                                             src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
-                                                            data-src="https://media.gsccos.vn/wp-content/uploads/2026/02/KEM-MASSAGE-MAT.webp"
+                                                            data-src="{{ asset('images/banner/banner2.webp') }}"
                                                             alt="Kem Massage Đa Tầng Perfect (500ml)"
                                                             class="product-image">
 
@@ -1601,7 +1601,7 @@ dưỡng tóc, minh bạch nguồn gốc và thông tin sử dụng.')
                                                         class="product-image-container">
                                                         <img data-lazyloaded="1"
                                                             src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
-                                                            data-src="https://media.gsccos.vn/wp-content/uploads/2026/02/MAT-NA-CANG-BONG-1.webp"
+                                                            data-src="{{ asset('images/banner/banner2.webp') }}"
                                                             alt="Mặt nạ nâng cơ căng bóng Perfect (10pcs)"
                                                             class="product-image">
 
@@ -1640,7 +1640,7 @@ dưỡng tóc, minh bạch nguồn gốc và thông tin sử dụng.')
                                                         class="product-image-container">
                                                         <img data-lazyloaded="1"
                                                             src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
-                                                            data-src="https://media.gsccos.vn/wp-content/uploads/2026/02/MAT-NA-KIEM-SOAT-BA-NHON-1.webp"
+                                                            data-src="{{ asset('images/banner/banner2.webp') }}"
                                                             alt="Mặt nạ kiểm soát bã nhờn Perfect (10pcs)"
                                                             class="product-image">
 
@@ -1679,7 +1679,7 @@ dưỡng tóc, minh bạch nguồn gốc và thông tin sử dụng.')
                                                         class="product-image-container">
                                                         <img data-lazyloaded="1"
                                                             src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
-                                                            data-src="https://media.gsccos.vn/wp-content/uploads/2026/02/MAT-NA-REBIRTH-1.webp"
+                                                            data-src="{{ asset('images/banner/banner2.webp') }}"
                                                             alt="Mặt Nạ Phục Hồi Tái Tạo Perfect (10pcs)"
                                                             class="product-image">
 
@@ -1718,7 +1718,7 @@ dưỡng tóc, minh bạch nguồn gốc và thông tin sử dụng.')
                                                         class="product-image-container">
                                                         <img data-lazyloaded="1"
                                                             src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
-                                                            data-src="https://media.gsccos.vn/wp-content/uploads/2026/02/MAT-NA-BOT-1.webp"
+                                                            data-src="{{ asset('images/banner/banner2.webp') }}"
                                                             alt="Mặt Nạ Bột Cá Tầm Perfect (1kg)"
                                                             class="product-image">
 
@@ -1822,7 +1822,7 @@ dưỡng tóc, minh bạch nguồn gốc và thông tin sử dụng.')
                                                         class="product-image-container">
                                                         <img data-lazyloaded="1"
                                                             src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
-                                                            data-src="https://media.gsccos.vn/wp-content/uploads/2026/02/KCN-MELA-1.webp"
+                                                            data-src="{{ asset('images/banner/banner2.webp') }}"
                                                             alt="Kem chống nắng phổ rộng Mela Perfect"
                                                             class="product-image">
 
@@ -1857,7 +1857,7 @@ dưỡng tóc, minh bạch nguồn gốc và thông tin sử dụng.')
                                                         class="product-image-container">
                                                         <img data-lazyloaded="1"
                                                             src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
-                                                            data-src="https://media.gsccos.vn/wp-content/uploads/2026/02/KCN-VAT-LY-1.webp"
+                                                            data-src="{{ asset('images/banner/banner2.webp') }}"
                                                             alt="Kem Chống Nắng Vật Lý Perfect"
                                                             class="product-image">
 
@@ -1961,7 +1961,7 @@ dưỡng tóc, minh bạch nguồn gốc và thông tin sử dụng.')
                                                         class="product-image-container">
                                                         <img data-lazyloaded="1"
                                                             src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
-                                                            data-src="https://media.gsccos.vn/wp-content/uploads/2026/02/TAY-DA-CHET-1.webp"
+                                                            data-src="{{ asset('images/banner/banner2.webp') }}"
                                                             alt="Kem Tẩy Da Chết Perfect (500ml)" class="product-image">
 
 
@@ -2063,7 +2063,7 @@ dưỡng tóc, minh bạch nguồn gốc và thông tin sử dụng.')
                                                         class="product-image-container">
                                                         <img data-lazyloaded="1"
                                                             src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
-                                                            data-src="https://media.gsccos.vn/wp-content/uploads/2026/02/dau-tay-trang.webp"
+                                                            data-src="{{ asset('images/banner/banner2.webp') }}"
                                                             alt="Dầu Tẩy Trang Perfect (250ml)" class="product-image">
 
 
@@ -2165,7 +2165,7 @@ dưỡng tóc, minh bạch nguồn gốc và thông tin sử dụng.')
                                                         class="product-image-container">
                                                         <img data-lazyloaded="1"
                                                             src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
-                                                            data-src="https://media.gsccos.vn/wp-content/uploads/2026/02/XIT-KHOANG.webp"
+                                                            data-src="{{ asset('images/banner/banner2.webp') }}"
                                                             alt="Toner Cân Bằng Da Perfect" class="product-image">
 
 

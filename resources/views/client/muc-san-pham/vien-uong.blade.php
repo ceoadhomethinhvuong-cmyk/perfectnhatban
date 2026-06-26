@@ -494,273 +494,230 @@
 
                                 </div>
 
-                                <div class="products-grid-container">
-                                    <ul class="products-grid">
+                                <div class="products-swiper-container">
+                                    <div class="swiper products-swiper products-swiper-1">
+                                        <ul class="swiper-wrapper">
 
+                                            <li class="swiper-slide">
+                                                <div class="product-container">
+                                                    <a href="{{ route('chi-tiet-san-pham.show', 'perfect-lady') }}"
+                                                        class="product-image-container">
+                                                        <img data-lazyloaded="1"
+                                                            src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
+                                                            data-src="{{asset('images/sanpham/perfect-lady/lady.webp')}}"
+                                                            alt="V1 - Viên uống nội tiết Perfect Lady"
+                                                            class="product-image">
+                                                        <div class="product-tags-container-wrapper">
+                                                            <ul class="product-tag-container-wrapper">
+                                                                <li class="product-tag-container">
+                                                                    <p class="product-tag">Chuyên Gia</p>
+                                                                </li>
+                                                                <li class="product-tag-container">
+                                                                    <p class="product-tag">Tại Nhà</p>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </a>
+                                                    <hgroup>
+                                                        <h3 class="product-title" style="margin-top: 10px;">
+                                                            [Mã V1] Viên uống nội tiết tố nữ PERFECT LADY Nhật Bản hỗ trợ cân bằng nội tiết, đẹp da, giảm khô hạn 60 viên</h3>
+                                                    </hgroup>
+                                                    <p class="product-description">V1 - Viên uống nội tiết Perfect Lady</p>
+                                                    <a href="{{ route('chi-tiet-san-pham.show', 'perfect-lady') }}"
+                                                        class="product-discover-now">Khám phá ngay</a>
+                                                </div>
+                                            </li>
 
-                                        <li>
+                                            <li class="swiper-slide">
+                                                <div class="product-container">
+                                                    <a href="{{ route('chi-tiet-san-pham.show', 'perfect-beauty-white') }}"
+                                                        class="product-image-container">
+                                                        <img data-lazyloaded="1"
+                                                            src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
+                                                            data-src="{{asset('images/sanpham/perfect-beauty-white/white.webp')}}"
+                                                            alt="V2 - Viên uống trắng da Perfect Beauty White"
+                                                            class="product-image">
+                                                        <div class="product-tags-container-wrapper">
+                                                            <ul class="product-tag-container-wrapper">
+                                                                <li class="product-tag-container">
+                                                                    <p class="product-tag">Chuyên Gia</p>
+                                                                </li>
+                                                                <li class="product-tag-container">
+                                                                    <p class="product-tag">Tại Nhà</p>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </a>
+                                                    <hgroup>
+                                                        <h3 class="product-title" style="margin-top: 10px;">
+                                                            [Mã V2] Viên uống trắng da PERFECT BEAUTY WHITE Nhật Bản hỗ trợ sáng da, mờ nám, chống lão hóa 70 viên</h3>
+                                                    </hgroup>
+                                                    <p class="product-description">V2 - Viên uống trắng da Perfect Beauty White</p>
+                                                    <a href="{{ route('chi-tiet-san-pham.show', 'perfect-beauty-white') }}"
+                                                        class="product-discover-now">Khám phá ngay</a>
+                                                </div>
+                                            </li>
 
+                                            <li class="swiper-slide">
+                                                <div class="product-container">
+                                                    <a href="{{ route('chi-tiet-san-pham.show', 'nmn') }}"
+                                                        class="product-image-container">
+                                                        <img data-lazyloaded="1"
+                                                            src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
+                                                            data-src="{{asset('images/sanpham/nmn.webp')}}"
+                                                            alt="Viên uống NMN 10000MG" class="product-image">
+                                                        <div class="product-tags-container-wrapper">
+                                                            <ul class="product-tag-container-wrapper">
+                                                                <li class="product-tag-container">
+                                                                    <p class="product-tag">Chuyên Gia</p>
+                                                                </li>
+                                                                <li class="product-tag-container">
+                                                                    <p class="product-tag">Tại Nhà</p>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </a>
+                                                    <hgroup>
+                                                        <h3 class="product-title" style="margin-top: 10px;">
+                                                            [Mã V8] Viên uống PERFECT NMN 10,000 Nhật Bản hỗ trợ chống lão hóa, tăng cường năng lượng 90 viên</h3>
+                                                    </hgroup>
+                                                    <p class="product-description">Viên uống NMN 10,000MG</p>
+                                                    <a href="{{ route('chi-tiet-san-pham.show', 'nmn') }}"
+                                                        class="product-discover-now">Khám phá ngay</a>
+                                                </div>
+                                            </li>
 
-                                            <div class="product-container">
-                                                <a href="{{ route('chi-tiet-san-pham.show', 'perfect-lady') }}"
-                                                    class="product-image-container">
-                                                    <img data-lazyloaded="1"
-                                                        src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
-                                                        data-src="{{asset('images/sanpham/perfect-lady/lady.webp')}}"
-                                                        alt="V1 - Viên uống nội tiết Perfect Lady"
-                                                        class="product-image">
+                                            <li class="swiper-slide">
+                                                <div class="product-container">
+                                                    <a href="{{ route('chi-tiet-san-pham.show', 'nattokinase') }}"
+                                                        class="product-image-container">
+                                                        <img data-lazyloaded="1"
+                                                            src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
+                                                            data-src="{{asset('images/sanpham/nattokinase.webp')}}"
+                                                            alt="Viên uống Nattokinase" class="product-image">
+                                                        <div class="product-tags-container-wrapper">
+                                                            <ul class="product-tag-container-wrapper">
+                                                                <li class="product-tag-container">
+                                                                    <p class="product-tag">Chuyên Gia</p>
+                                                                </li>
+                                                                <li class="product-tag-container">
+                                                                    <p class="product-tag">Tại Nhà</p>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </a>
+                                                    <hgroup>
+                                                        <h3 class="product-title" style="margin-top: 10px;">
+                                                            Viên uống ngừa đột quỵ Nattokinase</h3>
+                                                    </hgroup>
+                                                    <p class="product-description">Viên uống ngừa đột quỵ Nattokinase</p>
+                                                    <a href="{{ route('chi-tiet-san-pham.show', 'nattokinase') }}"
+                                                        class="product-discover-now">Khám phá ngay</a>
+                                                </div>
+                                            </li>
 
+                                            <li class="swiper-slide">
+                                                <div class="product-container">
+                                                    <a href="{{ route('chi-tiet-san-pham.show', 'spualene') }}"
+                                                        class="product-image-container">
+                                                        <img data-lazyloaded="1"
+                                                            src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
+                                                            data-src="{{asset('images/sanpham/spualene.webp')}}"
+                                                            alt="Viên uống Spualene 900" class="product-image">
+                                                        <div class="product-tags-container-wrapper">
+                                                            <ul class="product-tag-container-wrapper">
+                                                                <li class="product-tag-container">
+                                                                    <p class="product-tag">Chuyên Gia</p>
+                                                                </li>
+                                                                <li class="product-tag-container">
+                                                                    <p class="product-tag">Tại Nhà</p>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </a>
+                                                    <hgroup>
+                                                        <h3 class="product-title" style="margin-top: 10px;">
+                                                            Viên uống Spualene 900</h3>
+                                                    </hgroup>
+                                                    <p class="product-description">Viên uống cải thiện mỡ máu Spualene 900</p>
+                                                    <a href="{{ route('chi-tiet-san-pham.show', 'spualene') }}"
+                                                        class="product-discover-now">Khám phá ngay</a>
+                                                </div>
+                                            </li>
 
-                                                    <div class="product-tags-container-wrapper">
-                                                        <ul class="product-tag-container-wrapper">
-                                                            <li class="product-tag-container">
-                                                                <p class="product-tag">
-                                                                    Chuyên Gia </p>
-                                                            </li>
-                                                            <li class="product-tag-container">
-                                                                <p class="product-tag">
-                                                                    Tại Nhà </p>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                </a>
+                                            <li class="swiper-slide">
+                                                <div class="product-container">
+                                                    <a href="{{ route('chi-tiet-san-pham.show', 'vien_nghe') }}"
+                                                        class="product-image-container">
+                                                        <img data-lazyloaded="1"
+                                                            src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
+                                                            data-src="{{asset('images/sanpham/v14.webp')}}"
+                                                            alt="V14 - Viên uống tinh chất nghệ cao cấp Nhật Bản"
+                                                            class="product-image">
+                                                        <div class="product-tags-container-wrapper">
+                                                            <ul class="product-tag-container-wrapper">
+                                                                <li class="product-tag-container">
+                                                                    <p class="product-tag">Chuyên Gia</p>
+                                                                </li>
+                                                                <li class="product-tag-container">
+                                                                    <p class="product-tag">Tại Nhà</p>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </a>
+                                                    <hgroup>
+                                                        <h3 class="product-title" style="margin-top: 10px;">
+                                                            V14 - Viên uống tinh chất nghệ cao cấp Nhật Bản</h3>
+                                                    </hgroup>
+                                                    <p class="product-description">V14 - Viên uống tinh chất nghệ Nhật Bản</p>
+                                                    <a href="{{ route('chi-tiet-san-pham.show', 'vien_nghe') }}"
+                                                        class="product-discover-now">Khám phá ngay</a>
+                                                </div>
+                                            </li>
 
-                                                <hgroup>
-                                                    <h3 class="product-title" style="margin-top: 10px;">
-                                                        V1 - Viên uống nội tiết Perfect Lady</h3>
-                                                </hgroup>
+                                        </ul>
+                                    </div>
 
-                                                <p class="product-description">
-                                                    V1 - Viên uống nội tiết Perfect Lady </p>
-
-                                                <a href="{{ route('chi-tiet-san-pham.show', 'perfect-lady') }}"
-                                                    class="product-discover-now">Khám phá ngay</a>
-                                            </div>
-                                        </li>
-                                        <li>
-
-
-                                            <div class="product-container">
-                                                <a href="{{ route('chi-tiet-san-pham.show', 'perfect-beauty-white') }}"
-                                                    class="product-image-container">
-                                                    <img data-lazyloaded="1"
-                                                        src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
-                                                        data-src="{{asset('images/sanpham/perfect-beauty-white/white.webp')}}"
-                                                        alt="V2 - Viên uống trắng da Perfect Beauty White"
-                                                        class="product-image">
-
-
-                                                    <div class="product-tags-container-wrapper">
-                                                        <ul class="product-tag-container-wrapper">
-                                                            <li class="product-tag-container">
-                                                                <p class="product-tag">
-                                                                    Chuyên Gia </p>
-                                                            </li>
-                                                            <li class="product-tag-container">
-                                                                <p class="product-tag">
-                                                                    Tại Nhà </p>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                </a>
-
-                                                <hgroup>
-                                                    <h3 class="product-title" style="margin-top: 10px;">
-                                                        V2 - Viên uống trắng da Perfect Beauty White </h3>
-                                                </hgroup>
-
-                                                <p class="product-description">
-                                                    V2 - Viên uống trắng da Perfect Beauty White </p>
-
-                                                <a href="{{ route('chi-tiet-san-pham.show', 'perfect-beauty-white') }}"
-                                                    class="product-discover-now">Khám phá ngay</a>
-                                            </div>
-                                        </li>
-                                        <li>
-
-
-                                            <div class="product-container">
-                                                <a href="{{ route('chi-tiet-san-pham.show', 'nmn') }}"
-                                                    class="product-image-container">
-                                                    <img data-lazyloaded="1"
-                                                        src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
-                                                        data-src="{{asset('images/sanpham/nmn.webp')}}"
-                                                        alt="Viên uống NMN 10000MG" class="product-image">
-
-
-                                                    <div class="product-tags-container-wrapper">
-                                                        <ul class="product-tag-container-wrapper">
-                                                            <li class="product-tag-container">
-                                                                <p class="product-tag">
-                                                                    Chuyên Gia </p>
-                                                            </li>
-                                                            <li class="product-tag-container">
-                                                                <p class="product-tag">
-                                                                    Tại Nhà </p>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                </a>
-
-                                                <hgroup>
-                                                    <h3 class="product-title" style="margin-top: 10px;">
-                                                        Viên uống NMN 10,000MG </h3>
-                                                </hgroup>
-
-                                                <p class="product-description">
-                                                    Viên uống NMN 10,000MG </p>
-
-                                                <a href="{{ route('chi-tiet-san-pham.show', 'nmn') }}"
-                                                    class="product-discover-now">Khám phá ngay</a>
-                                            </div>
-                                        </li>
-                                        <li>
-
-
-                                            <div class="product-container">
-                                                <a href="{{ route('chi-tiet-san-pham.show', 'nattokinase') }}"
-                                                    class="product-image-container">
-                                                    <img data-lazyloaded="1"
-                                                        src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
-                                                        data-src="{{asset('images/sanpham/nattokinase.webp')}}"
-                                                        alt="Viên uống Nattokinase" class="product-image">
-
-
-                                                    <div class="product-tags-container-wrapper">
-                                                        <ul class="product-tag-container-wrapper">
-                                                            <li class="product-tag-container">
-                                                                <p class="product-tag">
-                                                                    Chuyên Gia </p>
-                                                            </li>
-                                                            <li class="product-tag-container">
-                                                                <p class="product-tag">
-                                                                    Tại Nhà </p>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                </a>
-
-                                                <hgroup>
-                                                    <h3 class="product-title" style="margin-top: 10px;">
-                                                        Viên uống ngừa đột quỵ Nattokinase </h3>
-                                                </hgroup>
-
-                                                <p class="product-description">
-                                                    Viên uống ngừa đột quỵ Nattokinase </p>
-
-                                                <a href="{{ route('chi-tiet-san-pham.show', 'nattokinase') }}"
-                                                    class="product-discover-now">Khám phá ngay</a>
-                                            </div>
-                                        </li>
-                                        <li>
-
-
-                                            <div class="product-container">
-                                                <a href="{{ route('chi-tiet-san-pham.show', 'spualene') }}"
-                                                    class="product-image-container">
-                                                    <img data-lazyloaded="1"
-                                                        src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
-                                                        data-src="{{asset('images/sanpham/spualene.webp')}}"
-                                                        alt="Viên uống Spualene 900" class="product-image">
-
-
-                                                    <div class="product-tags-container-wrapper">
-                                                        <ul class="product-tag-container-wrapper">
-                                                            <li class="product-tag-container">
-                                                                <p class="product-tag">
-                                                                    Chuyên Gia </p>
-                                                            </li>
-                                                            <li class="product-tag-container">
-                                                                <p class="product-tag">
-                                                                    Tại Nhà </p>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                </a>
-
-                                                <hgroup>
-                                                    <h3 class="product-title" style="margin-top: 10px;">
-                                                        Viên uống Spualene 900 </h3>
-                                                </hgroup>
-
-                                                <p class="product-description">
-                                                    Viên uống cải thiện mỡ máu Spualene 900 </p>
-
-                                                <a href="{{ route('chi-tiet-san-pham.show', 'spualene') }}"
-                                                    class="product-discover-now">Khám phá ngay</a>
-                                            </div>
-                                        </li>
-                                        <li>
-
-
-                                            <div class="product-container">
-                                                <a href="{{ route('chi-tiet-san-pham.show', 'vien_nghe') }}"
-                                                    class="product-image-container">
-                                                    <img data-lazyloaded="1"
-                                                        src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
-                                                        data-src="{{asset('images/sanpham/v14.webp')}}"
-                                                        alt="V14 - Viên uống tinh chất nghệ cao cấp Nhật Bản"
-                                                        class="product-image">
-
-
-                                                    <div class="product-tags-container-wrapper">
-                                                        <ul class="product-tag-container-wrapper">
-                                                            <li class="product-tag-container">
-                                                                <p class="product-tag">
-                                                                    Chuyên Gia </p>
-                                                            </li>
-                                                            <li class="product-tag-container">
-                                                                <p class="product-tag">
-                                                                    Tại Nhà </p>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                </a>
-
-                                                <hgroup>
-                                                    <h3 class="product-title" style="margin-top: 10px;">
-                                                        V14 - Viên uống tinh chất nghệ cao cấp Nhật Bản </h3>
-                                                </hgroup>
-
-                                                <p class="product-description">
-                                                    V14 - Viên uống tinh chất nghệ Nhật Bản </p>
-
-                                                <a href="{{ route('chi-tiet-san-pham.show', 'vien_nghe') }}"
-                                                    class="product-discover-now">Khám phá ngay</a>
-                                            </div>
-                                        </li>
-
-                                    </ul>
+                                    <div class="products-swiper-prev products-swiper-prev-1">
+                                        <svg style="transform:rotate(180deg)" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round">
+                                            <path d="M18 8L22 12L18 16" />
+                                            <path d="M2 12H22" />
+                                        </svg>
+                                    </div>
+                                    <div class="products-swiper-next products-swiper-next-1">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="M18 8L22 12L18 16" />
+                                            <path d="M2 12H22" />
+                                        </svg>
+                                    </div>
                                 </div>
                             </li>
 
-                            <!-- Viên Uống section now uses grid, no swiper needed -->
-
-
-
                             <script>
-                            < script >
-                                swipers.push({
-                                    selector: ".products-swiper-1",
-                                    options: {
-                                        slidesPerView: 2,
-                                        spaceBetween: 12,
-                                        loop: true,
-                                        loopedSlides: 5,
-                                        centeredSlides: false,
-                                        watchOverflow: true,
-                                        navigation: {
-                                            prevEl: ".products-swiper-prev-1",
-                                            nextEl: ".products-swiper-next-1",
+                            swipers.push({
+                                selector: ".products-swiper-1",
+                                options: {
+                                    slidesPerView: 2,
+                                    spaceBetween: 12,
+                                    loop: true,
+                                    loopedSlides: 6,
+                                    centeredSlides: false,
+                                    watchOverflow: true,
+                                    navigation: {
+                                        prevEl: ".products-swiper-prev-1",
+                                        nextEl: ".products-swiper-next-1",
+                                    },
+                                    breakpoints: {
+                                        1024: {
+                                            slidesPerView: 3,
+                                            spaceBetween: 20,
                                         },
-                                        breakpoints: {
-                                            1024: {
-                                                slidesPerView: 3,
-                                                spaceBetween: 20,
-                                            },
-                                        },
-                                    }
-                                });
+                                    },
+                                }
+                            });
                             </script>
 
 

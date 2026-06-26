@@ -129,7 +129,7 @@ class BlogController extends Controller
     private function saveThumbnail(Request $request): string
     {
         $folder = 'images/posts';
-        $fullPath = '/home/xuonhfke/public_html/' . $folder;
+        $fullPath = public_path($folder);
 
         if (! File::exists($fullPath)) {
             File::makeDirectory($fullPath, 0755, true);

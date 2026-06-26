@@ -61,16 +61,18 @@ thuộc hệ sản phẩm PERFECT Nhật Bản.')
                                         <div class="swiper-slide" role="group" aria-roledescription="slide"
                                             aria-label="2 trên 3">
                                             <figure class="swiper-slide-inner"><img data-lazyloaded="1"
-                                                    src="{{asset('images/sanpham/perfect-skin-nano-250/p9.webp')}}" class="swiper-slide-image"
-                                                    data-src="{{asset('images/sanpham/perfect-skin-nano-250/p9.webp')}}"
+                                                    src="{{asset('images/sanpham/perfect-lady/giay_cong_bo_perfect_lady.webp')}}"
+                                                    class="swiper-slide-image"
+                                                    data-src="{{asset('images/sanpham/perfect-lady/giay_cong_bo_perfect_lady.webp')}}"
                                                     alt="Perfect Mela Bright Cleanser Sữa Rửa Mặt Dịu Nhẹ Perfect" />
                                             </figure>
                                         </div>
                                         <div class="swiper-slide" role="group" aria-roledescription="slide"
                                             aria-label="3 trên 3">
                                             <figure class="swiper-slide-inner"><img data-lazyloaded="1"
-                                                    src="{{asset('images/sanpham/p5.webp')}}" class="swiper-slide-image"
-                                                    data-src="{{asset('images/sanpham/p5.webp')}}"
+                                                    src="{{asset('images/sanpham/perfect-lady/giay_xac-nhan_quang_cao_perfect_lady.webp')}}"
+                                                    class="swiper-slide-image"
+                                                    data-src="{{asset('images/sanpham/perfect-lady/giay_xac-nhan_quang_cao_perfect_lady.webp')}}"
                                                     alt="Perfect Mela Bright Cleanser Sữa Rửa Mặt Dịu Nhẹ Perfect Mela Bright" />
                                             </figure>
                                         </div>
@@ -294,12 +296,12 @@ thuộc hệ sản phẩm PERFECT Nhật Bản.')
                                 <div class="tda-image-compare__inner"><img data-lazyloaded="1"
                                         src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
                                         class="tda-image-compare__image tda-image-compare__after"
-                                        data-src="https://media.gsccos.vn/wp-content/uploads/2026/01/Sua-rua-mat-Mela-2.webp"
+                                        data-src="{{ asset('images/banner/banner2.webp') }}"
                                         alt="Perfect Mela Bright Cleanser Sữa Rửa Mặt Dịu Nhẹ Perfect - công dụng-1">
                                     <div class="tda-image-compare__before-wrap"><img data-lazyloaded="1"
                                             src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
                                             class="tda-image-compare__image tda-image-compare__before"
-                                            data-src="https://media.gsccos.vn/wp-content/uploads/2026/01/Sua-rua-mat-Mela-1.webp"
+                                            data-src="{{ asset('images/banner/banner2.webp') }}"
                                             alt=""></div>
                                     <span class="tda-image-compare__label tda-image-compare__label--before">Before</span>
                                     <div class="tda-image-compare__handle"></div>
@@ -366,12 +368,12 @@ thuộc hệ sản phẩm PERFECT Nhật Bản.')
                                 <div class="tda-image-compare__inner"><img data-lazyloaded="1"
                                         src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
                                         class="tda-image-compare__image tda-image-compare__after"
-                                        data-src="https://media.gsccos.vn/wp-content/uploads/2026/01/Serum-ngay-Mela-2.webp"
+                                        data-src="{{ asset('images/banner/banner2.webp') }}"
                                         alt="">
                                     <div class="tda-image-compare__before-wrap"><img data-lazyloaded="1"
                                             src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
                                             class="tda-image-compare__image tda-image-compare__before"
-                                            data-src="https://media.gsccos.vn/wp-content/uploads/2026/01/Serum-ngay-Mela-1.webp"
+                                            data-src="{{ asset('images/banner/banner2.webp') }}"
                                             alt=""></div>
                                     <div class="tda-image-compare__handle"></div><input type="range"
                                         class="tda-image-compare__slider" min="0" max="100" value="50"
@@ -445,7 +447,7 @@ thuộc hệ sản phẩm PERFECT Nhật Bản.')
                                                 <div class="tda-info-image">
                                                     <img data-lazyloaded="1"
                                                         src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
-                                                        data-src="https://gsccos.vn/wp-content/uploads/2025/08/SRM-4.webp"
+                                                        data-src="{{ asset('images/banner/banner2.webp') }}"
                                                         alt="Cleanser Mela Bright Perfect 3" />
                                                 </div>
                                                 <div class="tda-info-content">
@@ -472,7 +474,7 @@ thuộc hệ sản phẩm PERFECT Nhật Bản.')
                                                 <div class="tda-info-image">
                                                     <img data-lazyloaded="1"
                                                         src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
-                                                        data-src="https://gsccos.vn/wp-content/uploads/2025/08/Dr.-Leemee-Multi-effect-Carrier-Oil-3.webp"
+                                                        data-src="{{ asset('images/banner/banner2.webp') }}"
                                                         alt="" />
                                                 </div>
                                                 <div class="tda-info-content">
@@ -609,7 +611,7 @@ thuộc hệ sản phẩm PERFECT Nhật Bản.')
                                                             <div class="tda-news-card-image">
                                                                 <img data-lazyloaded="1"
                                                                     src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
-                                                                    data-src="https://gsccos.vn/wp-content/uploads/2025/05/29-vi-kim-tre-hoa-da-1-300x200.webp"
+                                                                    data-src="{{ asset('images/banner/banner2.webp') }}"
                                                                     alt="Căng bóng trẻ hóa" />
                                                             </div>
                                                             <div class="tda-news-card-content">
@@ -627,7 +629,7 @@ thuộc hệ sản phẩm PERFECT Nhật Bản.')
                                                             <div class="tda-news-card-image">
                                                                 <img data-lazyloaded="1"
                                                                     src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
-                                                                    data-src="https://gsccos.vn/wp-content/uploads/2025/05/36-LIEU-TRINH-DUONG-TRANG-CANG-BONG-DA-1-300x200.webp"
+                                                                    data-src="{{ asset('images/banner/banner2.webp') }}"
                                                                     alt="Dưỡng trắng, căng bóng" />
                                                             </div>
                                                             <div class="tda-news-card-content">
@@ -646,7 +648,7 @@ thuộc hệ sản phẩm PERFECT Nhật Bản.')
                                                             <div class="tda-news-card-image">
                                                                 <img data-lazyloaded="1"
                                                                     src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
-                                                                    data-src="https://gsccos.vn/wp-content/uploads/2025/05/32-Nam-thuong-bi-hon-hop-1-300x200.webp"
+                                                                    data-src="{{ asset('images/banner/banner2.webp') }}"
                                                                     alt="Nám thượng bì &#038; nám hỗn hợp" />
                                                             </div>
                                                             <div class="tda-news-card-content">
@@ -711,21 +713,21 @@ thuộc hệ sản phẩm PERFECT Nhật Bản.')
                                                 <div class="swiper-slide tda-product-popup-slide">
                                                     <img data-lazyloaded="1"
                                                         src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
-                                                        data-src="https://gsccos.vn/wp-content/uploads/2025/05/29-vi-kim-tre-hoa-da-1-300x200.webp"
+                                                        data-src="{{ asset('images/banner/banner2.webp') }}"
                                                         alt="Căng bóng trẻ hóa" />
                                                     <p>Căng bóng trẻ hóa</p>
                                                 </div>
                                                 <div class="swiper-slide tda-product-popup-slide">
                                                     <img data-lazyloaded="1"
                                                         src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
-                                                        data-src="https://gsccos.vn/wp-content/uploads/2025/05/36-LIEU-TRINH-DUONG-TRANG-CANG-BONG-DA-1-300x200.webp"
+                                                        data-src="{{ asset('images/banner/banner2.webp') }}"
                                                         alt="Dưỡng trắng, căng bóng" />
                                                     <p>Dưỡng trắng, căng bóng</p>
                                                 </div>
                                                 <div class="swiper-slide tda-product-popup-slide">
                                                     <img data-lazyloaded="1"
                                                         src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
-                                                        data-src="https://gsccos.vn/wp-content/uploads/2025/05/32-Nam-thuong-bi-hon-hop-1-300x200.webp"
+                                                        data-src="{{ asset('images/banner/banner2.webp') }}"
                                                         alt="Nám thượng bì &#038; nám hỗn hợp" />
                                                     <p>Nám thượng bì &#038; nám hỗn hợp</p>
                                                 </div>

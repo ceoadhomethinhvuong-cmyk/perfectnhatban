@@ -1,4 +1,4 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="vi" prefix="og: https://ogp.me/ns#">
 
 <head>
@@ -153,9 +153,9 @@
     <meta property="og:site_name" content="PERFECT Chính Hãng" />
     <meta property="og:updated_time" content="2026-05-06T16:04:29+07:00" />
     <meta property="og:image"
-        content="https://media.gsccos.vn/wp-content/uploads/2025/12/banner-co-ban-1024x534.webp" />
+        content="http://perfectnhatban.com/images/banner/banner2.webp" />
     <meta property="og:image:secure_url"
-        content="https://media.gsccos.vn/wp-content/uploads/2025/12/banner-co-ban-1024x534.webp" />
+        content="http://perfectnhatban.com/images/banner/banner2.webp" />
     <meta property="og:image:width" content="800" />
     <meta property="og:image:height" content="417" />
     <meta property="og:image:alt" content="Bộ chăm sóc da cơ bản PERFECT" />
@@ -167,7 +167,7 @@
     <meta name="twitter:description"
         content="Thương hiệu PERFECT tiên phong chăm sóc da từ bên trong, ứng dụng công nghệ &amp; giải pháp tự nhiên, minh bạch, hiệu quả, bền vững." />
     <meta name="twitter:image"
-        content="https://media.gsccos.vn/wp-content/uploads/2025/12/banner-co-ban-1024x534.webp" />
+        content="http://perfectnhatban.com/images/banner/banner2.webp" />
     <meta name="twitter:label1" content="Được viết bởi" />
     <meta name="twitter:data1" content="Trinh Duc" />
     <meta name="twitter:label2" content="Thời gian để đọc" />
@@ -190,9 +190,9 @@
             }
         }, {
             "@type": "Organization",
-            "@id": "https://gsccos.vn/#organization",
+            "@id": "http://perfectnhatban.com/#organization",
             "name": "PERFECT Ch\u00ednh H\u00e3ng",
-            "url": "https://gsccos.vn",
+            "url": "http://perfectnhatban.com",
             "sameAs": ["https://www.facebook.com/Perfect.globalshieldcosmetic"],
             "address": {
                 "@type": "PostalAddress",
@@ -200,71 +200,71 @@
             },
             "logo": {
                 "@type": "ImageObject",
-                "@id": "https://gsccos.vn/#logo",
-                "url": "https://gsccos.vn/wp-content/uploads/2025/03/favicon.webp",
-                "contentUrl": "https://gsccos.vn/wp-content/uploads/2025/03/favicon.webp",
+                "@id": "http://perfectnhatban.com/#logo",
+                "url": "http://perfectnhatban.com/images/banner/banner2.webp",
+                "contentUrl": "http://perfectnhatban.com/images/banner/banner2.webp",
                 "caption": "PERFECT Ch\u00ednh H\u00e3ng",
                 "inLanguage": "vi",
                 "width": "500",
                 "height": "500"
             },
             "location": {
-                "@id": "https://gsccos.vn/#place"
+                "@id": "http://perfectnhatban.com/#place"
             }
         }, {
             "@type": "WebSite",
-            "@id": "https://gsccos.vn/#website",
-            "url": "https://gsccos.vn",
+            "@id": "http://perfectnhatban.com/#website",
+            "url": "http://perfectnhatban.com",
             "name": "PERFECT Ch\u00ednh H\u00e3ng",
             "alternateName": "PERFECT Ch\u00ednh H\u00e3ng",
             "publisher": {
-                "@id": "https://gsccos.vn/#organization"
+                "@id": "http://perfectnhatban.com/#organization"
             },
             "inLanguage": "vi",
             "potentialAction": {
                 "@type": "SearchAction",
-                "target": "https://gsccos.vn/?s={search_term_string}",
+                "target": "http://perfectnhatban.com/?s={search_term_string}",
                 "query-input": "required name=search_term_string"
             }
         }, {
             "@type": "ImageObject",
-            "@id": "https://media.gsccos.vn/wp-content/uploads/2025/12/banner-co-ban.webp",
-            "url": "https://media.gsccos.vn/wp-content/uploads/2025/12/banner-co-ban.webp",
+            "@id": "http://perfectnhatban.com/images/banner/banner2.webp",
+            "url": "http://perfectnhatban.com/images/banner/banner2.webp",
             "width": "2110",
             "height": "1100",
             "caption": "B\u1ed9 ch\u0103m s\u00f3c da c\u01a1 b\u1ea3n PERFECT",
             "inLanguage": "vi"
         }, {
             "@type": "WebPage",
-            "@id": "https://gsccos.vn/#webpage",
-            "url": "https://gsccos.vn/",
+            "@id": "http://perfectnhatban.com/#webpage",
+            "url": "http://perfectnhatban.com/",
             "name": "PERFECT Ch\u00ednh H\u00e3ng",
             "datePublished": "2025-03-15T00:52:47+07:00",
             "dateModified": "2026-05-06T16:04:29+07:00",
             "about": {
-                "@id": "https://gsccos.vn/#organization"
+                "@id": "http://perfectnhatban.com/#organization"
             },
             "isPartOf": {
-                "@id": "https://gsccos.vn/#website"
+                "@id": "http://perfectnhatban.com/#website"
             },
             "primaryImageOfPage": {
-                "@id": "https://media.gsccos.vn/wp-content/uploads/2025/12/banner-co-ban.webp"
+                "@id": "http://perfectnhatban.com/images/banner/banner2.webp"
             },
             "inLanguage": "vi"
         }, {
             "@type": "Person",
-            "@id": "https://gsccos.vn/#author",
+            "@id": "http://perfectnhatban.com/#author",
             "name": "Trinh Duc",
             "image": {
                 "@type": "ImageObject",
-                "@id": "https://gsccos.vn/wp-content/litespeed/avatar/073914590e333c6170ac922a247420b6.jpg?ver=1778702632",
-                "url": "https://gsccos.vn/wp-content/litespeed/avatar/073914590e333c6170ac922a247420b6.jpg?ver=1778702632",
+                "@id": "http://perfectnhatban.com/images/banner/banner2.webp",
+                "url": "http://perfectnhatban.com/images/banner/banner2.webp",
                 "caption": "Trinh Duc",
                 "inLanguage": "vi"
             },
-            "sameAs": ["https://gsccos.vn/"],
+            "sameAs": ["http://perfectnhatban.com/"],
             "worksFor": {
-                "@id": "https://gsccos.vn/#organization"
+                "@id": "http://perfectnhatban.com/#organization"
             }
         }, {
             "headline": "PERFECT Ch\u00ednh H\u00e3ng",
@@ -273,24 +273,24 @@
             "dateModified": "2026-05-06T16:04:29+07:00",
             "keywords": "d\u01b0\u1ee3c m\u1ef9 ph\u1ea9m,PERFECT,PERFECT Chính Hãng",
             "image": {
-                "@id": "https://media.gsccos.vn/wp-content/uploads/2025/12/banner-co-ban.webp"
+                "@id": "http://perfectnhatban.com/images/banner/banner2.webp"
             },
             "author": {
-                "@id": "https://gsccos.vn/#author",
+                "@id": "http://perfectnhatban.com/#author",
                 "name": "Trinh Duc"
             },
             "@type": "Article",
             "name": "PERFECT Ch\u00ednh H\u00e3ng",
-            "@id": "https://gsccos.vn/#schema-3285",
+            "@id": "http://perfectnhatban.com/#schema-3285",
             "isPartOf": {
-                "@id": "https://gsccos.vn/#webpage"
+                "@id": "http://perfectnhatban.com/#webpage"
             },
             "publisher": {
-                "@id": "https://gsccos.vn/#organization"
+                "@id": "http://perfectnhatban.com/#organization"
             },
             "inLanguage": "vi",
             "mainEntityOfPage": {
-                "@id": "https://gsccos.vn/#webpage"
+                "@id": "http://perfectnhatban.com/#webpage"
             }
         }]
     }
@@ -964,7 +964,7 @@
         "@type": "WebSite",
         "name": "PERFECT Chính Hãng",
         "alternateName": ["PERFECT", "PERFECT Official", "PERFECT Chính Hãng"],
-        "url": "https://gsccos.vn/"
+        "url": "http://perfectnhatban.com/"
     }
     </script>
     --}}
@@ -1139,6 +1139,11 @@
     #cs-mega-menu .e-n-menu-title:focus-within .e-n-menu-title-text,
     #cs-mega-menu .e-n-menu-title.e-current .e-n-menu-title-text {
         color: #3ea8e2 !important;
+    }
+
+    /* Mega menu: z-index để dropdown hiện trên các element khác */
+    .e-n-menu-content {
+        z-index: 1000 !important;
     }
 
     #cs-mega-menu .e-n-menu-title:hover .e-n-menu-dropdown-icon svg path,
@@ -2531,7 +2536,7 @@
                         data-id="55be3e6" data-element_type="container">
                         <div class="elementor-element elementor-element-8f6d17b e-full_width e-n-menu-layout-horizontal e-n-menu-tablet elementor-widget elementor-widget-n-menu"
                             data-id="8f6d17b" data-element_type="widget" id="cs-mega-menu"
-                            data-settings="{&quot;menu_items&quot;:[{&quot;item_title&quot;:&quot;D\u01b0\u1ee3c M\u1ef9 Ph\u1ea9m&quot;,&quot;_id&quot;:&quot;18e4837&quot;,&quot;item_dropdown_content&quot;:&quot;yes&quot;,&quot;item_link&quot;:{&quot;url&quot;:&quot;https:\/\/gsccos.vn\/cham-soc-da-mat\/&quot;,&quot;is_external&quot;:&quot;&quot;,&quot;nofollow&quot;:&quot;&quot;,&quot;custom_attributes&quot;:&quot;&quot;},&quot;__dynamic__&quot;:{&quot;item_link&quot;:&quot;[elementor-tag id=\&quot;96b0c24\&quot; name=\&quot;internal-url\&quot; settings=\&quot;%7B%22type%22%3A%22taxonomy%22%2C%22taxonomy_id%22%3A%22150%22%7D\&quot;]&quot;},&quot;item_icon&quot;:{&quot;value&quot;:&quot;&quot;,&quot;library&quot;:&quot;&quot;},&quot;item_icon_active&quot;:null,&quot;element_id&quot;:&quot;&quot;},{&quot;item_title&quot;:&quot;Ch\u0103m S\u00f3c T\u1ea1i Nh\u00e0&quot;,&quot;item_dropdown_content&quot;:&quot;yes&quot;,&quot;_id&quot;:&quot;479caf3&quot;,&quot;__dynamic__&quot;:{&quot;item_link&quot;:&quot;[elementor-tag id=\&quot;64078e9\&quot; name=\&quot;internal-url\&quot; settings=\&quot;%7B%22type%22%3A%22taxonomy%22%2C%22taxonomy_id%22%3A%22134%22%7D\&quot;]&quot;},&quot;item_link&quot;:{&quot;url&quot;:&quot;https:\/\/gsccos.vn\/cham-soc-tai-nha\/&quot;,&quot;is_external&quot;:&quot;&quot;,&quot;nofollow&quot;:&quot;&quot;,&quot;custom_attributes&quot;:&quot;&quot;},&quot;item_icon&quot;:{&quot;value&quot;:&quot;&quot;,&quot;library&quot;:&quot;&quot;},&quot;item_icon_active&quot;:null,&quot;element_id&quot;:&quot;&quot;},{&quot;item_title&quot;:&quot;Spa\/ Clinic&quot;,&quot;item_dropdown_content&quot;:&quot;yes&quot;,&quot;_id&quot;:&quot;5719767&quot;,&quot;item_link&quot;:{&quot;url&quot;:&quot;&quot;,&quot;is_external&quot;:&quot;&quot;,&quot;nofollow&quot;:&quot;&quot;,&quot;custom_attributes&quot;:&quot;&quot;},&quot;item_icon&quot;:{&quot;value&quot;:&quot;&quot;,&quot;library&quot;:&quot;&quot;},&quot;item_icon_active&quot;:null,&quot;element_id&quot;:&quot;&quot;},{&quot;item_title&quot;:&quot;Ph\u00e1c \u0110\u1ed3&quot;,&quot;item_dropdown_content&quot;:&quot;&quot;,&quot;_id&quot;:&quot;5228e88&quot;,&quot;__dynamic__&quot;:{&quot;item_link&quot;:&quot;[elementor-tag id=\&quot;de9d7c9\&quot; name=\&quot;internal-url\&quot; settings=\&quot;%7B%22type%22%3A%22taxonomy%22%2C%22taxonomy_id%22%3A%2231%22%7D\&quot;]&quot;},&quot;item_link&quot;:{&quot;url&quot;:&quot;https:\/\/gsccos.vn\/lieu-phap\/&quot;,&quot;is_external&quot;:&quot;&quot;,&quot;nofollow&quot;:&quot;&quot;,&quot;custom_attributes&quot;:&quot;&quot;},&quot;item_icon&quot;:{&quot;value&quot;:&quot;&quot;,&quot;library&quot;:&quot;&quot;},&quot;item_icon_active&quot;:null,&quot;element_id&quot;:&quot;&quot;},{&quot;item_title&quot;:&quot;Th\u01b0\u01a1ng Hi\u1ec7u&quot;,&quot;_id&quot;:&quot;f396eac&quot;,&quot;__dynamic__&quot;:{&quot;item_link&quot;:&quot;[elementor-tag id=\&quot;500854c\&quot; name=\&quot;internal-url\&quot; settings=\&quot;%7B%22type%22%3A%22post%22%2C%22post_id%22%3A%22696%22%7D\&quot;]&quot;},&quot;item_link&quot;:{&quot;url&quot;:&quot;https:\/\/gsccos.vn\/gioi-thieu\/&quot;,&quot;is_external&quot;:&quot;&quot;,&quot;nofollow&quot;:&quot;&quot;,&quot;custom_attributes&quot;:&quot;&quot;},&quot;item_dropdown_content&quot;:&quot;no&quot;,&quot;item_icon&quot;:{&quot;value&quot;:&quot;&quot;,&quot;library&quot;:&quot;&quot;},&quot;item_icon_active&quot;:null,&quot;element_id&quot;:&quot;&quot;},{&quot;_id&quot;:&quot;ddbeb6d&quot;,&quot;item_title&quot;:&quot;Tin T\u1ee9c&quot;,&quot;__dynamic__&quot;:{&quot;item_link&quot;:&quot;[elementor-tag id=\&quot;c6b9b2f\&quot; name=\&quot;internal-url\&quot; settings=\&quot;%7B%22type%22%3A%22post%22%2C%22post_id%22%3A%22983%22%7D\&quot;]&quot;},&quot;item_link&quot;:{&quot;url&quot;:&quot;https:\/\/gsccos.vn\/tin-tuc\/&quot;,&quot;is_external&quot;:&quot;&quot;,&quot;nofollow&quot;:&quot;&quot;,&quot;custom_attributes&quot;:&quot;&quot;},&quot;item_dropdown_content&quot;:&quot;no&quot;,&quot;item_icon&quot;:{&quot;value&quot;:&quot;&quot;,&quot;library&quot;:&quot;&quot;},&quot;item_icon_active&quot;:null,&quot;element_id&quot;:&quot;&quot;},{&quot;_id&quot;:&quot;7c2ba68&quot;,&quot;item_title&quot;:&quot;H\u1ee3p T\u00e1c&quot;,&quot;__dynamic__&quot;:{&quot;item_link&quot;:&quot;[elementor-tag id=\&quot;01d8b4e\&quot; name=\&quot;internal-url\&quot; settings=\&quot;%7B%22type%22%3A%22post%22%2C%22post_id%22%3A%22551%22%7D\&quot;]&quot;},&quot;item_link&quot;:{&quot;url&quot;:&quot;https:\/\/gsccos.vn\/lien-he\/&quot;,&quot;is_external&quot;:&quot;&quot;,&quot;nofollow&quot;:&quot;&quot;,&quot;custom_attributes&quot;:&quot;&quot;},&quot;item_dropdown_content&quot;:&quot;no&quot;,&quot;item_icon&quot;:{&quot;value&quot;:&quot;&quot;,&quot;library&quot;:&quot;&quot;},&quot;item_icon_active&quot;:null,&quot;element_id&quot;:&quot;&quot;}],&quot;menu_item_title_distance_from_content&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;21&quot;,&quot;sizes&quot;:[]},&quot;menu_item_title_distance_from_content_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;21&quot;,&quot;sizes&quot;:[]},&quot;content_width&quot;:&quot;full_width&quot;,&quot;item_layout&quot;:&quot;horizontal&quot;,&quot;open_on&quot;:&quot;hover&quot;,&quot;horizontal_scroll&quot;:&quot;disable&quot;,&quot;breakpoint_selector&quot;:&quot;tablet&quot;,&quot;menu_item_title_distance_from_content_laptop&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;menu_item_title_distance_from_content_tablet_extra&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;menu_item_title_distance_from_content_mobile_extra&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;menu_item_title_distance_from_content_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}"
+                            data-settings="{&quot;menu_items&quot;:[{&quot;item_title&quot;:&quot;D\u01b0\u1ee3c M\u1ef9 Ph\u1ea9m&quot;,&quot;_id&quot;:&quot;18e4837&quot;,&quot;item_dropdown_content&quot;:&quot;yes&quot;,&quot;item_link&quot;:{&quot;url&quot;:&quot;http:\/\/perfectnhatban.com\/cham-soc-da-mat\/&quot;,&quot;is_external&quot;:&quot;&quot;,&quot;nofollow&quot;:&quot;&quot;,&quot;custom_attributes&quot;:&quot;&quot;},&quot;__dynamic__&quot;:{&quot;item_link&quot;:&quot;[elementor-tag id=\&quot;96b0c24\&quot; name=\&quot;internal-url\&quot; settings=\&quot;%7B%22type%22%3A%22taxonomy%22%2C%22taxonomy_id%22%3A%22150%22%7D\&quot;]&quot;},&quot;item_icon&quot;:{&quot;value&quot;:&quot;&quot;,&quot;library&quot;:&quot;&quot;},&quot;item_icon_active&quot;:null,&quot;element_id&quot;:&quot;&quot;},{&quot;item_title&quot;:&quot;Ch\u0103m S\u00f3c T\u1ea1i Nh\u00e0&quot;,&quot;item_dropdown_content&quot;:&quot;yes&quot;,&quot;_id&quot;:&quot;479caf3&quot;,&quot;__dynamic__&quot;:{&quot;item_link&quot;:&quot;[elementor-tag id=\&quot;64078e9\&quot; name=\&quot;internal-url\&quot; settings=\&quot;%7B%22type%22%3A%22taxonomy%22%2C%22taxonomy_id%22%3A%22134%22%7D\&quot;]&quot;},&quot;item_link&quot;:{&quot;url&quot;:&quot;https:\/\/perfectnhatban.com\/cham-soc-tai-nha\/&quot;,&quot;is_external&quot;:&quot;&quot;,&quot;nofollow&quot;:&quot;&quot;,&quot;custom_attributes&quot;:&quot;&quot;},&quot;item_icon&quot;:{&quot;value&quot;:&quot;&quot;,&quot;library&quot;:&quot;&quot;},&quot;item_icon_active&quot;:null,&quot;element_id&quot;:&quot;&quot;},{&quot;item_title&quot;:&quot;Spa\/ Clinic&quot;,&quot;item_dropdown_content&quot;:&quot;yes&quot;,&quot;_id&quot;:&quot;5719767&quot;,&quot;item_link&quot;:{&quot;url&quot;:&quot;&quot;,&quot;is_external&quot;:&quot;&quot;,&quot;nofollow&quot;:&quot;&quot;,&quot;custom_attributes&quot;:&quot;&quot;},&quot;item_icon&quot;:{&quot;value&quot;:&quot;&quot;,&quot;library&quot;:&quot;&quot;},&quot;item_icon_active&quot;:null,&quot;element_id&quot;:&quot;&quot;},{&quot;item_title&quot;:&quot;Ph\u00e1c \u0110\u1ed3&quot;,&quot;item_dropdown_content&quot;:&quot;&quot;,&quot;_id&quot;:&quot;5228e88&quot;,&quot;__dynamic__&quot;:{&quot;item_link&quot;:&quot;[elementor-tag id=\&quot;de9d7c9\&quot; name=\&quot;internal-url\&quot; settings=\&quot;%7B%22type%22%3A%22taxonomy%22%2C%22taxonomy_id%22%3A%2231%22%7D\&quot;]&quot;},&quot;item_link&quot;:{&quot;url&quot;:&quot;https:\/\/perfectnhatban.com\/lieu-phap\/&quot;,&quot;is_external&quot;:&quot;&quot;,&quot;nofollow&quot;:&quot;&quot;,&quot;custom_attributes&quot;:&quot;&quot;},&quot;item_icon&quot;:{&quot;value&quot;:&quot;&quot;,&quot;library&quot;:&quot;&quot;},&quot;item_icon_active&quot;:null,&quot;element_id&quot;:&quot;&quot;},{&quot;item_title&quot;:&quot;Th\u01b0\u01a1ng Hi\u1ec7u&quot;,&quot;_id&quot;:&quot;f396eac&quot;,&quot;__dynamic__&quot;:{&quot;item_link&quot;:&quot;[elementor-tag id=\&quot;500854c\&quot; name=\&quot;internal-url\&quot; settings=\&quot;%7B%22type%22%3A%22post%22%2C%22post_id%22%3A%22696%22%7D\&quot;]&quot;},&quot;item_link&quot;:{&quot;url&quot;:&quot;https:\/\/perfectnhatban.com\/gioi-thieu\/&quot;,&quot;is_external&quot;:&quot;&quot;,&quot;nofollow&quot;:&quot;&quot;,&quot;custom_attributes&quot;:&quot;&quot;},&quot;item_dropdown_content&quot;:&quot;no&quot;,&quot;item_icon&quot;:{&quot;value&quot;:&quot;&quot;,&quot;library&quot;:&quot;&quot;},&quot;item_icon_active&quot;:null,&quot;element_id&quot;:&quot;&quot;},{&quot;_id&quot;:&quot;ddbeb6d&quot;,&quot;item_title&quot;:&quot;Tin T\u1ee9c&quot;,&quot;__dynamic__&quot;:{&quot;item_link&quot;:&quot;[elementor-tag id=\&quot;c6b9b2f\&quot; name=\&quot;internal-url\&quot; settings=\&quot;%7B%22type%22%3A%22post%22%2C%22post_id%22%3A%22983%22%7D\&quot;]&quot;},&quot;item_link&quot;:{&quot;url&quot;:&quot;https:\/\/perfectnhatban.com\/tin-tuc\/&quot;,&quot;is_external&quot;:&quot;&quot;,&quot;nofollow&quot;:&quot;&quot;,&quot;custom_attributes&quot;:&quot;&quot;},&quot;item_dropdown_content&quot;:&quot;no&quot;,&quot;item_icon&quot;:{&quot;value&quot;:&quot;&quot;,&quot;library&quot;:&quot;&quot;},&quot;item_icon_active&quot;:null,&quot;element_id&quot;:&quot;&quot;},{&quot;_id&quot;:&quot;7c2ba68&quot;,&quot;item_title&quot;:&quot;H\u1ee3p T\u00e1c&quot;,&quot;__dynamic__&quot;:{&quot;item_link&quot;:&quot;[elementor-tag id=\&quot;01d8b4e\&quot; name=\&quot;internal-url\&quot; settings=\&quot;%7B%22type%22%3A%22post%22%2C%22post_id%22%3A%22551%22%7D\&quot;]&quot;},&quot;item_link&quot;:{&quot;url&quot;:&quot;https:\/\/perfectnhatban.com\/lien-he\/&quot;,&quot;is_external&quot;:&quot;&quot;,&quot;nofollow&quot;:&quot;&quot;,&quot;custom_attributes&quot;:&quot;&quot;},&quot;item_dropdown_content&quot;:&quot;no&quot;,&quot;item_icon&quot;:{&quot;value&quot;:&quot;&quot;,&quot;library&quot;:&quot;&quot;},&quot;item_icon_active&quot;:null,&quot;element_id&quot;:&quot;&quot;}],&quot;menu_item_title_distance_from_content&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;21&quot;,&quot;sizes&quot;:[]},&quot;menu_item_title_distance_from_content_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;21&quot;,&quot;sizes&quot;:[]},&quot;content_width&quot;:&quot;full_width&quot;,&quot;item_layout&quot;:&quot;horizontal&quot;,&quot;open_on&quot;:&quot;hover&quot;,&quot;horizontal_scroll&quot;:&quot;disable&quot;,&quot;breakpoint_selector&quot;:&quot;tablet&quot;,&quot;menu_item_title_distance_from_content_laptop&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;menu_item_title_distance_from_content_tablet_extra&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;menu_item_title_distance_from_content_mobile_extra&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;menu_item_title_distance_from_content_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}"
                             data-widget_type="mega-menu.default">
                             <div class="elementor-widget-container">
                                 <nav class="e-n-menu" data-widget-number="150" aria-label="Menu">
@@ -2853,7 +2858,7 @@
                                                                                                                 class="attachment-large size-large wp-image-9204"
                                                                                                                 alt="[Mã V1] Viên uống nội tiết tố nữ PERFECT LADY Nhật Bản hỗ trợ cân bằng nội tiết, đẹp da, giảm khô hạn 60 viên"
                                                                                                                 data-srcset="{{ asset('images/sanpham/perfect-lady/lady.webp') }} 823w, {{ asset('images/sanpham/perfect-lady/lady.webp') }} 241w, {{ asset('images/sanpham/perfect-lady/lady.webp') }} 768w, {{ asset('images/sanpham/perfect-lady/lady.webp') }} 600w, {{ asset('images/sanpham/perfect-lady/lady.webp') }} 964w"
-                                                                                                                data-sizes="(max-width: 800px) 100vw, 800px" />
+                                                                                                                data-sizes="auto" />
                                                                                                         </a>
                                                                                                     </div>
                                                                                                 </div>
@@ -2997,7 +3002,7 @@
                                                                                                                 class="attachment-large size-large wp-image-9187"
                                                                                                                 alt="V2 - Viên uống trắng da Perfect Beauty White"
                                                                                                                 data-srcset="{{ asset('images/sanpham/perfect-beauty-white/white.webp') }} 823w, {{ asset('images/sanpham/perfect-beauty-white/white.webp') }} 241w, {{ asset('images/sanpham/perfect-beauty-white/white.webp') }} 768w, {{ asset('images/sanpham/perfect-beauty-white/white.webp') }} 600w, {{ asset('images/sanpham/perfect-beauty-white/white.webp') }} 964w"
-                                                                                                                data-sizes="(max-width: 800px) 100vw, 800px" />
+                                                                                                                data-sizes="auto" />
                                                                                                         </a>
                                                                                                     </div>
                                                                                                 </div>
@@ -3133,7 +3138,7 @@
                                                                                                                 class="attachment-large size-large wp-image-9217"
                                                                                                                 alt="P9 - Perfect Skin Nano 250%"
                                                                                                                 data-srcset="{{ asset('images/sanpham/perfect-skin-nano-250/p9.webp') }} 823w, {{ asset('images/sanpham/perfect-skin-nano-250/p9.webp') }} 241w, {{ asset('images/sanpham/perfect-skin-nano-250/p9.webp') }} 768w, {{ asset('images/sanpham/perfect-skin-nano-250/p9.webp') }} 600w, {{ asset('images/sanpham/perfect-skin-nano-250/p9.webp') }} 964w"
-                                                                                                                data-sizes="(max-width: 800px) 100vw, 800px" />
+                                                                                                                data-sizes="auto" />
                                                                                                         </a>
                                                                                                     </div>
                                                                                                 </div>
@@ -4002,7 +4007,7 @@
                                             <img data-lazyloaded="1"
                                                 src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDQ4IDI0Ij48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBzdHlsZT0iZmlsbDojY2ZkNGRiO2ZpbGwtb3BhY2l0eTogMC4xOyIvPjwvc3ZnPg=="
                                                 width="48" height="24"
-                                                data-src="https://gsccos.vn/wp-content/uploads/2025/03/dmca-wp.webp"
+                                                data-src="{{ asset('images/banner/banner2.webp') }}"
                                                 class="attachment-full size-full wp-image-446" alt="" /> </a>
                                     </div>
                                 </div>
@@ -4013,7 +4018,7 @@
                                             <img data-lazyloaded="1"
                                                 src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI3OSIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDc5IDI0Ij48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBzdHlsZT0iZmlsbDojY2ZkNGRiO2ZpbGwtb3BhY2l0eTogMC4xOyIvPjwvc3ZnPg=="
                                                 width="79" height="24"
-                                                data-src="https://gsccos.vn/wp-content/uploads/2025/03/dtbbct-wp.webp"
+                                                data-src="{{ asset('images/banner/banner2.webp') }}"
                                                 class="attachment-full size-full wp-image-447" alt="" /> </a>
                                     </div>
                                 </div> -->
@@ -4030,7 +4035,7 @@
                                                 <img data-lazyloaded="1"
                                                     src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MCIgaGVpZ2h0PSI0MCIgdmlld0JveD0iMCAwIDQwIDQwIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBzdHlsZT0iZmlsbDojY2ZkNGRiO2ZpbGwtb3BhY2l0eTogMC4xOyIvPjwvc3ZnPg=="
                                                     width="40" height="40"
-                                                    data-src="https://gsccos.vn/wp-content/uploads/2026/02/facebook-icon-2.svg"
+                                                    data-src="{{ asset('images/banner/banner2.webp') }}"
                                                     class="attachment-large size-large wp-image-9009" alt="" /> </a>
                                         </div>
                                     </div>
@@ -4050,7 +4055,7 @@
                                                 <img data-lazyloaded="1"
                                                     src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MCIgaGVpZ2h0PSI0MCIgdmlld0JveD0iMCAwIDQwIDQwIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBzdHlsZT0iZmlsbDojY2ZkNGRiO2ZpbGwtb3BhY2l0eTogMC4xOyIvPjwvc3ZnPg=="
                                                     width="40" height="40"
-                                                    data-src="https://gsccos.vn/wp-content/uploads/2026/02/zalo-icon-2.svg"
+                                                    data-src="{{ asset('images/banner/banner2.webp') }}"
                                                     class="attachment-large size-large wp-image-9011" alt="" /> </a>
                                         </div>
                                     </div>
@@ -4070,7 +4075,7 @@
                                                 <img data-lazyloaded="1"
                                                     src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MCIgaGVpZ2h0PSI0MCIgdmlld0JveD0iMCAwIDQwIDQwIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBzdHlsZT0iZmlsbDojY2ZkNGRiO2ZpbGwtb3BhY2l0eTogMC4xOyIvPjwvc3ZnPg=="
                                                     width="40" height="40"
-                                                    data-src="https://gsccos.vn/wp-content/uploads/2026/02/pin-icon-2.svg"
+                                                    data-src="{{ asset('images/banner/banner2.webp') }}"
                                                     class="attachment-large size-large wp-image-9010" alt="" /> </a>
                                         </div>
                                     </div>
@@ -4840,7 +4845,7 @@
         "urls": {
             "assets": "https:\/\/gsccos.vn\/wp-content\/plugins\/elementor\/assets\/",
             "ajaxurl": "\/wp-admin\/admin-ajax.php",
-            "uploadUrl": "https:\/\/gsccos.vn\/wp-content\/uploads"
+            "uploadUrl": "\/wp-content\/uploads"
         },
         "nonces": {
             "floatingButtonsClickTracking": "c1fdb0826c"
@@ -4872,7 +4877,7 @@
             "id": 93,
             "title": "PERFECT%20Ch%C3%ADnh%20H%C3%A3ng",
             "excerpt": "",
-            "featuredImage": "https:\/\/media.gsccos.vn\/wp-content\/uploads\/2025\/12\/banner-co-ban-1024x534.webp"
+            "featuredImage": "http://perfectnhatban.com/images/banner/banner2.webp"
         }
     };
     //# sourceURL=elementor-frontend-js-before
@@ -5031,8 +5036,8 @@
         },
         "woocommerce": {
             "menu_cart": {
-                "cart_page_url": "https:\/\/gsccos.vn",
-                "checkout_page_url": "https:\/\/gsccos.vn",
+                "cart_page_url": "http:\/\/perfectnhatban.com",
+                "checkout_page_url": "http:\/\/perfectnhatban.com",
                 "fragments_nonce": "8946b05626"
             }
         },
@@ -5041,7 +5046,7 @@
             "app_id": ""
         },
         "lottie": {
-            "defaultAnimationUrl": "https:\/\/gsccos.vn\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"
+            "defaultAnimationUrl": "http:\/\/perfectnhatban.com\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"
         }
     };
     //# sourceURL=elementor-pro-frontend-js-before
@@ -6617,7 +6622,6 @@
     </script>
 </body>
 
-<!-- Mirrored from gsccos.vn/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 18 May 2026 02:30:03 GMT -->
 
 </html>
 

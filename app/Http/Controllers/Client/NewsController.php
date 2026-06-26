@@ -7,7 +7,6 @@ use App\Models\Blog;
 use App\Models\CategoryBlog;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Schema;
-use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Str;
 use Throwable;
 
@@ -139,7 +138,7 @@ class NewsController extends Controller
     private function mapBlog(Blog $blog): array
     {
         $category = $blog->category;
-        $thumbnail = $blog->thumbnail ? Storage::disk('public')->url($blog->thumbnail) : '/images/banner/banner2.webp';
+        $thumbnail = $this->resolveThumbnailUrl($blog->thumbnail);
         $date = $blog->published_at ?: $blog->created_at;
 
         return [
@@ -182,6 +181,27 @@ class NewsController extends Controller
 
             return '<h' . $matches[1] . $matches[2] . ' id="' . e($anchor) . '">' . $matches[3] . '</h' . $matches[1] . '>';
         }, $content) ?? $content;
+    }
+
+    private function resolveThumbnailUrl(?string $path): string
+    {
+        if (! $path) {
+            return '/images/banner/banner2.webp';
+        }
+
+        if (str_starts_with($path, 'http://') || str_starts_with($path, 'https://')) {
+            return $path;
+        }
+
+        if (str_starts_with($path, 'images/')) {
+            return asset($path);
+        }
+
+        if (str_starts_with($path, 'posts/')) {
+            return asset('storage/' . $path);
+        }
+
+        return asset($path);
     }
 
     private function fallbackArticles(): array

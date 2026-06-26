@@ -13,25 +13,25 @@ jQuery(document).ready(function ($) {
         {
             title: 'Melasma Biocode - \u1ee8ng d\u1ee5ng c\u00f4ng ngh\u1ec7 Mela Bright Complex ng\u0103n ng\u1eeba n\u00e1m t\u00e1i ph\u00e1t',
             href: '/tin-tuc',
-            imageSrc: 'https://gsccos.vn/wp-content/uploads/2025/11/1600x1000-1-1-600x375.webp',
+            imageSrc: '/images/banner/banner2.webp',
             searchText: 'mela melasma biocode mela bright complex nam tai phat'
         },
         {
             title: 'NMN (Nicotinamide Mononucleotide) ho\u1ea1t ch\u1ea5t "tr\u1ebb h\u00f3a t\u1ebf b\u00e0o"',
             href: '/tin-tuc',
-            imageSrc: 'https://media.gsccos.vn/wp-content/uploads/2026/03/NMN-1-600x375.webp',
+            imageSrc: '/images/banner/banner2.webp',
             searchText: 'nmn nicotinamide mononucleotide tre hoa te bao mela'
         },
         {
             title: 'Neo Heliopan E1000 - M\u00e0ng l\u1ecdc UVB d\u1ecbu nh\u1eb9, chi\u1ebft xu\u1ea5t th\u1ef1c v\u1eadt',
             href: '/tin-tuc',
-            imageSrc: 'https://media.gsccos.vn/wp-content/uploads/2026/01/Neo-Heliopan-E1000-1-1-600x375.webp',
+            imageSrc: '/images/banner/banner2.webp',
             searchText: 'neo heliopan e1000 mang loc uvb diu nhe thuc vat mela'
         },
         {
             title: 'Bakuchiol - B\u1ea3n sao retinol d\u1ecbu nh\u1eb9 ch\u1ed1ng l\u00e3o h\u00f3a & \u0111\u1ec1u m\u00e0u',
             href: '/tin-tuc',
-            imageSrc: 'https://media.gsccos.vn/wp-content/uploads/2026/01/92-thumb-600x375.webp',
+            imageSrc: '/images/banner/banner2.webp',
             searchText: 'bakuchiol retinol diu nhe chong lao hoa deu mau mela'
         }
     ];

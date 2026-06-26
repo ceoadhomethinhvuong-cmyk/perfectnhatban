@@ -457,7 +457,7 @@
 
                                                     <div class="service-container">
                                                         <a href="../tach-day-phi-kim-seo/index.html" class="service-image-container">
-                                                            <img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="https://gsccos.vn/wp-content/uploads/2025/05/6-TACH-DAY-VA-PHI-KIM-SEO-3.webp" alt="Tách đáy và phi kim sẹo" class="service-image" loading="lazy">
+                                                            <img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="{{ asset('images/banner/banner2.webp') }}" alt="Tách đáy và phi kim sẹo" class="service-image" loading="lazy">
                                                         </a>
 
                                                         <div class="service-information-container">
@@ -485,7 +485,7 @@
                                                                         </li>
                                                                         <li class="inner-product-item swiper-slide">
                                                                             <a href="../sua-rua-mat-bot-gsc/index.html" class="inner-product-img-box">
-                                                                                <img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="https://media.gsccos.vn/wp-content/uploads/2026/02/SRM-BOT-1.webp" class="inner-product-img" loading="lazy">
+                                                                                <img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="{{ asset('images/banner/banner2.webp') }}" class="inner-product-img" loading="lazy">
                                                                             </a>
                                                                             <p class="inner-product-title">
                                                                                 <a href="../sua-rua-mat-bot-gsc/index.html">Sữa Rửa Mặt Bột Perfect</a>
@@ -493,7 +493,7 @@
                                                                         </li>
                                                                         <li class="inner-product-item swiper-slide">
                                                                             <a href="../sua-rua-mat-gel-gsc/index.html" class="inner-product-img-box">
-                                                                                <img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="https://media.gsccos.vn/wp-content/uploads/2026/02/SRM-GEL-1.webp" class="inner-product-img" loading="lazy">
+                                                                                <img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="{{ asset('images/banner/banner2.webp') }}" class="inner-product-img" loading="lazy">
                                                                             </a>
                                                                             <p class="inner-product-title">
                                                                                 <a href="../sua-rua-mat-gel-gsc/index.html">Sữa Rửa Mặt Gel Perfect (500ml)</a>
@@ -501,7 +501,7 @@
                                                                         </li>
                                                                         <li class="inner-product-item swiper-slide">
                                                                             <a href="../sua-rua-mat-mela-gsc/index.html" class="inner-product-img-box">
-                                                                                <img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="https://media.gsccos.vn/wp-content/uploads/2026/02/SRM-MELA-1.webp" class="inner-product-img" loading="lazy">
+                                                                                <img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="{{ asset('images/banner/banner2.webp') }}" class="inner-product-img" loading="lazy">
                                                                             </a>
                                                                             <p class="inner-product-title">
                                                                                 <a href="../sua-rua-mat-mela-gsc/index.html">Sữa rửa mặt Mela Perfect</a>
@@ -509,7 +509,7 @@
                                                                         </li>
                                                                         <li class="inner-product-item swiper-slide">
                                                                             <a href="../sua-rua-mat-ph-5-5-gsc/index.html" class="inner-product-img-box">
-                                                                                <img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="https://media.gsccos.vn/wp-content/uploads/2026/02/SRM-PH-5.5-1.webp" class="inner-product-img" loading="lazy">
+                                                                                <img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="{{ asset('images/banner/banner2.webp') }}" class="inner-product-img" loading="lazy">
                                                                             </a>
                                                                             <p class="inner-product-title">
                                                                                 <a href="../sua-rua-mat-ph-5-5-gsc/index.html">Sữa Rửa Mặt Gel pH 5.5 Perfect</a>
@@ -517,7 +517,7 @@
                                                                         </li>
                                                                         <li class="inner-product-item swiper-slide">
                                                                             <a href="../kem-uc-che-nam-gsc/index.html" class="inner-product-img-box">
-                                                                                <img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="https://media.gsccos.vn/wp-content/uploads/2026/02/KEM-NAM-ARBUTIN-1.webp" class="inner-product-img" loading="lazy">
+                                                                                <img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="{{ asset('images/banner/banner2.webp') }}" class="inner-product-img" loading="lazy">
                                                                             </a>
                                                                             <p class="inner-product-title">
                                                                                 <a href="../kem-uc-che-nam-gsc/index.html">Kem Ức Chế Nám Perfect</a>
@@ -525,7 +525,7 @@
                                                                         </li>
                                                                         <li class="inner-product-item swiper-slide">
                                                                             <a href="../kem-u-trang-da-mat-gsc/index.html" class="inner-product-img-box">
-                                                                                <img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="https://media.gsccos.vn/wp-content/uploads/2026/02/U-TRANG-MAT-1.webp" class="inner-product-img" loading="lazy">
+                                                                                <img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="{{ asset('images/banner/banner2.webp') }}" class="inner-product-img" loading="lazy">
                                                                             </a>
                                                                             <p class="inner-product-title">
                                                                                 <a href="../kem-u-trang-da-mat-gsc/index.html">Kem Ủ Trắng Da Mặt Perfect (250ml)</a>
@@ -567,7 +567,7 @@
 
                                                     <div class="service-container">
                                                         <a href="../lan-kim-phi-kim-mun-san/index.html" class="service-image-container">
-                                                            <img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="https://gsccos.vn/wp-content/uploads/2025/05/8-phi-kim-mun-san-3.webp" alt="Lăn kim phi kim mụn sần" class="service-image" loading="lazy">
+                                                            <img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="{{ asset('images/banner/banner2.webp') }}" alt="Lăn kim phi kim mụn sần" class="service-image" loading="lazy">
                                                         </a>
 
                                                         <div class="service-information-container">
@@ -595,7 +595,7 @@
                                                                         </li>
                                                                         <li class="inner-product-item swiper-slide">
                                                                             <a href="../dau-tay-trang-gsc/index.html" class="inner-product-img-box">
-                                                                                <img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="https://media.gsccos.vn/wp-content/uploads/2026/02/dau-tay-trang.webp" class="inner-product-img" loading="lazy">
+                                                                                <img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="{{ asset('images/banner/banner2.webp') }}" class="inner-product-img" loading="lazy">
                                                                             </a>
                                                                             <p class="inner-product-title">
                                                                                 <a href="../dau-tay-trang-gsc/index.html">Dầu Tẩy Trang Perfect (250ml)</a>
@@ -603,7 +603,7 @@
                                                                         </li>
                                                                         <li class="inner-product-item swiper-slide">
                                                                             <a href="../dau-dan-da-nang-dr-leemee/index.html" class="inner-product-img-box">
-                                                                                <img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="https://media.gsccos.vn/wp-content/uploads/2026/02/DAU-GIAM-BEO.webp" class="inner-product-img" loading="lazy">
+                                                                                <img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="{{ asset('images/banner/banner2.webp') }}" class="inner-product-img" loading="lazy">
                                                                             </a>
                                                                             <p class="inner-product-title">
                                                                                 <a href="../dau-dan-da-nang-dr-leemee/index.html">Dầu Dẫn Đa Năng Dr. Leemee</a>
@@ -611,7 +611,7 @@
                                                                         </li>
                                                                         <li class="inner-product-item swiper-slide">
                                                                             <a href="../indexb59a.html?post_type=product&amp;p=5762" class="inner-product-img-box">
-                                                                                <img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="https://media.gsccos.vn/wp-content/uploads/2026/02/KCN-BB.webp" class="inner-product-img" loading="lazy">
+                                                                                <img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="{{ asset('images/banner/banner2.webp') }}" class="inner-product-img" loading="lazy">
                                                                             </a>
                                                                             <p class="inner-product-title">
                                                                                 <a href="../indexb59a.html?post_type=product&amp;p=5762">Riêng tư: Kem chống nắng BB Cream Perfect</a>
@@ -619,7 +619,7 @@
                                                                         </li>
                                                                         <li class="inner-product-item swiper-slide">
                                                                             <a href="../kem-chong-nang-vat-ly-gsc/index.html" class="inner-product-img-box">
-                                                                                <img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="https://media.gsccos.vn/wp-content/uploads/2026/02/KCN-VAT-LY-1.webp" class="inner-product-img" loading="lazy">
+                                                                                <img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="{{ asset('images/banner/banner2.webp') }}" class="inner-product-img" loading="lazy">
                                                                             </a>
                                                                             <p class="inner-product-title">
                                                                                 <a href="../kem-chong-nang-vat-ly-gsc/index.html">Kem Chống Nắng Vật Lý Perfect</a>
@@ -627,7 +627,7 @@
                                                                         </li>
                                                                         <li class="inner-product-item swiper-slide">
                                                                             <a href="../kem-phuc-hoi-thai-doc-da-gsc/index.html" class="inner-product-img-box">
-                                                                                <img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="https://media.gsccos.vn/wp-content/uploads/2026/02/KEM-K-1.webp" class="inner-product-img" loading="lazy">
+                                                                                <img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="{{ asset('images/banner/banner2.webp') }}" class="inner-product-img" loading="lazy">
                                                                             </a>
                                                                             <p class="inner-product-title">
                                                                                 <a href="../kem-phuc-hoi-thai-doc-da-gsc/index.html">Kem Phục Hồi Thải Độc Da Perfect</a>
@@ -669,7 +669,7 @@
 
                                                     <div class="service-container">
                                                         <a href="../lan-kim-phi-kim-nam/index.html" class="service-image-container">
-                                                            <img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="https://gsccos.vn/wp-content/uploads/2025/05/7-LAN-PHI-KIM-XU-LY-NAM-3.webp" alt="Lăn kim phi kim nám" class="service-image" loading="lazy">
+                                                            <img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="{{ asset('images/banner/banner2.webp') }}" alt="Lăn kim phi kim nám" class="service-image" loading="lazy">
                                                         </a>
 
                                                         <div class="service-information-container">
@@ -690,7 +690,7 @@
 
                                                     <div class="service-container">
                                                         <a href="../phi-nano-cang-bong-trang-sang/index.html" class="service-image-container">
-                                                            <img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="https://gsccos.vn/wp-content/uploads/2025/05/28-CANG-BONG-TRE-HOa-vi-nano-1.webp" alt="Phi nano căng bóng, trắng sáng" class="service-image" loading="lazy">
+                                                            <img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="{{ asset('images/banner/banner2.webp') }}" alt="Phi nano căng bóng, trắng sáng" class="service-image" loading="lazy">
                                                         </a>
 
                                                         <div class="service-information-container">
@@ -711,7 +711,7 @@
 
                                                     <div class="service-container">
                                                         <a href="../lan-kim-phi-kim-cang-bong/index.html" class="service-image-container">
-                                                            <img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="https://gsccos.vn/wp-content/uploads/2025/05/30-phi_lan-kim-tre-hoa-da-1.webp" alt="Lăn kim phi kim căng bóng" class="service-image" loading="lazy">
+                                                            <img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="{{ asset('images/banner/banner2.webp') }}" alt="Lăn kim phi kim căng bóng" class="service-image" loading="lazy">
                                                         </a>
 
                                                         <div class="service-information-container">
@@ -732,7 +732,7 @@
 
                                                     <div class="service-container">
                                                         <a href="../vi-kim-cang-bong/index.html" class="service-image-container">
-                                                            <img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="https://gsccos.vn/wp-content/uploads/2025/05/37-VI-KIM-TRE-HOA-CANG-BONG-DA-1.webp" alt="Vi kim căng bóng" class="service-image" loading="lazy">
+                                                            <img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="{{ asset('images/banner/banner2.webp') }}" alt="Vi kim căng bóng" class="service-image" loading="lazy">
                                                         </a>
 
                                                         <div class="service-information-container">
@@ -811,7 +811,7 @@
 
                                                     <div class="service-container">
                                                         <a href="../peel-hoa-hoc-nam/index.html" class="service-image-container">
-                                                            <img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="https://gsccos.vn/wp-content/uploads/2025/05/4-Peel-hoa-hoc-nam-1.webp" alt="Peel hóa học nám" class="service-image" loading="lazy">
+                                                            <img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="{{ asset('images/banner/banner2.webp') }}" alt="Peel hóa học nám" class="service-image" loading="lazy">
                                                         </a>
 
                                                         <div class="service-information-container">
@@ -829,7 +829,7 @@
                                                                     <ul class="swiper-wrapper">
                                                                         <li class="inner-product-item swiper-slide">
                                                                             <a href="../tinh-chat-mun-gsc/index.html" class="inner-product-img-box">
-                                                                                <img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="https://media.gsccos.vn/wp-content/uploads/2026/02/SERUM-MUN-1.webp" class="inner-product-img" loading="lazy">
+                                                                                <img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="{{ asset('images/banner/banner2.webp') }}" class="inner-product-img" loading="lazy">
                                                                             </a>
                                                                             <p class="inner-product-title">
                                                                                 <a href="../tinh-chat-mun-gsc/index.html">Tinh chất mụn Perfect (15ml)</a>
@@ -837,7 +837,7 @@
                                                                         </li>
                                                                         <li class="inner-product-item swiper-slide">
                                                                             <a href="../kem-phuc-hoi-thai-doc-da-gsc/index.html" class="inner-product-img-box">
-                                                                                <img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="https://media.gsccos.vn/wp-content/uploads/2026/02/KEM-K-1.webp" class="inner-product-img" loading="lazy">
+                                                                                <img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="{{ asset('images/banner/banner2.webp') }}" class="inner-product-img" loading="lazy">
                                                                             </a>
                                                                             <p class="inner-product-title">
                                                                                 <a href="../kem-phuc-hoi-thai-doc-da-gsc/index.html">Kem Phục Hồi Thải Độc Da Perfect</a>
@@ -879,7 +879,7 @@
 
                                                     <div class="service-container">
                                                         <a href="../vi-kim-sinh-hoc-nam/index.html" class="service-image-container">
-                                                            <img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="https://gsccos.vn/wp-content/uploads/2025/05/5-Vi-kim-nam-3.webp" alt="Vi kim sinh học nám" class="service-image" loading="lazy">
+                                                            <img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="{{ asset('images/banner/banner2.webp') }}" alt="Vi kim sinh học nám" class="service-image" loading="lazy">
                                                         </a>
 
                                                         <div class="service-information-container">
@@ -900,7 +900,7 @@
 
                                                     <div class="service-container">
                                                         <a href="../seo-tca/index.html" class="service-image-container">
-                                                            <img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="https://gsccos.vn/wp-content/uploads/2025/05/1-seo-TCA-2.webp" alt="Sẹo với TCA" class="service-image" loading="lazy">
+                                                            <img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="{{ asset('images/banner/banner2.webp') }}" alt="Sẹo với TCA" class="service-image" loading="lazy">
                                                         </a>
 
                                                         <div class="service-information-container">
@@ -921,7 +921,7 @@
 
                                                     <div class="service-container">
                                                         <a href="../vi-kim-sinh-hoc-mun-san/index.html" class="service-image-container">
-                                                            <img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="https://gsccos.vn/wp-content/uploads/2025/05/2-vi-kim-mun-3.webp" alt="Vi kim sinh học mụn sần" class="service-image" loading="lazy">
+                                                            <img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="{{ asset('images/banner/banner2.webp') }}" alt="Vi kim sinh học mụn sần" class="service-image" loading="lazy">
                                                         </a>
 
                                                         <div class="service-information-container">
@@ -942,7 +942,7 @@
 
                                                     <div class="service-container">
                                                         <a href="../peel-hoa-hoc-mun/index.html" class="service-image-container">
-                                                            <img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="https://gsccos.vn/wp-content/uploads/2025/05/3-Peel-hoa-hoc-mun-3.webp" alt="Peel hóa học mụn sần, mụn trứng cá" class="service-image" loading="lazy">
+                                                            <img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="{{ asset('images/banner/banner2.webp') }}" alt="Peel hóa học mụn sần, mụn trứng cá" class="service-image" loading="lazy">
                                                         </a>
 
                                                         <div class="service-information-container">
@@ -1021,7 +1021,7 @@
 
                                                     <div class="service-container">
                                                         <a href="../dien-di-anh-sang-voi-mun-trung-ca/index.html" class="service-image-container">
-                                                            <img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="https://gsccos.vn/wp-content/uploads/2025/05/19-lay-nhan-mun-cho-da-khoe-2.webp" alt="Điện di &#038; ánh sáng với mụn trứng cá" class="service-image" loading="lazy">
+                                                            <img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="{{ asset('images/banner/banner2.webp') }}" alt="Điện di &#038; ánh sáng với mụn trứng cá" class="service-image" loading="lazy">
                                                         </a>
 
                                                         <div class="service-information-container">
@@ -1039,7 +1039,7 @@
                                                                     <ul class="swiper-wrapper">
                                                                         <li class="inner-product-item swiper-slide">
                                                                             <a href="../dien-di-anh-sang-phuc-hoi-sau-laser/index.html" class="inner-product-img-box">
-                                                                                <img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="https://gsccos.vn/wp-content/uploads/2025/05/16-phuc-hoi-sau-laser-2.webp" class="inner-product-img" loading="lazy">
+                                                                                <img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="{{ asset('images/banner/banner2.webp') }}" class="inner-product-img" loading="lazy">
                                                                             </a>
                                                                             <p class="inner-product-title">
                                                                                 <a href="../dien-di-anh-sang-phuc-hoi-sau-laser/index.html">Điện di &#038; ánh sáng phục hồi sau laser</a>
@@ -1047,7 +1047,7 @@
                                                                         </li>
                                                                         <li class="inner-product-item swiper-slide">
                                                                             <a href="../lan-kim-phi-kim-cang-bong/index.html" class="inner-product-img-box">
-                                                                                <img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="https://gsccos.vn/wp-content/uploads/2025/05/30-phi_lan-kim-tre-hoa-da-1.webp" class="inner-product-img" loading="lazy">
+                                                                                <img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="{{ asset('images/banner/banner2.webp') }}" class="inner-product-img" loading="lazy">
                                                                             </a>
                                                                             <p class="inner-product-title">
                                                                                 <a href="../lan-kim-phi-kim-cang-bong/index.html">Lăn kim phi kim căng bóng</a>
@@ -1055,7 +1055,7 @@
                                                                         </li>
                                                                         <li class="inner-product-item swiper-slide">
                                                                             <a href="../duong-trang-cang-bong/index.html" class="inner-product-img-box">
-                                                                                <img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="https://gsccos.vn/wp-content/uploads/2025/05/36-LIEU-TRINH-DUONG-TRANG-CANG-BONG-DA-1.webp" class="inner-product-img" loading="lazy">
+                                                                                <img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="{{ asset('images/banner/banner2.webp') }}" class="inner-product-img" loading="lazy">
                                                                             </a>
                                                                             <p class="inner-product-title">
                                                                                 <a href="../duong-trang-cang-bong/index.html">Dưỡng trắng, căng bóng</a>
@@ -1063,7 +1063,7 @@
                                                                         </li>
                                                                         <li class="inner-product-item swiper-slide">
                                                                             <a href="../lan-kim-phi-kim-mun-san/index.html" class="inner-product-img-box">
-                                                                                <img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="https://gsccos.vn/wp-content/uploads/2025/05/8-phi-kim-mun-san-3.webp" class="inner-product-img" loading="lazy">
+                                                                                <img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="{{ asset('images/banner/banner2.webp') }}" class="inner-product-img" loading="lazy">
                                                                             </a>
                                                                             <p class="inner-product-title">
                                                                                 <a href="../lan-kim-phi-kim-mun-san/index.html">Lăn kim phi kim mụn sần</a>
@@ -1071,7 +1071,7 @@
                                                                         </li>
                                                                         <li class="inner-product-item swiper-slide">
                                                                             <a href="../dien-di-anh-sang-voi-mun-trung-ca/index.html" class="inner-product-img-box">
-                                                                                <img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="https://gsccos.vn/wp-content/uploads/2025/05/19-lay-nhan-mun-cho-da-khoe-2.webp" class="inner-product-img" loading="lazy">
+                                                                                <img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="{{ asset('images/banner/banner2.webp') }}" class="inner-product-img" loading="lazy">
                                                                             </a>
                                                                             <p class="inner-product-title">
                                                                                 <a href="../dien-di-anh-sang-voi-mun-trung-ca/index.html">Điện di &#038; ánh sáng với mụn trứng cá</a>
@@ -1079,7 +1079,7 @@
                                                                         </li>
                                                                         <li class="inner-product-item swiper-slide">
                                                                             <a href="../laser-nam/index.html" class="inner-product-img-box">
-                                                                                <img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="https://gsccos.vn/wp-content/uploads/2025/05/12-laser-nam-2.webp" class="inner-product-img" loading="lazy">
+                                                                                <img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="{{ asset('images/banner/banner2.webp') }}" class="inner-product-img" loading="lazy">
                                                                             </a>
                                                                             <p class="inner-product-title">
                                                                                 <a href="../laser-nam/index.html">Laser nám</a>
@@ -1087,7 +1087,7 @@
                                                                         </li>
                                                                         <li class="inner-product-item swiper-slide">
                                                                             <a href="../mun-nhan-viem-nhe/index.html" class="inner-product-img-box">
-                                                                                <img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="https://gsccos.vn/wp-content/uploads/2025/05/21-mun-viem-nhe-2.webp" class="inner-product-img" loading="lazy">
+                                                                                <img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="{{ asset('images/banner/banner2.webp') }}" class="inner-product-img" loading="lazy">
                                                                             </a>
                                                                             <p class="inner-product-title">
                                                                                 <a href="../mun-nhan-viem-nhe/index.html">Mụn nhân viêm nhẹ</a>
@@ -1095,7 +1095,7 @@
                                                                         </li>
                                                                         <li class="inner-product-item swiper-slide">
                                                                             <a href="../mesotherapy-nam/index.html" class="inner-product-img-box">
-                                                                                <img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="https://gsccos.vn/wp-content/uploads/2025/05/9-meso-nam-2.webp" class="inner-product-img" loading="lazy">
+                                                                                <img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="{{ asset('images/banner/banner2.webp') }}" class="inner-product-img" loading="lazy">
                                                                             </a>
                                                                             <p class="inner-product-title">
                                                                                 <a href="../mesotherapy-nam/index.html">Mesotherapy nám</a>
@@ -1103,7 +1103,7 @@
                                                                         </li>
                                                                         <li class="inner-product-item swiper-slide">
                                                                             <a href="../mesotherapy-mun/index.html" class="inner-product-img-box">
-                                                                                <img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="https://gsccos.vn/wp-content/uploads/2025/05/10-meso-da-mun-mu-2.webp" class="inner-product-img" loading="lazy">
+                                                                                <img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="{{ asset('images/banner/banner2.webp') }}" class="inner-product-img" loading="lazy">
                                                                             </a>
                                                                             <p class="inner-product-title">
                                                                                 <a href="../mesotherapy-mun/index.html">Mesotherapy mụn sần, mụn viêm</a>
@@ -1145,7 +1145,7 @@
 
                                                     <div class="service-container">
                                                         <a href="../dien-di-anh-sang-mun-san/index.html" class="service-image-container">
-                                                            <img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="https://gsccos.vn/wp-content/uploads/2025/05/18-nhan-mun-da-khoe-2.webp" alt="Điện di &#038; ánh sáng với mụn sần" class="service-image" loading="lazy">
+                                                            <img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="{{ asset('images/banner/banner2.webp') }}" alt="Điện di &#038; ánh sáng với mụn sần" class="service-image" loading="lazy">
                                                         </a>
 
                                                         <div class="service-information-container">
@@ -1166,7 +1166,7 @@
 
                                                     <div class="service-container">
                                                         <a href="../dien-di-anh-sang-mun-viem/index.html" class="service-image-container">
-                                                            <img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="https://gsccos.vn/wp-content/uploads/2025/05/17-lay-nhan-mun-2.webp" alt="Điện di &#038; ánh sáng với mụn viêm" class="service-image" loading="lazy">
+                                                            <img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="{{ asset('images/banner/banner2.webp') }}" alt="Điện di &#038; ánh sáng với mụn viêm" class="service-image" loading="lazy">
                                                         </a>
 
                                                         <div class="service-information-container">
@@ -1187,7 +1187,7 @@
 
                                                     <div class="service-container">
                                                         <a href="../dien-di-anh-sang-phuc-hoi-sau-laser/index.html" class="service-image-container">
-                                                            <img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="https://gsccos.vn/wp-content/uploads/2025/05/16-phuc-hoi-sau-laser-2.webp" alt="Điện di &#038; ánh sáng phục hồi sau laser" class="service-image" loading="lazy">
+                                                            <img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="{{ asset('images/banner/banner2.webp') }}" alt="Điện di &#038; ánh sáng phục hồi sau laser" class="service-image" loading="lazy">
                                                         </a>
 
                                                         <div class="service-information-container">
@@ -1208,7 +1208,7 @@
 
                                                     <div class="service-container">
                                                         <a href="../dien-di-phuc-hoi/index.html" class="service-image-container">
-                                                            <img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="https://gsccos.vn/wp-content/uploads/2025/05/15-dien-di-phuc-hoi-da-2.webp" alt="Điện di phục hồi" class="service-image" loading="lazy">
+                                                            <img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="{{ asset('images/banner/banner2.webp') }}" alt="Điện di phục hồi" class="service-image" loading="lazy">
                                                         </a>
 
                                                         <div class="service-information-container">
@@ -1229,7 +1229,7 @@
 
                                                     <div class="service-container">
                                                         <a href="../u-trang-cang-bong/index.html" class="service-image-container">
-                                                            <img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="https://gsccos.vn/wp-content/uploads/2025/05/31-U-TRANG-CANG-BONG-DA-1.webp" alt="Ủ trắng căng bóng" class="service-image" loading="lazy">
+                                                            <img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="{{ asset('images/banner/banner2.webp') }}" alt="Ủ trắng căng bóng" class="service-image" loading="lazy">
                                                         </a>
 
                                                         <div class="service-information-container">
@@ -1250,7 +1250,7 @@
 
                                                     <div class="service-container">
                                                         <a href="../oxyjet-dien-di-phuc-hoi-corticoid/index.html" class="service-image-container">
-                                                            <img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="https://gsccos.vn/wp-content/uploads/2025/05/13-OXY-JET-DIEN-DI-PHUC-HOI-DA-NHIEM-CORTICOID-2.webp" alt="Oxy jet &#038; điện di phục hồi corticoid" class="service-image" loading="lazy">
+                                                            <img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="{{ asset('images/banner/banner2.webp') }}" alt="Oxy jet &#038; điện di phục hồi corticoid" class="service-image" loading="lazy">
                                                         </a>
 
                                                         <div class="service-information-container">
@@ -1271,7 +1271,7 @@
 
                                                     <div class="service-container">
                                                         <a href="../oxyjet-anh-sang-phuc-hoi-kich-ung/index.html" class="service-image-container">
-                                                            <img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="https://gsccos.vn/wp-content/uploads/2025/05/14-phuc-hoi-da-kich-ung-2.webp" alt="Oxyjet &#038; ánh sáng phục hồi kích ứng" class="service-image" loading="lazy">
+                                                            <img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="{{ asset('images/banner/banner2.webp') }}" alt="Oxyjet &#038; ánh sáng phục hồi kích ứng" class="service-image" loading="lazy">
                                                         </a>
 
                                                         <div class="service-information-container">
@@ -1350,7 +1350,7 @@
 
                                                     <div class="service-container">
                                                         <a href="../mesotherapy-nam/index.html" class="service-image-container">
-                                                            <img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="https://gsccos.vn/wp-content/uploads/2025/05/9-meso-nam-2.webp" alt="Mesotherapy nám" class="service-image" loading="lazy">
+                                                            <img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="{{ asset('images/banner/banner2.webp') }}" alt="Mesotherapy nám" class="service-image" loading="lazy">
                                                         </a>
 
                                                         <div class="service-information-container">
@@ -1371,7 +1371,7 @@
 
                                                     <div class="service-container">
                                                         <a href="../mesotherapy-mun/index.html" class="service-image-container">
-                                                            <img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="https://gsccos.vn/wp-content/uploads/2025/05/10-meso-da-mun-mu-2.webp" alt="Mesotherapy mụn sần, mụn viêm" class="service-image" loading="lazy">
+                                                            <img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="{{ asset('images/banner/banner2.webp') }}" alt="Mesotherapy mụn sần, mụn viêm" class="service-image" loading="lazy">
                                                         </a>
 
                                                         <div class="service-information-container">
@@ -1450,7 +1450,7 @@
 
                                                     <div class="service-container">
                                                         <a href="../tach-day-va-laser-seo/index.html" class="service-image-container">
-                                                            <img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="https://gsccos.vn/wp-content/uploads/2025/05/11-Tach-day-va-laser-seo-2.webp" alt="Tách đáy và laser sẹo" class="service-image" loading="lazy">
+                                                            <img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="{{ asset('images/banner/banner2.webp') }}" alt="Tách đáy và laser sẹo" class="service-image" loading="lazy">
                                                         </a>
 
                                                         <div class="service-information-container">
@@ -1471,7 +1471,7 @@
 
                                                     <div class="service-container">
                                                         <a href="../laser-nam/index.html" class="service-image-container">
-                                                            <img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="https://gsccos.vn/wp-content/uploads/2025/05/12-laser-nam-2.webp" alt="Laser nám" class="service-image" loading="lazy">
+                                                            <img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="{{ asset('images/banner/banner2.webp') }}" alt="Laser nám" class="service-image" loading="lazy">
                                                         </a>
 
                                                         <div class="service-information-container">
