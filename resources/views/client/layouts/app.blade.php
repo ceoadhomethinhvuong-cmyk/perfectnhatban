@@ -1150,9 +1150,17 @@
         color: #3ea8e2 !important;
     }
 
-    /* Mega menu: z-index để dropdown hiện trên các element khác */
-    .e-n-menu-content {
+    /* Mega menu: ẩn mặc định, chỉ hiện khi hover */
+    #cs-mega-menu .e-n-menu-content {
+        display: none !important;
+        position: absolute !important;
         z-index: 1000 !important;
+    }
+    #cs-mega-menu .e-n-menu-item:hover .e-n-menu-content {
+        display: flex !important;
+    }
+    #cs-mega-menu .e-n-menu-content > .e-con {
+        display: flex !important;
     }
 
     #cs-mega-menu .e-n-menu-title:hover .e-n-menu-dropdown-icon svg path,
