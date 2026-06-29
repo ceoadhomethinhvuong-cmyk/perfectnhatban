@@ -585,7 +585,7 @@ dưỡng tóc, minh bạch nguồn gốc và thông tin sử dụng.')
                                                         class="product-image-container">
                                                         <img data-lazyloaded="1"
                                                             src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
-                                                            data-src="{{asset('images/sanpham/nmn.webp')}}"
+                                                            data-src="{{asset('images/sanpham/perfect-nmn/nmn.webp')}}"
                                                             alt="Viên uống NMN 10000MG" class="product-image">
 
 

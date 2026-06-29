@@ -1,4 +1,4 @@
-@extends('client.layouts.app')
+﻿@extends('client.layouts.app')
 
 @section('seo_title', 'V2 - Viên uống trắng da Perfect Beauty White')
 @section('meta_description', 'V2 Perfect Beauty White là viên uống hỗ trợ chăm sóc làn da sáng khỏe từ bên trong, sản phẩm PERFECT Nhật Bản chính hãng.')
@@ -60,18 +60,19 @@
                                         <div class="swiper-slide" role="group" aria-roledescription="slide"
                                             aria-label="2 trên 3">
                                             <figure class="swiper-slide-inner"><img data-lazyloaded="1"
-                                                    src="{{asset('images/sanpham/perfect-beauty-white/white.webp')}}"
+                                                    src="{{asset('images/sanpham/perfect-beauty-white/giay-cong-bo-san-pham-perfect-beauty-white.webp')}}"
                                                     class="swiper-slide-image"
-                                                    data-src="{{asset('images/sanpham/perfect-beauty-white/white.webp')}}"
-                                                    alt="Perfect Mela Bright Cleanser Sữa Rửa Mặt Dịu Nhẹ Perfect" />
+                                                    data-src="{{asset('images/sanpham/perfect-beauty-white/giay-cong-bo-san-pham-perfect-beauty-white.webp')}}"
+                                                    alt="giấy công bố sản phẩm Perfect Beauty White" />
                                             </figure>
                                         </div>
                                         <div class="swiper-slide" role="group" aria-roledescription="slide"
                                             aria-label="3 trên 3">
                                             <figure class="swiper-slide-inner"><img data-lazyloaded="1"
-                                                    src="{{asset('images/sanpham/p5.webp')}}" class="swiper-slide-image"
-                                                    data-src="{{asset('images/sanpham/p5.webp')}}"
-                                                    alt="Perfect Mela Bright Cleanser Sữa Rửa Mặt Dịu Nhẹ Perfect Mela Bright" />
+                                                    src="{{asset('images/sanpham/perfect-beauty-white/giay-xac-nhan-quang-cao-perfect-beauty-white.webp')}}"
+                                                    class="swiper-slide-image"
+                                                    data-src="{{asset('images/sanpham/perfect-beauty-white/giay-xac-nhan-quang-cao-perfect-beauty-white.webp')}}"
+                                                    alt="giấy xác nhận quảng cáo Perfect Beauty White" />
                                             </figure>
                                         </div>
                                     </div>
@@ -185,6 +186,7 @@
                                     và sức khỏe một cách toàn diện. Khi kết hợp cùng chế độ ăn uống khoa học, nghỉ ngơi
                                     hợp lý và lối sống lành mạnh, sản phẩm giúp duy trì vẻ đẹp tự nhiên và sự tự tin mỗi
                                     ngày.</p>
+                                    <p>*Lưu ý: Sản phẩm này không phải là thuốc và không có tác dụng thay thế thuốc chữa bệnh. Hiệu quả sử dụng phụ thuộc vào cơ địa và liệu trình duy trì của từng người.*</p>
                             </div>
                         </div>
                     </div>
@@ -203,7 +205,7 @@
                                 data-widget_type="woocommerce-product-price.default">
                                 <div class="elementor-widget-container">
                                     <p class="price"><span
-                                            class="woocommerce-Price-amount amount"><bdi>1.200.000&nbsp;<span
+                                            class="woocommerce-Price-amount amount"><bdi>1.500.000&nbsp;<span
                                                     class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span>
                                     </p>
                                 </div>
@@ -220,6 +222,14 @@
                                             href="https://zalo.me/3585587855118291388">
                                             <span class="elementor-button-content-wrapper">
                                                 <span class="elementor-button-text">Liên hệ ngay</span>
+                                            </span>
+                                        </a>
+                                    </div>
+                                    <div class="elementor-button-wrapper">
+                                        <a class="elementor-button elementor-button-link elementor-size-sm"
+                                            href="https://shop.perfectnhatban.com/vien-uong-trang-da-perfect-beauty-white/">
+                                            <span class="elementor-button-content-wrapper">
+                                                <span class="elementor-button-text">Mua ngay</span>
                                             </span>
                                         </a>
                                     </div>
@@ -301,11 +311,13 @@
                             <p>Sau thời gian duy trì thói quen chăm sóc da từ bên trong kết hợp chế độ sinh hoạt hợp lý:
                             </p>
 
-                            <p>89% cảm nhận làn da tươi sáng hơn</p>
+                            <p> Bề mặt da phẳng và mịn hơn</p>
 
-                            <p>84% cảm nhận da mềm mại và ẩm mượt hơn</p>
+                            <p>Sẹo rỗ vẫn còn nhưng mức độ xuất hiện giảm đáng kể.</p>
 
-                            <p>82% cảm nhận làn da đều màu và rạng rỡ hơn</p>
+                            <p>Da sáng và đều màu hơn.</p>
+
+                            <p>Tổng thể làn da tạo cảm giác khỏe mạnh, ít khuyết điểm hơn so với trước.</p>
 
                             <p>
                                 Đánh giá dựa trên phản hồi thực tế của người dùng trong quá trình chăm sóc sức khỏe và
@@ -314,9 +326,10 @@
 
                             <p>Chỉ số nổi bật:</p>
 
-                            <p>91% cảm nhận da ẩm mịn hơn</p>
+                            <p>80% cảm nhận da ẩm mịn hơn</p>
 
                             <p>67% da đều màu và tươi tắn hơn</p>
+                            </p>85% độ phẳng bề mặt da</p>
                         </div>
                     </div>
                     <div class="elementor-element elementor-element-d4fc5da cs-product-info-button elementor-widget elementor-widget-button"
@@ -340,12 +353,12 @@
                                 <div class="tda-image-compare__inner"><img data-lazyloaded="1"
                                         src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
                                         class="tda-image-compare__image tda-image-compare__after"
-                                        data-src="{{ asset('images/banner/banner2.webp') }}"
+                                        data-src="{{ asset('images/sanpham/perfect-beauty-white/after-white.webp') }}"
                                         alt="">
                                     <div class="tda-image-compare__before-wrap"><img data-lazyloaded="1"
                                             src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
                                             class="tda-image-compare__image tda-image-compare__before"
-                                            data-src="{{ asset('images/banner/banner2.webp') }}"
+                                            data-src="{{ asset('images/sanpham/perfect-beauty-white/befor-white.webp') }}"
                                             alt=""></div>
                                     <div class="tda-image-compare__handle"></div><input type="range"
                                         class="tda-image-compare__slider" min="0" max="100" value="50"
@@ -354,16 +367,16 @@
                             </div>
                             <div class="perfectlady-proof-stats" aria-label="Kết quả sau sử dụng">
                                 <div class="perfectlady-proof-stat">
-                                    <strong class="perfectlady-count" data-target="94">0%</strong>
-                                    <span>Da dịu hẳn</span>
+                                    <strong class="perfectlady-count" data-target="80">0%</strong>
+                                    <span>Cảm nhận da ẩm mịn hơn</span>
                                 </div>
                                 <div class="perfectlady-proof-stat">
-                                    <strong class="perfectlady-count" data-target="88">0%</strong>
-                                    <span>Không nẻ, bong tróc</span>
+                                    <strong class="perfectlady-count" data-target="85">0%</strong>
+                                    <span>Độ phẳng bề mặt da</span>
                                 </div>
                                 <div class="perfectlady-proof-stat">
-                                    <strong class="perfectlady-count" data-target="64">0%</strong>
-                                    <span>Giảm đỏ, kích ứng</span>
+                                    <strong class="perfectlady-count" data-target="67">0%</strong>
+                                    <span>Da đều màu và tươi tắn hơn</span>
                                 </div>
                             </div>
                         </div>
@@ -2354,7 +2367,6 @@
                         .perfectlady-gallery-swiper {
                             position: relative;
                             overflow: hidden !important;
-                            min-height: 420px;
                         }
 
                         .perfectlady-gallery-swiper .swiper-wrapper {
@@ -2475,8 +2487,8 @@
                             left: 50%;
                             width: 2px;
                             height: 100%;
-                            background: #fff;
-                            box-shadow: 0 0 10px rgba(0, 0, 0, .22);
+                            background: #000;
+                            box-shadow: 0 0 10px rgba(0, 0, 0, .4);
                             transform: translateX(-50%);
                             z-index: 3;
                             pointer-events: none;
@@ -2490,8 +2502,8 @@
                             width: 32px;
                             height: 32px;
                             border-radius: 50%;
-                            background: #fff;
-                            color: #4a4a4a;
+                            background: #000;
+                            color: #fff;
                             display: flex;
                             align-items: center;
                             justify-content: center;
@@ -2672,7 +2684,8 @@
 
                             if (perfectLadyGallery) {
                                 if (perfectLadyGallery.swiper) {
-                                    perfectLadyGallery.swiper.destroy(false, false);
+                                    perfectLadyGallery.swiper.destroy(true, true);
+                                perfectLadyGallery.querySelectorAll(".swiper-slide-duplicate").forEach(el => el.remove());
                                 }
 
                                 const galleryWrapper = perfectLadyGallery.querySelector(".swiper-wrapper");
@@ -2768,7 +2781,8 @@
 
                                     setTimeout(() => {
                                         if (perfectLadyGallery.swiper) {
-                                            perfectLadyGallery.swiper.destroy(false, false);
+                                            perfectLadyGallery.swiper.destroy(true, true);
+                                perfectLadyGallery.querySelectorAll(".swiper-slide-duplicate").forEach(el => el.remove());
                                         }
                                         renderPerfectLadyGallery();
                                     }, 500);
@@ -3069,3 +3083,4 @@
     </div>
 </div>
 @endsection
+

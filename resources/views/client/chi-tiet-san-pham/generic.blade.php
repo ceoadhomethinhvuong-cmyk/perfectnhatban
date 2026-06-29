@@ -1,4 +1,4 @@
-@extends('client.layouts.app')
+﻿@extends('client.layouts.app')
 
 @section('seo_title', ($product['title'] ?? 'Chi tiết sản phẩm PERFECT') . ' | PERFECT Nhật Bản')
 @section('meta_description', $product['description'] ?? 'Thông tin chi tiết sản phẩm PERFECT Nhật Bản chính hãng.')
@@ -2324,7 +2324,6 @@
                         .perfectlady-gallery-swiper {
                             position: relative;
                             overflow: hidden !important;
-                            min-height: 420px;
                         }
 
                         .perfectlady-gallery-swiper .swiper-wrapper {
@@ -2633,7 +2632,8 @@
 
                             if (perfectLadyGallery) {
                                 if (perfectLadyGallery.swiper) {
-                                    perfectLadyGallery.swiper.destroy(false, false);
+                                    perfectLadyGallery.swiper.destroy(true, true);
+                                perfectLadyGallery.querySelectorAll(".swiper-slide-duplicate").forEach(el => el.remove());
                                 }
 
                                 const galleryWrapper = perfectLadyGallery.querySelector(".swiper-wrapper");
@@ -2725,7 +2725,8 @@
 
                                     setTimeout(() => {
                                         if (perfectLadyGallery.swiper) {
-                                            perfectLadyGallery.swiper.destroy(false, false);
+                                            perfectLadyGallery.swiper.destroy(true, true);
+                                perfectLadyGallery.querySelectorAll(".swiper-slide-duplicate").forEach(el => el.remove());
                                         }
                                         renderPerfectLadyGallery();
                                     }, 500);
@@ -3020,3 +3021,4 @@
     </div>
 </div>
 @endsection
+

@@ -1,4 +1,4 @@
-@extends('client.layouts.app')
+﻿@extends('client.layouts.app')
 
 @section('seo_title', 'V1 - Viên uống nội tiết Perfect Lady')
 @section('meta_description', 'V1 Perfect Lady là viên uống hỗ trợ cân bằng nội tiết và chăm sóc sắc đẹp từ bên trong
@@ -199,7 +199,7 @@ thuộc hệ sản phẩm PERFECT Nhật Bản.')
                                 data-widget_type="woocommerce-product-price.default">
                                 <div class="elementor-widget-container">
                                     <p class="price"><span
-                                            class="woocommerce-Price-amount amount"><bdi>1.200.000&nbsp;<span
+                                            class="woocommerce-Price-amount amount"><bdi>1.300.000&nbsp;<span
                                                     class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span>
                                     </p>
                                 </div>
@@ -2335,7 +2335,6 @@ thuộc hệ sản phẩm PERFECT Nhật Bản.')
                         .perfectlady-gallery-swiper {
                             position: relative;
                             overflow: hidden !important;
-                            min-height: 420px;
                         }
 
                         .perfectlady-gallery-swiper .swiper-wrapper {
@@ -2644,7 +2643,8 @@ thuộc hệ sản phẩm PERFECT Nhật Bản.')
 
                             if (perfectLadyGallery) {
                                 if (perfectLadyGallery.swiper) {
-                                    perfectLadyGallery.swiper.destroy(false, false);
+                                    perfectLadyGallery.swiper.destroy(true, true);
+                                perfectLadyGallery.querySelectorAll(".swiper-slide-duplicate").forEach(el => el.remove());
                                 }
 
                                 const galleryWrapper = perfectLadyGallery.querySelector(".swiper-wrapper");
@@ -2736,7 +2736,8 @@ thuộc hệ sản phẩm PERFECT Nhật Bản.')
 
                                     setTimeout(() => {
                                         if (perfectLadyGallery.swiper) {
-                                            perfectLadyGallery.swiper.destroy(false, false);
+                                            perfectLadyGallery.swiper.destroy(true, true);
+                                perfectLadyGallery.querySelectorAll(".swiper-slide-duplicate").forEach(el => el.remove());
                                         }
                                         renderPerfectLadyGallery();
                                     }, 500);

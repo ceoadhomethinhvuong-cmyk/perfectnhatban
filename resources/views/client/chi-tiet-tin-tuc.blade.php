@@ -35,21 +35,21 @@
     .post-content-wrapper .wp-caption { max-width:100% !important; }
     .post-content-wrapper .aligncenter { display:block; margin-left:auto; margin-right:auto; }
     .post-meta-dot { width:4px; height:4px; border-radius:50%; background:#3ea8e299; display:inline-block; margin:0 8px; vertical-align:middle; }
-    .post-toc { background:#fff; border:1px solid #bfc3c8; border-radius:4px; color:#4b4f58; margin:0 0 28px; max-width:560px; padding:10px 10px 12px; }
-    .post-toc-header { align-items:center; display:flex; justify-content:space-between; margin-bottom:8px; }
-    .post-toc strong { color:#171717; display:block; font-size:20px; font-weight:500; line-height:1.25; }
-    .post-toc-button { align-items:center; background:#f8f8f8; border:1px solid #bfc3c8; border-radius:4px; color:#7a7d84; display:inline-flex; height:34px; justify-content:center; position:relative; width:34px; }
-    .post-toc-button::before { background:repeating-linear-gradient(to bottom,#7a7d84 0 2px,transparent 2px 5px); content:""; height:14px; width:14px; }
+    .post-toc { background:#fff; border:1px solid #e0e0e0; border-radius:6px; color:#333; display:inline-block; margin:0 0 28px; max-width:560px; padding:20px 24px 22px; }
+    .post-toc strong { color:#111; display:block; font-size:17px; font-weight:800; letter-spacing:.5px; line-height:1.3; margin-bottom:14px; text-transform:uppercase; }
     .post-content-wrapper .post-toc-list { counter-reset: toc2; list-style:none; margin:0; padding:0; }
-    .post-toc-list li { color:#4f535b; font-size:14px; line-height:1.55; margin:3px 0; }
-    .post-toc-list a { color:inherit; font-weight:400; text-decoration:none; }
+    .post-toc-list li { color:#333; font-size:15px; line-height:1.6; margin:4px 0; display:flex; align-items:baseline; gap:6px; }
+    .post-toc-list a { color:inherit; font-weight:400; text-decoration:none; flex:1; }
     .post-toc-list a:hover { color:#258fe5; }
     .post-toc-list .toc-level-2 { counter-increment: toc2; counter-reset: toc3; }
-    .post-toc-list .toc-level-3 { counter-increment: toc3; counter-reset: toc4; font-size:12px; margin-left:40px; }
-    .post-toc-list .toc-level-4 { counter-increment: toc4; font-size:12px; margin-left:58px; }
-    .post-toc-list .toc-level-2 .toc-number::before { content: counter(toc2) ". "; }
-    .post-toc-list .toc-level-3 .toc-number::before { content: counter(toc2) "." counter(toc3) ". "; }
-    .post-toc-list .toc-level-4 .toc-number::before { content: counter(toc2) "." counter(toc3) "." counter(toc4) ". "; }
+    .post-toc-list .toc-level-3 { counter-increment: toc3; counter-reset: toc4; font-size:14px; padding-left:28px; }
+    .post-toc-list .toc-level-4 { counter-increment: toc4; font-size:13px; padding-left:48px; }
+    .post-toc-list .toc-level-2 .toc-number { min-width:26px; color:#555; }
+    .post-toc-list .toc-level-3 .toc-number { min-width:40px; color:#555; }
+    .post-toc-list .toc-level-4 .toc-number { min-width:54px; color:#555; }
+    .post-toc-list .toc-level-2 .toc-number::before { content: counter(toc2); }
+    .post-toc-list .toc-level-3 .toc-number::before { content: counter(toc2) "." counter(toc3); }
+    .post-toc-list .toc-level-4 .toc-number::before { content: counter(toc2) "." counter(toc3) "." counter(toc4); }
     .post-faq { margin:42px 0 0; }
     .post-faq h2 { color:var(--faq-color, #258fe5); font-size:28px; font-weight:800; line-height:1.25; margin:0 0 14px; }
     .post-faq details { background:#fff; border:1px solid #e1e5ea; border-radius:8px; margin:12px 0; overflow:hidden; }
@@ -60,7 +60,8 @@
     .post-faq-answer { border-top:1px solid #eef1f5; color:#4d5562; font-size:15px; line-height:1.75; padding:0 18px 18px; }
     .post-faq-answer p:last-child { margin-bottom:0; }
     @media (max-width: 575px) {
-        .post-toc { max-width:100%; }
+        .post-toc { max-width:100%; padding:16px; }
+        .post-toc-list li { font-size:14px; }
         .post-faq h2 { font-size:24px; }
         .post-faq summary { font-size:15px; }
     }
@@ -96,10 +97,7 @@
 
                 @if(!empty($article['toc_items']))
                 <div class="post-toc">
-                    <div class="post-toc-header">
-                        <strong>Mục lục</strong>
-                        <span class="post-toc-button" aria-hidden="true"></span>
-                    </div>
+                    <strong>Mục lục</strong>
                     <ol class="post-toc-list">
                         @foreach($article['toc_items'] as $item)
                             @php

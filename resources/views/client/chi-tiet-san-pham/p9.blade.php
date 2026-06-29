@@ -1,4 +1,4 @@
-@extends('client.layouts.app')
+﻿@extends('client.layouts.app')
 
 @section('seo_title', 'P9 - Perfect Skin Yavo Max 200%')
 @section('meta_description', 'P9 Perfect Skin Yavo Max 200% là sản phẩm chăm sóc da chuyên sâu thuộc hệ PERFECT Nhật Bản chính hãng.')
@@ -197,7 +197,7 @@
                     </div>
                     <div class="elementor-element elementor-element-c295bd2 e-con-full e-flex e-con e-child"
                         data-id="c295bd2" data-element_type="container">
-                        <div class="elementor-element elementor-element-e77788f e-con-full e-flex e-con e-child"
+                        {{-- <div class="elementor-element elementor-element-e77788f e-con-full e-flex e-con e-child"
                             data-id="e77788f" data-element_type="container">
                             <div class="elementor-element elementor-element-39ee97d elementor-widget elementor-widget-heading"
                                 data-id="39ee97d" data-element_type="widget" data-widget_type="heading.default">
@@ -215,7 +215,7 @@
                                     </p>
                                 </div>
                             </div>
-                        </div>
+                        </div> --}}
                         <div class="elementor-element elementor-element-5655dba e-con-full e-flex e-con e-child"
                             data-id="5655dba" data-element_type="container">
                             <div class="elementor-element elementor-element-f24fca1 elementor-widget-mobile__width-initial cs-buy-now tda-btn-primary elementor-mobile-align-justify elementor-widget elementor-widget-button"
@@ -319,24 +319,20 @@
                     <div class="elementor-element elementor-element-851980d elementor-widget__width-initial elementor-widget-mobile__width-inherit elementor-widget elementor-widget-text-editor"
                         data-id="851980d" data-element_type="widget" data-widget_type="text-editor.default">
                         <div class="elementor-widget-container">
+                            <p>Trước khi can thiệp, vùng đầu mũi xuất hiện tổn thương rõ rệt, bề mặt da không đều, có vùng khuyết mô và đổi màu, ảnh hưởng đáng kể đến thẩm mỹ khuôn mặt cũng như tâm lý . 
                             <p>
-                                Ở phụ nữ sau tuổi 30, sự suy giảm nội tiết tố không chỉ ảnh hưởng đến làn da
-                                mà còn tác động đến giấc ngủ, tâm trạng và sức khỏe tổng thể.
+                                Sau quá trình điều trị và chăm sóc, hình ảnh cho thấy vùng tổn thương đã phục hồi rõ rệt, bề mặt da liền mạch hơn, màu sắc da hài hòa hơn với vùng da xung quanh và hình dáng đầu mũi được cải thiện đáng kể. Dù vẫn còn dấu vết nhỏ của tổn thương, kết quả cho thấy sự phục hồi tích cực cả về cấu trúc bề mặt và tính thẩm mỹ.
                             </p>
 
-                            <p>
-                                Nhiều chị em gặp tình trạng:
-                                da sạm nám, khô ráp, dễ bốc hỏa, mất ngủ, kinh nguyệt thất thường
-                                và cơ thể thiếu sức sống.
                             </p>
 
                             <p>Kết quả khảo sát sau thời gian sử dụng đều đặn:</p>
 
-                            <p>89% cảm nhận cơ thể khỏe khoắn hơn</p>
+                            <p>95% Mức độ phục hồi hình thái đầu mũi</p>
 
-                            <p>84% ngủ ngon và tinh thần ổn định hơn</p>
+                            <p>92% Mức độ liền mô và bề mặt da</p>
 
-                            <p>82% cảm nhận da sáng và mềm mại hơn</p>
+                            <p>90% Màu sắc da vùng tổn thương</p>
 
                             <p>
                                 Đánh giá dựa trên phản hồi thực tế của người dùng trong quá trình
@@ -345,9 +341,9 @@
 
                             <p>Chỉ số nổi bật:</p>
 
-                            <p>91% cảm nhận da ẩm mịn hơn</p>
+                            <p>90% Tổng thể thẩm mỹ vùng đầu mũi</p>
 
-                            <p>67% da đều màu và tươi tắn hơn</p>
+                            <p>95% hình thái đầu mũi được phục hồi.</p>
                         </div>
                     </div>
                     <div class="elementor-element elementor-element-d4fc5da cs-product-info-button elementor-widget elementor-widget-button"
@@ -371,12 +367,12 @@
                                 <div class="tda-image-compare__inner"><img data-lazyloaded="1"
                                         src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
                                         class="tda-image-compare__image tda-image-compare__after"
-                                        data-src="{{ asset('images/banner/banner2.webp') }}"
+                                        data-src="{{ asset('images/sanpham/perfect-skin-nano-250/after-P9.png') }}"
                                         alt="">
                                     <div class="tda-image-compare__before-wrap"><img data-lazyloaded="1"
                                             src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
                                             class="tda-image-compare__image tda-image-compare__before"
-                                            data-src="{{ asset('images/banner/banner2.webp') }}"
+                                            data-src="{{ asset('images/sanpham/perfect-skin-nano-250/befor-P9.png') }}"
                                             alt=""></div>
                                     <div class="tda-image-compare__handle"></div><input type="range"
                                         class="tda-image-compare__slider" min="0" max="100" value="50"
@@ -385,16 +381,16 @@
                             </div>
                             <div class="perfectlady-proof-stats" aria-label="Kết quả sau sử dụng">
                                 <div class="perfectlady-proof-stat">
-                                    <strong class="perfectlady-count" data-target="94">0%</strong>
-                                    <span>Da dịu hẳn</span>
+                                    <strong class="perfectlady-count" data-target="95">0%</strong>
+                                    <span>Mức độ phục hồi hình thái đầu mũi</span>
                                 </div>
                                 <div class="perfectlady-proof-stat">
-                                    <strong class="perfectlady-count" data-target="88">0%</strong>
-                                    <span>Không nẻ, bong tróc</span>
+                                    <strong class="perfectlady-count" data-target="92">0%</strong>
+                                    <span>Mức độ liền mô và bề mặt da</span>
                                 </div>
                                 <div class="perfectlady-proof-stat">
-                                    <strong class="perfectlady-count" data-target="64">0%</strong>
-                                    <span>Giảm đỏ, kích ứng</span>
+                                    <strong class="perfectlady-count" data-target="90">0%</strong>
+                                    <span>Màu sắc da vùng tổn thương</span>
                                 </div>
                             </div>
                         </div>
@@ -2371,7 +2367,6 @@
                         .perfectlady-gallery-swiper {
                             position: relative;
                             overflow: hidden !important;
-                            min-height: 420px;
                         }
 
                         .perfectlady-gallery-swiper .swiper-wrapper {
@@ -2680,8 +2675,11 @@
 
                             if (perfectLadyGallery) {
                                 if (perfectLadyGallery.swiper) {
-                                    perfectLadyGallery.swiper.destroy(false, false);
+                                    perfectLadyGallery.swiper.destroy(true, true);
                                 }
+
+                                // Xóa slide clone do Swiper loop tạo ra
+                                perfectLadyGallery.querySelectorAll(".swiper-slide-duplicate").forEach(el => el.remove());
 
                                 const galleryWrapper = perfectLadyGallery.querySelector(".swiper-wrapper");
                                 const gallerySlides = perfectLadyGallery.querySelectorAll(".swiper-slide");
@@ -2772,8 +2770,9 @@
 
                                     setTimeout(() => {
                                         if (perfectLadyGallery.swiper) {
-                                            perfectLadyGallery.swiper.destroy(false, false);
+                                            perfectLadyGallery.swiper.destroy(true, true);
                                         }
+                                        perfectLadyGallery.querySelectorAll(".swiper-slide-duplicate").forEach(el => el.remove());
                                         renderPerfectLadyGallery();
                                     }, 500);
                                 }
@@ -3067,3 +3066,4 @@
     </div>
 </div>
 @endsection
+

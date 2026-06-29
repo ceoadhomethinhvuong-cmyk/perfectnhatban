@@ -1129,6 +1129,15 @@
         transform: translateX(4px);
     }
 
+    /* Ẩn product card & loop grid trong off-canvas mobile menu */
+    #off-canvas-bd76a4d .e-loop-item,
+    #off-canvas-bd76a4d .elementor-widget-loop-grid,
+    #off-canvas-bd76a4d .products-swiper-container,
+    #off-canvas-bd76a4d .products-grid-container,
+    #off-canvas-bd76a4d .product-container {
+        display: none !important;
+    }
+
     #cs-mega-menu .e-n-menu-title .e-n-menu-title-container,
     #cs-mega-menu .e-n-menu-title .e-n-menu-title-text,
     #cs-mega-menu .e-n-menu-title .e-n-menu-dropdown-icon svg path {
