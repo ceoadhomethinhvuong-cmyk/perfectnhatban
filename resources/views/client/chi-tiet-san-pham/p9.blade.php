@@ -1,7 +1,8 @@
 ﻿@extends('client.layouts.app')
 
 @section('seo_title', 'P9 - Perfect Skin Yavo Max 200%')
-@section('meta_description', 'P9 Perfect Skin Yavo Max 200% là sản phẩm chăm sóc da chuyên sâu thuộc hệ PERFECT Nhật Bản chính hãng.')
+@section('meta_description', 'P9 Perfect Skin Yavo Max 200% là sản phẩm chăm sóc da chuyên sâu thuộc hệ PERFECT Nhật Bản
+chính hãng.')
 
 @section('title', 'Chi Tiết Sản Phẩm')
 
@@ -319,9 +320,13 @@
                     <div class="elementor-element elementor-element-851980d elementor-widget__width-initial elementor-widget-mobile__width-inherit elementor-widget elementor-widget-text-editor"
                         data-id="851980d" data-element_type="widget" data-widget_type="text-editor.default">
                         <div class="elementor-widget-container">
-                            <p>Trước khi can thiệp, vùng đầu mũi xuất hiện tổn thương rõ rệt, bề mặt da không đều, có vùng khuyết mô và đổi màu, ảnh hưởng đáng kể đến thẩm mỹ khuôn mặt cũng như tâm lý . 
+                            <p>Trước khi can thiệp, vùng đầu mũi xuất hiện tổn thương rõ rệt, bề mặt da không đều, có
+                                vùng khuyết mô và đổi màu, ảnh hưởng đáng kể đến thẩm mỹ khuôn mặt cũng như tâm lý .
                             <p>
-                                Sau quá trình điều trị và chăm sóc, hình ảnh cho thấy vùng tổn thương đã phục hồi rõ rệt, bề mặt da liền mạch hơn, màu sắc da hài hòa hơn với vùng da xung quanh và hình dáng đầu mũi được cải thiện đáng kể. Dù vẫn còn dấu vết nhỏ của tổn thương, kết quả cho thấy sự phục hồi tích cực cả về cấu trúc bề mặt và tính thẩm mỹ.
+                                Sau quá trình điều trị và chăm sóc, hình ảnh cho thấy vùng tổn thương đã phục hồi rõ
+                                rệt, bề mặt da liền mạch hơn, màu sắc da hài hòa hơn với vùng da xung quanh và hình dáng
+                                đầu mũi được cải thiện đáng kể. Dù vẫn còn dấu vết nhỏ của tổn thương, kết quả cho thấy
+                                sự phục hồi tích cực cả về cấu trúc bề mặt và tính thẩm mỹ.
                             </p>
 
                             </p>
@@ -473,8 +478,7 @@
                                                 <div class="tda-info-image">
                                                     <img data-lazyloaded="1"
                                                         src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
-                                                        data-src="{{ asset('images/banner/banner2.webp') }}"
-                                                        alt="" />
+                                                        data-src="{{ asset('images/banner/banner2.webp') }}" alt="" />
                                                 </div>
                                                 <div class="tda-info-content">
                                                     <h3 class="tda-info-title">Hỗ Trợ Giấc Ngủ Và Năng Lượng Sống</h3>
@@ -491,7 +495,7 @@
                             </div>
                         </div>
 
-                        <div class="cs-instruction-section">
+                        <!-- <div class="cs-instruction-section">
                             <div class="cs-instruction-container">
                                 <h2 class="cs-instruction-title">HƯỚNG DẪN SỬ DỤNG</h2>
                                 <div class="cs-instruction-content">
@@ -521,7 +525,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                         <div class="cs-faqs">
                             <div class="cs-faqs-container">
                                 <div class="cs-faqs-header">
@@ -2329,6 +2333,7 @@
                                 font-size: 14px !important;
                             }
                         }
+
                         /* Override Elementor button colors */
                         .cs-buy-now .elementor-button,
                         .cs-buy-now.tda-btn-primary .elementor-button,
@@ -2336,29 +2341,37 @@
                             background-color: rgb(62, 168, 226) !important;
                             border-color: rgb(62, 168, 226) !important;
                         }
+
                         .cs-buy-now .elementor-button:hover,
                         .cs-buy-now.tda-btn-primary .elementor-button:hover,
                         .tda-btn-primary .elementor-button:hover {
                             background-color: rgba(62, 168, 226, 0.85) !important;
                         }
+
                         .cs-product-info-button .elementor-button .elementor-button-text {
                             color: rgb(62, 168, 226) !important;
                         }
+
                         .cs-product-info-button .elementor-button:hover .elementor-button-text {
                             color: rgba(62, 168, 226, 0.75) !important;
                         }
+
                         .cs-badge-button .elementor-button {
                             background-color: rgba(62, 168, 226, 0.1) !important;
                         }
+
                         .cs-badge-button .elementor-button .elementor-button-text {
                             color: rgb(62, 168, 226) !important;
                         }
+
                         .cs-badge-button .elementor-button:hover .elementor-button-text {
                             color: rgba(62, 168, 226, 0.75) !important;
                         }
+
                         .tda-sticky-bar .tda-btn-primary {
                             background: rgb(62, 168, 226) !important;
                         }
+
                         .tda-sticky-bar .tda-btn-primary:hover {
                             background: rgba(62, 168, 226, 0.85) !important;
                         }
@@ -2679,7 +2692,8 @@
                                 }
 
                                 // Xóa slide clone do Swiper loop tạo ra
-                                perfectLadyGallery.querySelectorAll(".swiper-slide-duplicate").forEach(el => el.remove());
+                                perfectLadyGallery.querySelectorAll(".swiper-slide-duplicate").forEach(el => el
+                                    .remove());
 
                                 const galleryWrapper = perfectLadyGallery.querySelector(".swiper-wrapper");
                                 const gallerySlides = perfectLadyGallery.querySelectorAll(".swiper-slide");
@@ -2772,7 +2786,8 @@
                                         if (perfectLadyGallery.swiper) {
                                             perfectLadyGallery.swiper.destroy(true, true);
                                         }
-                                        perfectLadyGallery.querySelectorAll(".swiper-slide-duplicate").forEach(el => el.remove());
+                                        perfectLadyGallery.querySelectorAll(".swiper-slide-duplicate")
+                                            .forEach(el => el.remove());
                                         renderPerfectLadyGallery();
                                     }, 500);
                                 }
@@ -3066,4 +3081,3 @@
     </div>
 </div>
 @endsection
-
