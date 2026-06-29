@@ -6637,6 +6637,36 @@
         });
     })();
     </script>
+    <script>
+    // Fix mega menu: ẩn dropdown khi không hover
+    (function() {
+        function fixMegaMenu() {
+            var contents = document.querySelectorAll('#cs-mega-menu .e-n-menu-content');
+            contents.forEach(function(el) {
+                el.style.setProperty('display', 'none', 'important');
+            });
+            var items = document.querySelectorAll('#cs-mega-menu .e-n-menu-item');
+            items.forEach(function(item) {
+                item.addEventListener('mouseenter', function() {
+                    var content = this.querySelector('.e-n-menu-content');
+                    if (content) content.style.setProperty('display', 'flex', 'important');
+                });
+                item.addEventListener('mouseleave', function() {
+                    var content = this.querySelector('.e-n-menu-content');
+                    if (content) content.style.setProperty('display', 'none', 'important');
+                });
+            });
+        }
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', fixMegaMenu);
+        } else {
+            fixMegaMenu();
+        }
+        // Chạy lại sau khi Elementor JS load xong
+        setTimeout(fixMegaMenu, 500);
+        setTimeout(fixMegaMenu, 1500);
+    })();
+    </script>
 </body>
 
 
