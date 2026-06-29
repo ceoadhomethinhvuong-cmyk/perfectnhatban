@@ -2578,7 +2578,7 @@
                                         <ul class="e-n-menu-heading">
                                             <li class="e-n-menu-item">
                                                 <div id="e-n-menu-title-1501"
-                                                    class="e-n-menu-title <?php echo (request()->routeIs('sanpham', 'muc-san-pham.*', 'vien-uong', 'serum', 'chi-tiet-san-pham.*') ? 'e-current' : ''); ?>">
+                                                    class="e-n-menu-title">
                                                     <a class="e-n-menu-title-container e-focus e-link"
                                                         href="{{ route('sanpham') }}"> <span
                                                             class="e-n-menu-title-text">
@@ -6663,8 +6663,11 @@
             fixMegaMenu();
         }
         // Chạy lại sau khi Elementor JS load xong
+        setTimeout(fixMegaMenu, 100);
         setTimeout(fixMegaMenu, 500);
-        setTimeout(fixMegaMenu, 1500);
+        setTimeout(fixMegaMenu, 1000);
+        setTimeout(fixMegaMenu, 2000);
+        setTimeout(fixMegaMenu, 3000);
     })();
     </script>
 </body>
