@@ -21,36 +21,16 @@ jobs:
             set -e
             cd ~/perfectnhatban.com
 
-            # Preserve server .env (gitignored but must stay intact across pulls)
             cp .env .env.server.bak 2>/dev/null || true
 
-            # Force-clean pull — prevents merge conflicts breaking the deploy
             git fetch origin main
             git reset --hard origin/main
 
-            # Restore server .env (git reset --hard won't touch it since it's gitignored)
             if [ -f .env.server.bak ]; then cp .env.server.bak .env; fi
-
-         
-
-            # Copy public/ assets to domain root (Namecheap serves from ~/public_html/)
-            rsync -a --exclude='index.php' --exclude='storage' public/ ~/public_html/
-            cp public/.htaccess ~/public_html/.htaccess
-
-            # Ensure STORAGE_PATH is set — files upload directly into web-accessible directory
-            grep -q "^STORAGE_PATH=" .env || echo "STORAGE_PATH=${HOME}/public_html/storage" >> .env
-
-            # Ensure the storage directory exists as a real folder (not symlink)
-            rm -f "${HOME}/public_html/storage" 2>/dev/null || true
-            mkdir -p "${HOME}/public_html/storage/posts"
-            mkdir -p "${HOME}/public_html/storage/editor"
-
-            # Migrate any existing files from old storage location
-            rsync -a "${HOME}/perfectnhatban.com/storage/app/public/" "${HOME}/public_html/storage/" 2>/dev/null || true
 
             php artisan optimize:clear
             php artisan config:cache
             php artisan route:cache 2>/dev/null || true
             php artisan view:cache
 
-            chmod -R 755 storage bootstrap/cache
+            chmod -R 755 storage bootstrap/cache public/images
