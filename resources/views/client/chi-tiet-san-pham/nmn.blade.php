@@ -1,4 +1,4 @@
-﻿@extends('client.layouts.app')
+@extends('client.layouts.app')
 
 @section('seo_title', 'V2 - Viên uống trắng da Perfect Beauty White')
 @section('meta_description', 'V2 Perfect Beauty White là viên uống hỗ trợ chăm sóc làn da sáng khỏe từ bên trong, sản

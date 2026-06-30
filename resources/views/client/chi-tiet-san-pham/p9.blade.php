@@ -1,4 +1,4 @@
-﻿@extends('client.layouts.app')
+@extends('client.layouts.app')
 
 @section('seo_title', 'P9 - Perfect Skin Yavo Max 200%')
 @section('meta_description', 'P9 Perfect Skin Yavo Max 200% là sản phẩm chăm sóc da chuyên sâu thuộc hệ PERFECT Nhật Bản

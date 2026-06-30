@@ -40,7 +40,7 @@ class BlogController extends Controller
         ]);
 
         $folder = 'images/editor/' . now()->format('Y/m');
-        $fullPath = '/home/xuonhfke/public_html/' . $folder;
+        $fullPath = public_path($folder);
 
         if (! File::exists($fullPath)) {
             File::makeDirectory($fullPath, 0755, true);

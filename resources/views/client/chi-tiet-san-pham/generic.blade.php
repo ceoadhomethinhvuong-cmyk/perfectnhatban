@@ -1,4 +1,4 @@
-﻿@extends('client.layouts.app')
+@extends('client.layouts.app')
 
 @section('seo_title', ($product['title'] ?? 'Chi tiết sản phẩm PERFECT') . ' | PERFECT Nhật Bản')
 @section('meta_description', $product['description'] ?? 'Thông tin chi tiết sản phẩm PERFECT Nhật Bản chính hãng.')
@@ -3021,4 +3021,3 @@
     </div>
 </div>
 @endsection
-

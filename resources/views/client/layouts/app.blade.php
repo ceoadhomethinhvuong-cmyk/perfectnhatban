@@ -1,4 +1,4 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="vi" prefix="og: https://ogp.me/ns#">
 
 <head>
@@ -1005,6 +1005,33 @@
         text-decoration: line-through;
     }
 
+    .elementor-15 .elementor-element.elementor-element-c20186c {
+        position: absolute !important;
+        inset: 0 auto auto 0 !important;
+        width: 0 !important;
+        height: 0 !important;
+        min-height: 0 !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        overflow: visible !important;
+    }
+
+    .elementor-15 .elementor-element.elementor-element-c20186c > .e-con-inner,
+    .elementor-15 .elementor-element.elementor-element-bd76a4d,
+    .elementor-15 .elementor-element.elementor-element-bd76a4d > .elementor-widget-container {
+        width: 0 !important;
+        height: 0 !important;
+        min-height: 0 !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        overflow: visible !important;
+    }
+
+    .elementor.elementor-15.elementor-location-header {
+        margin-top: 0 !important;
+        padding-top: 0 !important;
+    }
+
     #hdMain>.e-con-inner {
         width: 100% !important;
         max-width: 1380px !important;
@@ -1053,14 +1080,15 @@
 
     #cs-mega-menu .cs-child-menu-container {
         display: grid !important;
-        grid-template-columns: minmax(180px, 240px) repeat(3, minmax(180px, 1fr));
+        grid-template-columns: minmax(160px, 200px) repeat(3, minmax(0, 1fr));
         grid-template-rows: repeat(3, auto);
         grid-auto-rows: auto;
         align-items: start !important;
         align-content: start !important;
         justify-content: stretch !important;
-        gap: 6px 24px !important;
+        gap: 6px 16px !important;
         width: 100% !important;
+        max-width: 1100px !important;
         min-height: auto !important;
     }
 
@@ -1092,6 +1120,13 @@
     #cs-mega-menu .cs-child-menu-container>.elementor-element:nth-child(n+4) {
         display: flex !important;
         width: 100% !important;
+        min-width: 0 !important;
+    }
+
+    /* Card sản phẩm trong mega menu */
+    #cs-mega-menu .cs-child-menu-container>.elementor-element:nth-child(n+4) .elementor-widget-container {
+        width: 100% !important;
+        overflow: hidden !important;
     }
 
     #cs-mega-menu .cs-child-menu-container .cs-menu-heading .elementor-heading-title {
@@ -1129,6 +1164,76 @@
         transform: translateX(4px);
     }
 
+    /* Product card trong mega menu: cân đối, đồng nhất */
+    #cs-mega-menu .cs-product-loop {
+        border-radius: 12px !important;
+        overflow: hidden !important;
+        background: #fff !important;
+        box-shadow: 0 2px 12px rgba(0,0,0,0.08) !important;
+        width: 100% !important;
+        min-width: 0 !important;
+        display: flex !important;
+        flex-direction: column !important;
+    }
+    #cs-mega-menu .cs-product-loop .e-con-inner {
+        display: flex !important;
+        flex-direction: column !important;
+        width: 100% !important;
+        padding: 0 !important;
+    }
+    /* Ảnh sản phẩm: cùng chiều cao */
+    #cs-mega-menu .cs-product-loop .elementor-widget-theme-post-featured-image,
+    #cs-mega-menu .cs-product-loop .elementor-widget-image {
+        width: 100% !important;
+        margin: 0 !important;
+    }
+    #cs-mega-menu .cs-product-loop .elementor-widget-theme-post-featured-image img,
+    #cs-mega-menu .cs-product-loop .elementor-widget-image img {
+        width: 100% !important;
+        height: 190px !important;
+        object-fit: contain !important;
+        background: #f0f7fd !important;
+        display: block !important;
+    }
+    /* Tên sản phẩm: 2 dòng cố định */
+    #cs-mega-menu .cs-product-loop .elementor-heading-title {
+        display: -webkit-box !important;
+        -webkit-line-clamp: 2 !important;
+        -webkit-box-orient: vertical !important;
+        overflow: hidden !important;
+        font-size: 13px !important;
+        line-height: 1.4 !important;
+        min-height: 2.8em !important;
+        margin: 8px 12px 4px !important;
+        color: #111827 !important;
+        font-weight: 600 !important;
+    }
+    #cs-mega-menu .cs-product-loop .elementor-heading-title a {
+        color: inherit !important;
+        text-decoration: none !important;
+    }
+    /* Subtitle: 1 dòng */
+    #cs-mega-menu .cs-product-loop .elementor-widget-text-editor,
+    #cs-mega-menu .cs-product-loop .elementor-widget-theme-post-excerpt {
+        margin: 0 12px !important;
+        overflow: hidden !important;
+    }
+    #cs-mega-menu .cs-product-loop .elementor-widget-text-editor p,
+    #cs-mega-menu .cs-product-loop .elementor-widget-theme-post-excerpt p {
+        white-space: nowrap !important;
+        overflow: hidden !important;
+        text-overflow: ellipsis !important;
+        font-size: 12px !important;
+        color: #6b7280 !important;
+        margin: 0 !important;
+    }
+    /* Link Khám phá ngay */
+    #cs-mega-menu .cs-product-loop .elementor-widget-button,
+    #cs-mega-menu .cs-product-loop .elementor-widget-text-editor + *,
+    #cs-mega-menu .cs-product-loop a.tda-page-category-discover-btn {
+        margin: 8px 12px 12px !important;
+        display: block !important;
+    }
     /* Ẩn product card & loop grid trong off-canvas mobile menu */
     #off-canvas-bd76a4d .e-loop-item,
     #off-canvas-bd76a4d .elementor-widget-loop-grid,
@@ -1150,17 +1255,19 @@
         color: #3ea8e2 !important;
     }
 
-    /* Mega menu: ẩn mặc định, chỉ hiện khi hover */
-    #cs-mega-menu .e-n-menu-content {
+    /* Mega menu: ẩn inner container khi chưa có e-active, chỉ hiện khi hover */
+    #cs-mega-menu .e-n-menu-content > .e-con:not(.e-active) {
         display: none !important;
-        position: absolute !important;
-        z-index: 1000 !important;
     }
-    #cs-mega-menu .e-n-menu-item:hover .e-n-menu-content {
+    #cs-mega-menu .e-n-menu-item:hover .e-n-menu-content > .e-con {
         display: flex !important;
     }
-    #cs-mega-menu .e-n-menu-content > .e-con {
-        display: flex !important;
+
+    /* Dropdown wrapper: limit width và không overflow */
+    #cs-mega-menu .e-n-menu-content > .e-con > .e-con-inner {
+        max-width: 1200px !important;
+        width: 100% !important;
+        overflow: hidden !important;
     }
 
     #cs-mega-menu .e-n-menu-title:hover .e-n-menu-dropdown-icon svg path,
@@ -4712,7 +4819,7 @@
     //# sourceURL=tda-custom-mega-menu-js-extra
     </script>
     <script src="{{ asset('wp-content/themes/hello-elementor-child/js/custom-mega-menuc946.js?ver=1766818553') }}"
-        id="tda-custom-mega-menu-js"></script>
+        id="tda-custom-mega-menu-js" defer></script>
     <script id="custom-search-script-js-extra">
     var customSearchAjax = {
         "ajax_url": "/wp-admin/admin-ajax.php"
@@ -4720,23 +4827,22 @@
     //# sourceURL=custom-search-script-js-extra
     </script>
     <script src="{{ asset('wp-content/themes/hello-elementor-child/js/custom-search.js?v=20260528') }}"
-        id="custom-search-script-js"></script>
+        id="custom-search-script-js" defer></script>
     <script>
     window.PERFECT_GOOGLE_SHEETS_WEB_APP_URL =
         'https://script.google.com/macros/s/AKfycbyTtWhwX0ilG1YWU0vkcj31Muy6_iu1Qy5rq9LtyNVIWMU6SXSu9wzZzUG_M_ocrEzj_w/exec';
     </script>
     <script src="{{ asset('wp-content/themes/hello-elementor-child/js/google-sheets-form.js?v=20260526-2') }}"
-        id="perfect-google-sheets-form-js"></script>
+        id="perfect-google-sheets-form-js" defer></script>
     <script id="tda-search-script-js-extra">
     var tdaSearch = {
         "ajax_url": "/wp-admin/admin-ajax.php"
     };
     //# sourceURL=tda-search-script-js-extra
     </script>
-    <script src="{{ asset('wp-content/themes/hello-elementor-child/js/tda-search.js') }}" id="tda-search-script-js">
-    </script>
+    <script src="{{ asset('wp-content/themes/hello-elementor-child/js/tda-search.js') }}" id="tda-search-script-js" defer></script>
     <script src="{{ asset('wp-content/themes/hello-elementor/assets/js/hello-frontend.minb12b.js?ver=3.1.1') }}"
-        id="hello-theme-frontend-js"></script>
+        id="hello-theme-frontend-js" defer></script>
     <script
         src="{{ asset('wp-content/plugins/google-site-kit/dist/assets/js/googlesitekit-consent-mode-bc2e26cfa69fcd4a8261.js') }}"
         id="googlesitekit-consent-mode-js"></script>
@@ -4905,8 +5011,6 @@
     <script src="{{ asset('wp-includes/js/imagesloaded.minbb93.js?ver=5.0.0') }}" id="imagesloaded-js"></script>
     <script src="{{ asset('wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min46ff.js?ver=3.34.3') }}"
         id="e-sticky-js"></script>
-    <script src="{{ asset('wp-content/plugins/elementor/assets/lib/swiper/v8/swiper.min94a4.js?ver=8.4.5') }}"
-        id="swiper-js"></script>
     <script src="{{ asset('wp-content/plugins/woocommerce/assets/js/sourcebuster/sourcebuster.min716b.js?ver=9.7.2') }}"
         id="sourcebuster-js-js"></script>
     <script id="wc-order-attribution-js-extra">
@@ -5925,6 +6029,262 @@
         background: #ffffff !important;
         background-image: none !important;
     }
+
+    /* Product listing cards: dong bo tat ca card san pham theo mau moi */
+    main .products-swiper .swiper-slide,
+    main .products-grid-container > * {
+        height: auto !important;
+    }
+
+    main .product-container {
+        display: flex !important;
+        flex-direction: column !important;
+        height: auto !important;
+        min-height: 0 !important;
+        padding: 0 0 16px !important;
+        background: #ffffff !important;
+        border: 0 !important;
+        border-radius: 18px !important;
+        box-shadow: 0 8px 24px rgba(30, 50, 80, 0.08) !important;
+        overflow: hidden !important;
+    }
+
+    main .product-container .product-image-container {
+        display: block !important;
+        width: 100% !important;
+        aspect-ratio: 1 / 1 !important;
+        margin: 0 !important;
+        border-radius: 18px 18px 0 0 !important;
+        overflow: hidden !important;
+        background: #eef7ff !important;
+        position: relative !important;
+    }
+
+    main .product-container .product-image {
+        width: 100% !important;
+        height: 100% !important;
+        display: block !important;
+        object-fit: cover !important;
+        object-position: center top !important;
+    }
+
+    main .product-container .product-tags-container-wrapper {
+        display: none !important;
+    }
+
+    main .product-container hgroup {
+        margin: 0 !important;
+    }
+
+    main .product-container .product-title {
+        margin: 18px 0 0 !important;
+        padding: 0 20px !important;
+        min-height: 2.9em !important;
+        color: #111827 !important;
+        font-size: 16px !important;
+        font-weight: 700 !important;
+        line-height: 1.45 !important;
+        letter-spacing: 0 !important;
+        opacity: 1 !important;
+        display: -webkit-box !important;
+        -webkit-line-clamp: 2 !important;
+        -webkit-box-orient: vertical !important;
+        overflow: hidden !important;
+        text-overflow: ellipsis !important;
+    }
+
+    main .product-container .product-description {
+        display: block !important;
+        flex-grow: 0 !important;
+        margin: 8px 0 0 !important;
+        padding: 0 20px !important;
+        color: #8a919c !important;
+        font-size: 14px !important;
+        font-weight: 400 !important;
+        line-height: 1.45 !important;
+        opacity: 1 !important;
+        white-space: nowrap !important;
+        overflow: hidden !important;
+        text-overflow: ellipsis !important;
+    }
+
+    main .product-container .product-discover-now {
+        align-self: flex-start !important;
+        margin: 8px 20px 0 !important;
+        color: #3ea8e2 !important;
+        font-size: 14px !important;
+        font-weight: 700 !important;
+        line-height: 1.25 !important;
+        text-decoration: none !important;
+        border-bottom: 1.5px solid rgba(62, 168, 226, 0.45) !important;
+        background: transparent !important;
+    }
+
+    @media (max-width: 767px) {
+        main .product-container {
+            border-radius: 16px !important;
+            padding-bottom: 14px !important;
+        }
+
+        main .product-container .product-image-container {
+            border-radius: 16px 16px 0 0 !important;
+        }
+
+        main .product-container .product-title {
+            margin-top: 16px !important;
+            padding-inline: 16px !important;
+            font-size: 15px !important;
+        }
+
+        main .product-container .product-description,
+        main .product-container .product-discover-now {
+            margin-top: 7px !important;
+            padding-inline: 16px !important;
+        }
+
+        main .product-container .product-discover-now {
+            margin-left: 16px !important;
+            margin-right: 16px !important;
+            padding-inline: 0 !important;
+        }
+    }
+
+    /* 7. Mega menu: card can theo khung dropdown, khong bi cat le phai */
+    #cs-mega-menu .e-n-menu-content > .e-con > .e-con-inner {
+        max-width: min(1120px, calc(100vw - 48px)) !important;
+        width: 100% !important;
+        margin-inline: auto !important;
+        overflow: visible !important;
+    }
+
+    #cs-mega-menu .cs-child-menu-container {
+        grid-template-columns: minmax(132px, 176px) repeat(3, minmax(0, 1fr)) !important;
+        gap: 10px 18px !important;
+        max-width: 100% !important;
+        margin-inline: auto !important;
+        box-sizing: border-box !important;
+    }
+
+    #cs-mega-menu .cs-child-menu-container > .elementor-element:nth-child(n+4) {
+        min-width: 0 !important;
+        max-width: 100% !important;
+        justify-self: stretch !important;
+    }
+
+    #cs-mega-menu .cs-child-menu-container > .elementor-element:nth-child(n+4),
+    #cs-mega-menu .cs-child-menu-container > .elementor-element:nth-child(n+4) > .elementor-widget-container,
+    #cs-mega-menu .cs-child-menu-container .elementor-loop-container,
+    #cs-mega-menu .cs-child-menu-container .e-loop-item,
+    #cs-mega-menu .cs-product-loop,
+    #cs-mega-menu .cs-product-loop > .e-con-inner {
+        width: 100% !important;
+        min-width: 0 !important;
+        box-sizing: border-box !important;
+    }
+
+    #cs-mega-menu .cs-product-loop {
+        height: 100% !important;
+        min-height: 0 !important;
+        border-radius: 10px !important;
+        display: flex !important;
+    }
+
+    #cs-mega-menu .cs-product-loop > .e-con-inner {
+        display: flex !important;
+        flex-direction: column !important;
+        height: 100% !important;
+    }
+
+    #cs-mega-menu .cs-product-loop .elementor-element-dd2c523,
+    #cs-mega-menu .cs-product-loop .elementor-element-dd2c523 > .elementor-widget-container,
+    #cs-mega-menu .cs-product-loop .elementor-element-dd2c523 a {
+        display: block !important;
+        width: 100% !important;
+        min-width: 0 !important;
+        line-height: 0 !important;
+    }
+
+    #cs-mega-menu .cs-product-loop img,
+    #cs-mega-menu .cs-product-loop .elementor-element-dd2c523 img {
+        width: 100% !important;
+        height: auto !important;
+        aspect-ratio: 4 / 3.5 !important;
+        object-fit: cover !important;
+        object-position: center !important;
+        display: block !important;
+        border-radius: 10px 10px 0 0 !important;
+    }
+
+    #cs-mega-menu .cs-product-loop .elementor-element-962880c,
+    #cs-mega-menu .cs-product-loop .cs-product-tags {
+        top: 10px !important;
+        right: 10px !important;
+        max-width: calc(100% - 20px) !important;
+    }
+
+    #cs-mega-menu .cs-product-loop .product-tags-container-wrapper,
+    #cs-mega-menu .cs-product-loop .product-tag-container-wrapper {
+        max-width: 100% !important;
+        align-items: flex-end !important;
+    }
+
+    #cs-mega-menu .cs-product-loop .product-tag-container {
+        max-width: 100% !important;
+        padding: 3px 8px !important;
+    }
+
+    #cs-mega-menu .cs-product-loop .product-tag {
+        max-width: 100% !important;
+        white-space: nowrap !important;
+        overflow: hidden !important;
+        text-overflow: ellipsis !important;
+    }
+
+    #cs-mega-menu .cs-product-loop .elementor-element-7efd07a > .elementor-widget-container {
+        padding: 12px 14px 4px !important;
+    }
+
+    #cs-mega-menu .cs-product-loop .elementor-element-7efd07a .elementor-heading-title {
+        min-height: 2.84em !important;
+        font-size: 13px !important;
+        line-height: 1.42 !important;
+    }
+
+    #cs-mega-menu .cs-product-loop .elementor-element-2a2760f > .elementor-widget-container {
+        padding: 3px 14px 2px !important;
+    }
+
+    #cs-mega-menu .cs-product-loop .elementor-element-2a2760f .elementor-heading-title {
+        font-size: 12px !important;
+        line-height: 1.4 !important;
+    }
+
+    #cs-mega-menu .cs-product-loop .elementor-element-8aa38ce {
+        margin-top: 6px !important;
+    }
+
+    #cs-mega-menu .cs-product-loop .elementor-element-8aa38ce > .elementor-widget-container {
+        padding: 0 14px 12px !important;
+    }
+
+    @media (max-width: 1100px) {
+        #cs-mega-menu .e-n-menu-content > .e-con > .e-con-inner {
+            max-width: calc(100vw - 32px) !important;
+        }
+
+        #cs-mega-menu .cs-child-menu-container {
+            grid-template-columns: minmax(118px, 150px) repeat(3, minmax(0, 1fr)) !important;
+            gap: 8px 12px !important;
+        }
+
+        #cs-mega-menu .cs-product-loop .elementor-element-7efd07a .elementor-heading-title {
+            font-size: 12.5px !important;
+        }
+
+        #cs-mega-menu .cs-product-loop .elementor-element-2a2760f .elementor-heading-title {
+            font-size: 11.5px !important;
+        }
+    }
     </style>
 
     <script>
@@ -6638,36 +6998,76 @@
     })();
     </script>
     <script>
-    // Fix mega menu: ẩn dropdown khi không hover
+    // Fix mega menu: block Elementor khỏi thêm e-active vào .e-con khi không hover
     (function() {
-        function fixMegaMenu() {
-            var contents = document.querySelectorAll('#cs-mega-menu .e-n-menu-content');
-            contents.forEach(function(el) {
-                el.style.setProperty('display', 'none', 'important');
+        var hoveringItem = null;
+
+        function forceHideInnerCons() {
+            document.querySelectorAll('#cs-mega-menu .e-n-menu-content > .e-con').forEach(function(con) {
+                var item = con.closest('.e-n-menu-item');
+                if (item && item !== hoveringItem) {
+                    con.classList.remove('e-active');
+                    con.style.setProperty('display', 'none', 'important');
+                }
             });
+        }
+
+        function setupHover() {
             var items = document.querySelectorAll('#cs-mega-menu .e-n-menu-item');
+            if (!items.length) return false;
             items.forEach(function(item) {
                 item.addEventListener('mouseenter', function() {
-                    var content = this.querySelector('.e-n-menu-content');
-                    if (content) content.style.setProperty('display', 'flex', 'important');
+                    hoveringItem = item;
+                    var con = item.querySelector('.e-n-menu-content > .e-con');
+                    if (con) {
+                        con.classList.add('e-active');
+                        con.style.removeProperty('display');
+                    }
                 });
                 item.addEventListener('mouseleave', function() {
-                    var content = this.querySelector('.e-n-menu-content');
-                    if (content) content.style.setProperty('display', 'none', 'important');
+                    hoveringItem = null;
+                    var con = item.querySelector('.e-n-menu-content > .e-con');
+                    if (con) {
+                        con.classList.remove('e-active');
+                        con.style.setProperty('display', 'none', 'important');
+                    }
                 });
             });
+
+            // MutationObserver: block Elementor khi add e-active vào .e-con không hover
+            var observer = new MutationObserver(function(mutations) {
+                mutations.forEach(function(m) {
+                    if (m.attributeName !== 'class') return;
+                    var con = m.target;
+                    if (!con.classList.contains('e-active')) return;
+                    var item = con.closest('.e-n-menu-item');
+                    if (item && item !== hoveringItem) {
+                        con.classList.remove('e-active');
+                        con.style.setProperty('display', 'none', 'important');
+                    }
+                });
+            });
+            document.querySelectorAll('#cs-mega-menu .e-n-menu-content > .e-con').forEach(function(con) {
+                observer.observe(con, { attributes: true, attributeFilter: ['class'] });
+            });
+
+            forceHideInnerCons();
+            return true;
+        }
+
+        var delays = [0, 100, 300, 600, 1000, 1500, 2500];
+        function trySetup() {
+            if (!setupHover()) setTimeout(trySetup, 200);
         }
         if (document.readyState === 'loading') {
-            document.addEventListener('DOMContentLoaded', fixMegaMenu);
+            document.addEventListener('DOMContentLoaded', function() {
+                delays.forEach(function(d) { setTimeout(forceHideInnerCons, d); });
+                trySetup();
+            });
         } else {
-            fixMegaMenu();
+            delays.forEach(function(d) { setTimeout(forceHideInnerCons, d); });
+            trySetup();
         }
-        // Chạy lại sau khi Elementor JS load xong
-        setTimeout(fixMegaMenu, 100);
-        setTimeout(fixMegaMenu, 500);
-        setTimeout(fixMegaMenu, 1000);
-        setTimeout(fixMegaMenu, 2000);
-        setTimeout(fixMegaMenu, 3000);
     })();
     </script>
 </body>

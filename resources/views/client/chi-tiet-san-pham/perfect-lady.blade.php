@@ -1,4 +1,4 @@
-﻿@extends('client.layouts.app')
+@extends('client.layouts.app')
 
 @section('seo_title', 'V1 - Viên uống nội tiết Perfect Lady')
 @section('meta_description', 'V1 Perfect Lady là viên uống hỗ trợ cân bằng nội tiết và chăm sóc sắc đẹp từ bên trong

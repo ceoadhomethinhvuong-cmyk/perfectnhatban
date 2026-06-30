@@ -1,4 +1,4 @@
-﻿@extends('client.layouts.app')
+@extends('client.layouts.app')
 
 @section('seo_title', 'VC30 - Serum Vitamin C PERFECT')
 @section('meta_description', 'VC30 Serum Vitamin C PERFECT hỗ trợ chăm sóc da sáng khỏe, cải thiện sắc da và đồng hành trong routine chăm sóc da chuyên sâu.')
@@ -3021,4 +3021,3 @@
     </div>
 </div>
 @endsection
-
